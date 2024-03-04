@@ -1,0 +1,16 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0rem;
+  text-align: center;
+}
+ @font-face {
+  font-family: betatron;
+  src: url(betatron.otf);
+ }
+
+ .test{
+  font-family: betatron,'Courier New', Courier, monospace;
+  font-size: 5rem;
+  
+ }
