@@ -2,15 +2,15 @@ import "./App.css";
 
 function App() {
   return (
-    <div class="main-container">
-      <div class="hundred-container">
-        <div class="hundred" >
+    <div className="main-container">
+      <div className="hundred-container">
+        <div className="hundred" >
           <p>IOO</p>
         </div>
-        <div class="days" >
+        <div className="days" >
           <p >DAYS</p>
         </div>
-        <div class="challenge" >
+        <div className="challenge" >
           <p > CSS CHALLENGE</p>
         </div>
       </div>
