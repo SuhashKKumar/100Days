@@ -1,12 +1,15 @@
-
+:root {
+  --primary-color: rgb(146, 56, 56);
+  --secondary-color:black;
+}
 @font-face {
-    font-family: primary-font;
-    src: url('./assets/fonts/outfit/static/Outfit-Regular.ttf');
-   }
-   @font-face {
-    font-family: seconday-font;
-    src: url('./assets/fonts/young-serif/YoungSerif-Regular.ttf');
-   }
+  font-family: primary-font;
+  src: url("./assets/fonts/outfit/static/Outfit-Regular.ttf");
+}
+@font-face {
+  font-family: seconday-font;
+  src: url("./assets/fonts/young-serif/YoungSerif-Regular.ttf");
+}
 .attribution {
   font-size: 11px;
   text-align: center;
@@ -22,13 +25,14 @@
 }
 
 body {
-    font-family: primary-font;
+  font-family: primary-font;
   font-size: 62.5%;
   background-color: peachpuff;
   margin: 3rem auto;
   display: flex;
   flex-direction: column;
   align-items: center;
+  color: var(--secondary-color);
 }
 
 .recipe-container {
@@ -42,29 +46,29 @@ body {
   width: 100%;
 }
 
-.preparation-container{
-    background-color: rgb(250, 210, 216);
-    padding: 1rem;
-    margin: 1.5rem 0;
-    border-radius: 0.5rem;
-    line-height: 2;
+.preparation-container {
+  background-color: rgb(250, 210, 216);
+  padding: 1rem;
+  margin: 1.5rem 0;
+  border-radius: 0.5rem;
+  line-height: 2;
 }
-.preparation-time{
-    color: rgb(162, 15, 158);
-    font-size: 1.2rem;
+.preparation-time {
+  color: rgb(162, 15, 158);
+  font-size: 1.2rem;
 }
-.preparation-list{
-    margin-left: 2.2rem;
+.preparation-list {
+  margin-left: 2.2rem;
 }
-.preparation-name{
-    font-size: 0.8rem;
+.preparation-name {
+  font-size: 0.8rem;
 }
-.nutrition-table{
-    display: flex;
-    flex-direction: column;
+.nutrition-table {
+  display: flex;
+  flex-direction: column;
 }
-.row{
-    display: flex;
+.row {
+  display: flex;
 }
-.nutrient-value{
+.nutrient-value {
 }
