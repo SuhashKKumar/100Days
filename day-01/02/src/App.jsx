@@ -1,10 +1,13 @@
 
 import './App.css'
+import Hero from './components/Hero'
 
 function App() {
 
   return (
-    <div className='test' >Hello World</div>
+    <>
+    <Hero/>
+    </>
   )
 }
 
