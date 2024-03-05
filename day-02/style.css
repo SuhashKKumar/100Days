@@ -1,0 +1,50 @@
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 62.5%;
+  background-color: peachpuff;
+  margin: 3rem auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.recipe-container {
+  background-color: whitesmoke;
+  padding: 2rem;
+  border-radius: 1rem;
+  max-width: 800px;
+}
+.recipe-img {
+  border-radius: 0.5rem;
+  width: 100%;
+}
+
+.preparation-container{
+    background-color: rgb(250, 210, 216);
+    padding: 1rem;
+    margin: 1.5rem 0;
+    border-radius: 0.5rem;
+    line-height: 1.5;
+}
+.preparation-time{
+    color: rgb(162, 15, 158);
+    font-size: 1.5rem;
+}
+.preparation-list{
+    margin-left: 1.5rem;
+}
+.preparation-name{
+    font-size: 1rem;
+}
