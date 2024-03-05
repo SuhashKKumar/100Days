@@ -1,7 +1,17 @@
+
+@font-face {
+    font-family: primary-font;
+    src: url('./assets/fonts/outfit/static/Outfit-Regular.ttf');
+   }
+   @font-face {
+    font-family: seconday-font;
+    src: url('./assets/fonts/young-serif/YoungSerif-Regular.ttf');
+   }
 .attribution {
   font-size: 11px;
   text-align: center;
 }
+
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
@@ -12,6 +22,7 @@
 }
 
 body {
+    font-family: primary-font;
   font-size: 62.5%;
   background-color: peachpuff;
   margin: 3rem auto;
@@ -36,14 +47,14 @@ body {
     padding: 1rem;
     margin: 1.5rem 0;
     border-radius: 0.5rem;
-    line-height: 1.5;
+    line-height: 2;
 }
 .preparation-time{
     color: rgb(162, 15, 158);
     font-size: 1.5rem;
 }
 .preparation-list{
-    margin-left: 1.5rem;
+    margin-left: 2.2rem;
 }
 .preparation-name{
     font-size: 1rem;
