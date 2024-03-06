@@ -1,14 +1,19 @@
 :root {
   --primary-color: rgb(146, 56, 56);
-  --secondary-color:black;
+  --secondary-color: black;
 }
 @font-face {
   font-family: primary-font;
   src: url("./assets/fonts/outfit/static/Outfit-Regular.ttf");
 }
+
 @font-face {
   font-family: seconday-font;
   src: url("./assets/fonts/young-serif/YoungSerif-Regular.ttf");
+}
+@font-face {
+  font-family: primary-font-bold;
+  src: url("./assets/fonts/outfit/static/Outfit-SemiBold.ttf");
 }
 .attribution {
   font-size: 11px;
@@ -45,16 +50,28 @@ body {
   border-radius: 0.5rem;
   width: 100%;
 }
-
+.recipe-title {
+  font-family: secondary-font;
+  font-size: 2rem;
+  margin: 1rem 0;
+}
+.recipe-description {
+  font-size: 0.8rem;
+  line-height: 1.5;
+}
+strong {
+  font-family: primary-font-bold;
+}
 .preparation-container {
   background-color: rgb(250, 210, 216);
   padding: 1rem;
-  margin: 1.5rem 0;
+  margin: 1rem 0;
   border-radius: 0.5rem;
   line-height: 2;
 }
 .preparation-time {
   color: rgb(162, 15, 158);
+
   font-size: 1.2rem;
 }
 .preparation-list {
@@ -63,12 +80,79 @@ body {
 .preparation-name {
   font-size: 0.8rem;
 }
+.secondary-headline {
+  font-family: secondary-font;
+  color: brown;
+  margin: 1rem 0;
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+
+.ingredients-list-item {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  font-size: 0.8rem;
+  line-height: 1.5;
+}
+
+.ingredients-list-item:before {
+  color: rgb(162, 15, 158);
+  content: "•";
+  font-size: 1rem;
+  margin-right: 1.5rem;
+}
+.instructions-list {
+  counter-reset: item;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.instructions-list > li::before {
+  display: inline-block;
+  content: counter(item) ".";
+  counter-increment: item;
+  width: 2em;
+  margin-left: -2em;
+  color: brown;
+  font-family: primary-font-bold;
+}
+.instructions-list > li {
+  line-height: 1.5;
+  margin-bottom: 0.5rem;
+  display: block;
+  margin-left: 1.5rem;
+}
+
+.nutrient-headline {
+  border-top: 1px solid grey;
+  padding-top: 0.8rem;
+}
+.nutrient-description {
+  margin-bottom: 2rem;
+}
+
 .nutrition-table {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  /* row-gap: 1rem; */
+  font-size: 0.8rem;
 }
-.row {
-  display: flex;
+
+.nutrient{
+  border-bottom: 1px solid grey;
+  padding: 0.7rem 0;
 }
-.nutrient-value {
+
+.value {
+  color: brown;
+  font-family: primary-font-bold;
+}
+.name{
+  padding-left: 1.5rem;
+}
+
+.nutrient:nth-child(7), .nutrient:nth-child(8){
+  border: none;
 }
