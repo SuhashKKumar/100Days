@@ -44,7 +44,7 @@ body {
   background-color: whitesmoke;
   padding: 2rem;
   border-radius: 1rem;
-  max-width: 700px;
+  max-width: 70rem;
 }
 .recipe-img {
   border-radius: 0.5rem;
@@ -140,7 +140,7 @@ strong {
   font-size: 0.8rem;
 }
 
-.nutrient{
+.nutrient {
   border-bottom: 1px solid grey;
   padding: 0.7rem 0;
 }
@@ -149,10 +149,30 @@ strong {
   color: brown;
   font-family: primary-font-bold;
 }
-.name{
+.name {
   padding-left: 1.5rem;
 }
 
-.nutrient:nth-child(7), .nutrient:nth-child(8){
+.nutrient:nth-child(7),
+.nutrient:nth-child(8) {
   border: none;
+}
+
+@media only screen and  (width <40rem) {
+  body {
+    margin: 0 auto;
+  }
+  
+  .recipe-container {
+    padding: 0;
+    border-radius: 0;
+    
+  }
+  .for-mobiles-container{
+    padding: 2rem;
+  }
+  .recipe-img {
+    border-radius: 0;
+    width: 100%;
+  }
 }
