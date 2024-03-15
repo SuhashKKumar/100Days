@@ -1,0 +1,98 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 62.5%;
+  background-color: #333;
+}
+
+.main-container {
+  max-width: 30rem;
+  margin: 10em auto;
+  background-color: white;
+  border-radius: 1rem;
+  padding: 2em;
+}
+.accordion-headline-container {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+.star {
+  width: 1.7rem;
+}
+.accordion-headline {
+  font-size: 2rem;
+}
+.accordion-container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  margin: 1.5em 0 0 1em;
+}
+hr {
+  height: 1px;
+  background-color: rgb(218, 218, 218);
+  border: none;
+}
+input {
+  position: absolute;
+  opacity: 0;
+  z-index: -1;
+}
+.faq{
+  /* margin-bottom: 1rem; */
+}
+.faq-label {
+  font-size: 0.8rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.7em;
+  font-weight: bold;
+  cursor: pointer;
+  user-select: none;
+}
+
+.faq-label::after {
+  font-size: 0.6rem;
+  content: "\002B";
+  /* padding: 0.01rem 0.01rem ; */
+  padding: 0.03rem 0.19rem;
+  transform: scale(1.8);
+  text-align: center;
+  transition: all 0.35s;
+  color: white;
+  background-color: rgb(182, 13, 182);
+  border-radius: 50%;
+}
+
+.faq-content {
+  max-height: 0;
+  padding: 0 1em;
+  color: #c4c4c4;
+  background: white;
+  transition: all 0.35s;
+  display: none;
+  font-size: 0.8rem;
+  line-height: 1.3;
+  margin:1em 0;
+}
+
+input:checked + .faq-label::after {
+  padding: 0.03rem 0.19rem;
+  font-size: 0.6rem;
+  content: "\2013";
+  /* transform: scale(1.5); */
+  color: white;
+  background-color: black;
+}
+
+input:checked ~ .faq-content {
+  max-height: 100vh;
+  display: block;
+  transition: all 0.35s;
+}
