@@ -17,7 +17,6 @@ body {
   margin: 15rem auto;
 }
 .results-container {
-  background-color: #fff;
   border-radius: 1.5em;
   display: flex;
   text-align: center;
@@ -148,4 +147,28 @@ body {
 }
 .analysis-visual {
   background-color: rgba(0, 0, 255, 0.118);
+}
+/* Extra small devices (phones) */
+@media only screen and (max-width: 575px) {
+  .main-container {
+    max-width: 18rem;
+    margin: 0 auto;
+    min-height: 95vh;
+  }
+  .results-container {
+    display: flex;
+    flex-direction: column;
+    -webkit-box-shadow: 33px 38px 67px -36px rgba(0, 0, 0, 0);
+    -moz-box-shadow: 33px 38px 67px -36px rgba(0, 0, 0, 0);
+    box-shadow: 33px 38px 67px -36px rgba(0, 0, 0, 0);
+  }
+  .primary-card{
+    max-width: 100%;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+  }
+  .secondary-card{
+    max-width: 100%;
+    gap: 2.5em;
+  }
 }
