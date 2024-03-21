@@ -166,9 +166,11 @@ body {
     max-width: 100%;
     border-top-left-radius: 0;
     border-top-right-radius: 0;
+    /* order: 2; */
   }
   .secondary-card{
     max-width: 100%;
     gap: 2.5em;
+    /* order: 1; */
   }
 }
