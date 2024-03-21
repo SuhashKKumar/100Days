@@ -1,5 +1,5 @@
 :root {
-    --green-color: rgb(5, 137, 5);
+  --green-color: rgb(5, 137, 5);
 }
 * {
   padding: 0;
@@ -8,7 +8,7 @@
 }
 
 body {
-    font-family: "Ribeye", serif;
+  font-family: "Ribeye", serif;
   background-color: rgb(239, 226, 211);
   font-size: 62.5%;
 }
@@ -41,44 +41,44 @@ body {
   justify-content: space-between;
 }
 .product-catogory {
-    font-family: Arial, Helvetica, sans-serif;
-    color: #0000007c;
-    letter-spacing: 4px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #0000007c;
+  letter-spacing: 4px;
 }
 .product-name {
-    font-size: 1.6rem;
-    line-height: 1;
+  font-size: 1.6rem;
+  line-height: 1;
 }
 .product-description {
-    font-family: Arial, Helvetica, sans-serif;
-    color: #0000007c;
-    line-height: 1.5;
-    font-size: 0.7rem;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #0000007c;
+  line-height: 1.5;
+  font-size: 0.7rem;
 }
 .price-container {
-    display: flex;
-    gap: 1rem;
-    align-items: center;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
 }
-.product-price{
-    font-size: 1.8rem;
-    color: var(--green-color);
+.product-price {
+  font-size: 1.8rem;
+  color: var(--green-color);
 }
-.product-description > strike{
-    font-family: "Ribeye", serif;
+.product-description > strike {
+  font-family: "Ribeye", serif;
 }
 .button-container {
-    background-color: var(--green-color);
-    border: none;
-    padding: 0.7rem 0;
-    border-radius: 0.5em;
-    display: flex;
-    justify-content: center;
-    gap: 1rem;
-    align-items: center;
+  background-color: var(--green-color);
+  border: none;
+  padding: 0.7rem 0;
+  border-radius: 0.5em;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  align-items: center;
 }
 .btn {
-    color: #fff;
+  color: #fff;
   background-color: transparent;
   border: none;
 }
@@ -88,4 +88,42 @@ body {
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+/* Extra small devices (phones) */
+@media only screen and (max-width: 575px) {
+  .card-container {
+    flex-direction: column;
+    margin: 2rem;
+    border-radius: 1.5em;
+    height: 90vh;
+  }
+  .product-image-container {
+    height: 85%;
+  }
+  .product-info-container {
+    height: 95%;
+    justify-content: space-evenly;
+  }
+  .product-catogory {
+    font-size: 0.8rem;
+  }
+  .product-name {
+    font-size: 1.9rem;
+  }
+  .product-description {
+    line-height: 1.7;
+    font-size: 1rem;
+  }
+
+  .product-price {
+    font-size: 2.1rem;
+    color: var(--green-color);
+  }
+  .button-container {
+    padding: 1rem 0;
+    border-radius: 1em;
+  }
+  .btn {
+    font-weight: bolder;
+  }
 }
