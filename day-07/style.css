@@ -147,6 +147,7 @@ body {
 }
 .analysis-visual {
   background-color: rgba(0, 0, 255, 0.118);
+  
 }
 /* Extra small devices (phones) */
 @media only screen and (max-width: 575px) {
