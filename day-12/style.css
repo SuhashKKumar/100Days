@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: aliceblue;
+    color: black;
+    font-size: 62.5%;
+    text-align: center;
+}
+.card-container{
+    max-width: 23rem;
+    margin: 5rem auto;
+}
+
+
