@@ -15,7 +15,7 @@ body {
   /* text-align: left; */
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   height: 30rem;
 }
 .container {
@@ -47,7 +47,7 @@ body {
 }
 .card-description {
   line-height: 1.5;
-  font-size: 0.66rem;
+  font-size: 0.6rem;
 }
 .btn {
   background-color: white;
@@ -72,7 +72,7 @@ body {
 .third-btn {
   color: rgb(0, 63, 36);
 }
-@media (max-width: 566px) {
+@media (max-width: 586px) {
  
   .hero-container {
     max-width: 15rem;
