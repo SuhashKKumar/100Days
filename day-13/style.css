@@ -5,4 +5,55 @@
 }
 body{
     font-size: 62.5%;
+    background-color: black;
+    color: white;
+    text-align: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.hero-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 10rem auto;
+    gap: 2rem;
+    max-width: 80%;
+    background-color: rgb(24, 4, 49);
+    
+}
+.left-container{
+    padding: 5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.card-title{
+    font-size: 3.3rem;
+    line-height: 1.3;
+}
+.card-title >span{
+    color: rgb(142, 2, 218);
+}
+.card-description{
+    font-size: 1.5rem;
+    color: grey;
+    line-height: 1.6;
+}
+.stats-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 80%;
+}
+.stats-sub-container{
+    display: flex;
+    flex-direction: column;
+}
+.stats-number{
+    font-size: 2.2rem;
+}
+
+.right-container{
+    background: url('./images/image-header-desktop.jpg');
+    background-size: cover;
+    background-color: rgb(142, 2, 218);
+    background-blend-mode: multiply;
 }
