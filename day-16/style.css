@@ -9,9 +9,10 @@ body {
   color: #800020;
   font-family: Arial, Helvetica, sans-serif;
 }
+
 .main-container {
   margin: 5rem auto;
-  max-width: 85vw;
+  max-width: 85%;
   display: flex;
   flex-direction: column;
   gap: 5rem;
@@ -69,13 +70,13 @@ body {
 
 .cards-container{
   display: flex;
-  gap: 1rem;
+  gap: 2rem;
 }
 .card-container:nth-child(2){
-  margin-top: 2rem;
+  margin-top: 2.5rem;
 }
 .card-container:nth-child(3){
-  margin-top: 4rem;
+  margin-top: 5rem;
 }
 .card-container{
   height: 100%;
@@ -111,6 +112,283 @@ align-items: center;
 .user-feedback{
   font-size: 1.7rem;
   line-height: 1.5;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  /* CSS rules for extra small devices */
+  body{
+    padding: 2rem 1rem;
+  }
+  .hero-container {
+    gap: 2rem;
+    flex-direction: column;
+    text-align: center;
+    
+   }
+   .card-title {
+     font-size: 2.5rem;
+     line-height: 0.9;
+   }
+   .card-description {
+     font-size: 1rem;
+   }
+   .left-container{
+     padding-right: 0rem;
+     max-width: 100%;
+   }
+   .right-container{
+    width: 100%;
+    
+   }
+   .rating {
+     font-size: 0.8rem;
+   }
+   .rating-description {
+     font-size: 0.6rem;
+   }
+   .rating-container{
+     padding: 0.6rem;
+     max-width: 100%;
+     border-radius: 0.4rem;
+     gap: 1rem;
+     justify-content: center;
+   }
+   .rating-container:nth-child(2){
+    margin-left: 0rem;
+  }
+  .rating-container:nth-child(3){
+    margin-left: 0rem;
+  }
+   .cards-container{
+    gap: 1rem;
+    flex-direction: column;
+   }
+   .card-container{
+     padding: 0.5rem;
+   }
+   .user-container{
+    flex-direction: column;
+    gap: 0.6rem;
+   }
+   .user-name, .user-tag{
+     font-size: 1rem;
+   }
+  
+   .user-feedback{
+     font-size: 1rem;
+     line-height: 1.4;
+   }
+   .user-image{
+     width: 70px;
+   }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 601px) and (max-width: 768px) {
+  /* CSS rules for small devices */
+  body{
+    padding: 2rem 1rem;
+  }
+  .hero-container {
+    gap: 2rem;
+    flex-direction: column;
+    text-align: center;
+    
+   }
+   .card-title {
+     font-size: 3.1rem;
+     line-height: 1.1;
+   }
+   .card-description {
+     font-size: 1.4rem;
+   }
+   .left-container{
+     padding-right: 0rem;
+     max-width: 100%;
+   }
+   .right-container{
+    width: 100%;
+   }
+   .rating {
+     font-size: 1.2rem;
+   }
+   .rating-description {
+     font-size: 1rem;
+   }
+   .rating-container{
+     padding: 1rem;
+     max-width: 100%;
+     border-radius: 0.6rem;
+   }
+   .rating-container:nth-child(2){
+    margin-left: 0rem;
+  }
+  .rating-container:nth-child(3){
+    margin-left: 0rem;
+  }
+   .cards-container{
+    gap: 1rem;
+    flex-direction: column;
+   }
+   .card-container{
+     padding: 1.9rem;
+   }
+   .user-container{
+    flex-direction: column;
+    gap: 0.6rem;
+   }
+   .user-name, .user-tag{
+     font-size: 1.2rem;
+   }
+  
+   .user-feedback{
+     font-size: 1.4rem;
+     line-height: 1.4;
+   }
+   .user-image{
+     width: 70px;
+   }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  /* CSS rules for medium devices */
+  
+  .hero-container {
+    gap: 0rem;
+   }
+   .card-title {
+     font-size: 2.5rem;
+     line-height: 0.9;
+   }
+   .card-description {
+     font-size: 1.1rem;
+   }
+   .left-container{
+     padding-right: 0rem;
+   }
+   .rating {
+     font-size: 0.8rem;
+   }
+   .rating-description {
+     font-size: 0.6rem;
+   }
+   .rating-container{
+     padding: 0.6rem;
+     width: 70%;
+     border-radius: 0.4rem;
+   }
+   .cards-container{
+    gap: 1rem;
+   }
+   .card-container{
+     padding: 1rem;
+   }
+   .user-container{
+    flex-direction: column;
+    gap: 0.6rem;
+   }
+   .user-name, .user-tag{
+     font-size: 0.9rem;
+   }
+  
+   .user-feedback{
+     font-size: 1.1rem;
+     line-height: 1.4;
+   }
+   .user-image{
+     width: 50px;
+   }
+}
+
+/* Large devices (laptops/desktops, 1024px and up) */
+@media only screen and (min-width: 1025px) and (max-width: 1300px) {
+  /* CSS rules for large devices */
+ 
+  .hero-container {
+   gap: 1rem;
+  }
+  .card-title {
+    font-size: 4rem;
+    line-height: 0.9;
+  }
+  .card-description {
+    font-size: 1.5rem;
+  }
+  .left-container{
+    padding-right: 0rem;
+  }
+  .rating-container{
+    padding: 1rem;
+    width: 90%;
+  }
+  .rating {
+    font-size: 0.9rem;
+  }
+  .rating-description {
+    font-size: 1rem;
+  }
+  .card-container{
+    padding: 1.5rem;
+  }
+  .user-name, .user-tag{
+    font-size: 1.2rem;
+  }
+ 
+  .user-feedback{
+    font-size: 1.5rem;
+    line-height: 1.4;
+  }
+  .user-image{
+    width: 80px;
+  }
+}
+
+
+
+/* Extra large devices (large laptops and desktops, 1440px and up) */
+@media only screen and (min-width: 1301px) and (max-width: 1750px) {
+  /* CSS rules for extra large devices */
+ 
+  .card-title {
+    font-size: 5rem;
+    line-height: 0.9;
+  }
+  .card-description {
+    font-size: 1.5rem;
+    line-height: 1.5;
+  }
+  .left-container{
+    max-width: 50%;
+    padding-right: 0rem;
+  }
+  .rating-container{
+    padding: 1rem;
+  }
+  .rating {
+    font-size: 1rem;
+  }
+  .rating-description {
+    font-size: 1.3rem;
+  }
+  .card-container{
+    padding: 1.5rem;
+  }
+  .user-name{
+    font-size: 1.3rem;
+  }
+  .user-tag{
+    font-size: 1.3rem;
+  }
+  .user-feedback{
+    font-size: 1.5rem;
+    line-height: 1.4;
+  }
+  .user-image{
+    width: 80px;
+  }
+
 }
 
 /* footer */
