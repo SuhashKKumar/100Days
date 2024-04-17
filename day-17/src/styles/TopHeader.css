@@ -4,7 +4,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0.5rem 10rem;
+  padding: 0.5em 10em;
 }
 .header-contact-container {
   display: flex;
@@ -29,7 +29,7 @@
 @media only screen and (min-width: 601px) and (max-width: 768px) {
   /* CSS rules for small devices */
   .header-container {
-    padding: 0.5rem 1rem;
+    padding: 0.5em 1em;
   }
   .header-contact-container {
     gap: 1rem;
@@ -40,7 +40,7 @@
 @media only screen and (min-width: 769px) and (max-width: 1024px) {
   /* CSS rules for medium devices */
   .header-container {
-    padding: 0.5rem 3rem;
+    padding: 0.5em 3em;
   }
 }
 
@@ -48,7 +48,7 @@
 @media only screen and (min-width: 1025px) and (max-width: 1440px) {
   /* CSS rules for large devices */
   .header-container {
-    padding: 0.5rem 5rem;
+    padding: 0.5em 5.5em;
   }
 }
 
@@ -56,6 +56,6 @@
 @media only screen and (min-width: 1441px) and (max-width: 1920px) {
   /* CSS rules for extra large devices */
   .header-container {
-    padding: 0.5rem 7rem;
+    padding: 0.5em 8em;
   }
 }
