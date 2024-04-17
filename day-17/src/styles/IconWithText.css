@@ -1,0 +1,12 @@
+.icon-with-text{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+}
+.icon-with-text > .icon{
+
+}
+.icon-with-text > .text{
+    font-size: 1.3rem;
+}
