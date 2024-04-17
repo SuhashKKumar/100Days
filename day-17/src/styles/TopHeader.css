@@ -4,7 +4,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0.5em 10em;
+  padding: 1em 10em;
 }
 .header-contact-container {
   display: flex;
@@ -12,7 +12,7 @@
   gap: 3rem;
 }
 .icon-with-text > .text {
-  font-size: 0.8rem;
+  font-size: 1.33rem;
   color: white;
   font-weight: 200;
 }

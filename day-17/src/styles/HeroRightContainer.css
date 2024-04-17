@@ -1,0 +1,19 @@
+.hero-right-container{
+    max-width: 50%;
+}
+
+.form-btns{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.form-btn{
+    background-color: transparent;
+    border: none;
+    padding: 1em 2em;
+    font-size: 1rem;
+    border-bottom: 2px solid transparent;
+}
+.form-btn:active, .form-btn:hover{
+    border-bottom: 2px solid var(--primary-color);
+}

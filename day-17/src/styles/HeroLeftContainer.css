@@ -1,0 +1,11 @@
+.hero-left-container{
+    max-width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+}
+.hero-headline{
+    font-size: 5.73rem;
+    line-height: 1.1;
+    font-weight: 600;
+}

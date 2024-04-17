@@ -1,0 +1,10 @@
+.hero-bg{
+    background: url('../assets/hero-bg.svg')  no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+.hero-container{
+    padding: 4em 14em;
+    display: flex;
+}

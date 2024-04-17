@@ -2,7 +2,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 1em 10em;
+  padding: 1.5em 10em;
 }
 .nav-close-btn {
   display: none;
@@ -14,7 +14,7 @@
   width: 50%;
 }
 .nav-link {
-  font-size: 1rem;
+  font-size: 1.6rem;
   color: var(--text-2);
   cursor: pointer;
   transition: all 300ms ease-in-out;
