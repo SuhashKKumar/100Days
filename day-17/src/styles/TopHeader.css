@@ -1,0 +1,18 @@
+.header-container{
+    background-color: var(--primary-color);
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem 10rem;
+}
+.header-contact-container{
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+.icon-with-text > .text{
+    font-size: 0.8rem ;
+    color: white;
+    font-weight: 200;
+}
