@@ -1,6 +1,5 @@
 .header-container {
   background-color: var(--primary-color);
-  width: 100vw;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -34,6 +33,9 @@
   .header-contact-container {
     gap: 1rem;
   }
+  .icon-with-text > .text {
+    font-size: 0.7rem;
+  }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -42,6 +44,9 @@
   .header-container {
     padding: 0.5em 3em;
   }
+  .icon-with-text > .text {
+    font-size: 0.8rem;
+  }
 }
 
 /* Large devices (laptops/desktops, 1024px and up) */
@@ -49,6 +54,9 @@
   /* CSS rules for large devices */
   .header-container {
     padding: 0.5em 5.5em;
+  }
+  .icon-with-text > .text {
+    font-size: 1rem;
   }
 }
 

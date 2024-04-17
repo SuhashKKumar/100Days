@@ -120,7 +120,6 @@ body {
   opacity: 0.5;
 }
 
-
 .btn-icon-secondary {
   background-color: white;
   color: var(--text-2);
@@ -133,7 +132,6 @@ body {
   padding: 0.7rem 2.5rem;
   border-radius: 2rem;
   transition: all 300ms ease-in-out;
-
 }
 
 .btn-icon-secondary:hover {
@@ -141,3 +139,57 @@ body {
 }
 
 /* ========================================END======================================== */
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  /* CSS rules for extra small devices */
+  .btn-icon-text-primary,
+  .btn-icon-text-primary-hover,
+  .btn-icon-secondary {
+    font-size: 1rem;
+    padding: 0.7em 1.4em;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 601px) and (max-width: 768px) {
+  /* CSS rules for small devices */
+  .btn-icon-text-primary,
+  .btn-icon-text-primary-hover,
+  .btn-icon-secondary {
+    font-size: 1rem;
+    padding: 0.7em 1.4em;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  /* CSS rules for medium devices */
+  .btn-icon-text-primary,
+  .btn-icon-text-primary-hover,
+  .btn-icon-secondary {
+    font-size: 1rem;
+    padding: 0.7em 1.4em;
+  }
+}
+
+/* Large devices (laptops/desktops, 1024px and up) */
+@media only screen and (min-width: 1025px) and (max-width: 1440px) {
+  /* CSS rules for large devices */
+  .btn-icon-text-primary,
+  .btn-icon-text-primary-hover,
+  .btn-icon-secondary {
+    font-size: 1rem;
+    padding: 0.7em 1.5em;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1440px and up) */
+@media only screen and (min-width: 1441px) and (max-width: 1920px) {
+  /* CSS rules for extra large devices */
+  .btn-icon-text-primary,
+  .btn-icon-text-primary-hover,
+  .btn-icon-secondary {
+    font-size: 1.3rem;
+  }
+}

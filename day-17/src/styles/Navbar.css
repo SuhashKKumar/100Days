@@ -60,6 +60,9 @@
   .login-register {
     align-items: flex-end;
   }
+  .nav-link {
+    font-size: 1rem;
+  }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -82,6 +85,9 @@
   }
   .login-register {
     align-items: flex-end;
+  }
+  .nav-link {
+    font-size: 1rem;
   }
 }
 
@@ -107,13 +113,16 @@
   .login-register {
     align-items: flex-end;
   }
+  .nav-link {
+    font-size: 1rem;
+  }
 }
 
 /* Large devices (laptops/desktops, 1024px and up) */
 @media only screen and (min-width: 1024px) and (max-width: 1440px) {
   /* CSS rules for large devices */
   .nav-container {
-    padding: 1em 4.5em;
+    padding: 1em 3em;
   }
   .login-register {
     gap: 0.5rem;
@@ -126,6 +135,7 @@
   }
   .nav-link {
     padding: 0.3em 0.5em;
+    font-size: 1rem;
   }
 }
 
@@ -134,5 +144,8 @@
   /* CSS rules for extra large devices */
   .nav-container {
     padding: 1em 8em;
+  }
+  .nav-link {
+    font-size: 1.3rem;
   }
 }
