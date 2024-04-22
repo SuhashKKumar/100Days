@@ -1,12 +1,10 @@
 import '../styles/HeroRightContainer.css'
+import SaleRentForm from './SaleRentForm';
 
 const HeroRightContainer = () => {
   return (
     <div className="hero-right-container">
-      <div className="form-btns">
-        <button className="form-btn">For Sale</button>
-        <button className="form-btn">For Rent</button>
-      </div>
+    <SaleRentForm/>
     </div>
   );
 };

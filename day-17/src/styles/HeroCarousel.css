@@ -1,0 +1,7 @@
+.hero-carousel-container{
+    display: flex;
+    align-items: center;
+}
+.hero-carousel-img{
+    border-radius: 2rem;
+}

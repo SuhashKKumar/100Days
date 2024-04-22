@@ -1,4 +1,5 @@
-import "../Styles/IconWithText.css";
+import '../styles/IconWithText.css'
+
 const IconWithText = (prop) => {
   const { text, icon } = prop;
   return (
