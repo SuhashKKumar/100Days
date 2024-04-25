@@ -15,7 +15,7 @@ const PrimaryBtnWithIcon = (prop) => {
         hoverEffect ? "btn-icon-text-primary-hover" : "btn-icon-text-primary"
       }`}
     >
-      <img src={ hoverEffect ? hoverIcon : icon} alt={text} />
+      <img src={hoverEffect ? hoverIcon : icon} alt={text} />
       <span>{text}</span>
     </button>
   );

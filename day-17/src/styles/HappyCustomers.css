@@ -1,0 +1,22 @@
+.happy-customers-container{
+    border: 1px solid black;
+    display: inline-block;
+    max-width: 36rem;
+}
+
+.happy-customers-sub-container{
+    display: flex;
+    align-items: center;
+    padding: 1rem 2rem;
+
+}
+
+.customers-images-container{
+    display: flex;
+    /* flex: 1; */
+}
+
+.happy-customers-text{
+    font-size: 1.94rem;
+    color: var(--text-2);
+}

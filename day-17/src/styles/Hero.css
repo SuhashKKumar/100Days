@@ -4,7 +4,15 @@
     background-position: center;
     height: 100vh;
 }
-.hero-container{
+.hero-sub-container{
     padding: 4em 14em;
     display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+.hero-second-sub-container{
+    display: flex;
+    gap: 3rem;
+    justify-content: center;
+    align-items: center;
 }

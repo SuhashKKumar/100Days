@@ -1,10 +1,10 @@
 import  { useState } from 'react';
 import '../styles/HeroDropdown.css'
-const HeroDropdown = () => {
+const HeroDropdown = (prop) => {
+  const {options, displayText}= prop
     const [dropdown, setDropdown] = useState(false);
     const [selectedOption, setSelectedOption] = useState(null)
 
-    const options = ['Option 1', 'Option 2', 'Option 3', 'Option 4'];
   
     const handleSelectOption = (option) => {
       setSelectedOption(option);
@@ -13,7 +13,7 @@ const HeroDropdown = () => {
     return (
       <div className="dropdown-container">
         <div className="selected-option" onClick={() => setDropdown(!dropdown)}>
-          {selectedOption && 'Select an option'}
+          {selectedOption ? selectedOption: displayText}
         </div>
         {dropdown && (
           <ul className="dropdown-options">

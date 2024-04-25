@@ -1,0 +1,13 @@
+.listings-container{
+    display: inline-block;
+    max-width: 32rem;
+}
+.listings-sub-container{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    background-color: #FFF;
+    border: 1px solid black;
+    border-radius: 5rem;
+    padding: 1rem 3rem;
+}
