@@ -1,6 +1,7 @@
 .listings-container{
     display: inline-block;
     max-width: 32rem;
+    
 }
 .listings-sub-container{
     display: flex;
@@ -11,3 +12,49 @@
     border-radius: 5rem;
     padding: 1rem 3rem;
 }
+.hero-listings-image{
+    width: 7rem;
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    /* CSS rules for medium devices */
+    .listings-container{
+        max-width: 30rem;
+    }
+    .listings-sub-container{
+        padding: 1em 2em;
+    }
+    .hero-listings-image{
+        width: 5.3rem;
+    }
+  }
+  
+  /* Large devices (laptops/desktops, 1024px and up) */
+  @media only screen and (min-width: 1025px) and (max-width: 1440px) {
+    /* CSS rules for large devices */
+    .listings-container{
+        max-width: 30rem;
+    }
+    .listings-sub-container{
+        padding: 1em 2em;
+    }
+    .hero-listings-image{
+        width: 5.3rem;
+    }
+  }
+  
+  /* Extra large devices (large laptops and desktops, 1440px and up) */
+  @media only screen and (min-width: 1441px) and (max-width: 1920px) {
+    /* CSS rules for extra large devices */
+    .listings-container{
+        max-width: 30rem;
+    }
+    .listings-sub-container{
+        padding: 1em 2em;
+    }
+    .hero-listings-image{
+        width: 5.3rem;
+    }
+  }
+

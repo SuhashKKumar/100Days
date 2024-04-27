@@ -4,7 +4,7 @@ const EverydayListings = () => {
   return (
     <div className="listings-container">
     <div className="listings-sub-container" >
-    <img src={villa} width={100} alt="image of an villa" />
+    <img className="hero-listings-image" src={villa}  alt="image of an villa" />
     <p className="happy-customers-text">200+ New <br/>Listings Everyday!</p>
     </div>
     </div>

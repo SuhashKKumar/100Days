@@ -165,7 +165,8 @@ body {
   /* CSS rules for extra small devices */
   .btn-icon-text-primary,
   .btn-icon-text-primary-hover,
-  .btn-icon-secondary {
+  .btn-icon-secondary,
+  .btn-text-icon-secondary {
     font-size: 1rem;
     padding: 0.7em 1.4em;
   }
@@ -176,7 +177,8 @@ body {
   /* CSS rules for small devices */
   .btn-icon-text-primary,
   .btn-icon-text-primary-hover,
-  .btn-icon-secondary {
+  .btn-icon-secondary,
+  .btn-text-icon-secondary {
     font-size: 1rem;
     padding: 0.7em 1.4em;
   }
@@ -187,7 +189,8 @@ body {
   /* CSS rules for medium devices */
   .btn-icon-text-primary,
   .btn-icon-text-primary-hover,
-  .btn-icon-secondary {
+  .btn-icon-secondary,
+  .btn-text-icon-secondary {
     font-size: 1rem;
     padding: 0.7em 1.4em;
   }
@@ -198,7 +201,8 @@ body {
   /* CSS rules for large devices */
   .btn-icon-text-primary,
   .btn-icon-text-primary-hover,
-  .btn-icon-secondary {
+  .btn-icon-secondary,
+  .btn-text-icon-secondary {
     font-size: 1rem;
     padding: 0.7em 1.5em;
   }
@@ -209,7 +213,8 @@ body {
   /* CSS rules for extra large devices */
   .btn-icon-text-primary,
   .btn-icon-text-primary-hover,
-  .btn-icon-secondary {
-    font-size: 1.3rem;
+  .btn-icon-secondary,
+  .btn-text-icon-secondary {
+    font-size: 1rem;
   }
 }

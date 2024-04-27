@@ -37,4 +37,15 @@
   .dropdown-options li:hover {
     background-color: #f2f2f2;
   }
-  
+  /* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  /* CSS rules for extra small devices */
+  .selected-option {
+    padding: 0.8em 1em;    /* border: 1px solid #ccc; */
+    border-radius: 0.5rem;
+    font-size: 0.9rem;
+  }
+  .dropdown-options li {
+    font-size: 0.7rem;
+  }
+}

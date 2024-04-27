@@ -1,7 +1,7 @@
 import BlueText from "../misc/BlueText";
 import GreyParagraph from "../misc/GreyParagraph";
-import "../styles/HeroLeftContainer.css";
 import HeroCarousel from "./HeroCarousel";
+import "../styles/HeroLeftContainer.css";
 
 const HeroLeftContainer = () => {
   return (

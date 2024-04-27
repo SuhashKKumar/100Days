@@ -1,8 +1,8 @@
 import EverydayListings from "../misc/EverydayListings";
 import HappyCustomers from "../misc/HappyCustomers";
-import "../styles/Hero.css";
 import HeroLeftContainer from "./HeroLeftContainer";
 import HeroRightContainer from "./HeroRightContainer";
+import "../styles/Hero.css";
 const Hero = () => {
   return (
     <div className="hero-main-container">

@@ -42,6 +42,8 @@
   /* CSS rules for extra small devices */
   .nav-container {
     padding: 2em 1em;
+    background-color: var(--text-5);
+
   }
   .nav-links,
   .nav-section,
@@ -69,7 +71,9 @@
 @media only screen and (min-width: 601px) and (max-width: 768px) {
   /* CSS rules for small devices */
   .nav-container {
-    padding: 3em;
+    padding: 2em 3em;
+    background-color: var(--text-5);
+
   }
   .nav-links,
   .nav-section,
@@ -95,8 +99,9 @@
 @media only screen and (min-width: 769px) and (max-width: 1023px) {
   /* CSS rules for medium devices */
   .nav-container {
-    padding: 4em 5.5em;
+    padding: 2em 5.5em;
     align-items: center;
+    background-color: var(--text-5);
   }
   .nav-links,
   .nav-section,

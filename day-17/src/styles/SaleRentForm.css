@@ -1,40 +1,93 @@
-.form-container{
-    max-width: 42rem;
-    border-radius: 3rem;
-    background-color: #fff;   
-    padding: 2rem;
-    
+.form-container {
+  max-width: 42rem;
+  border-radius: 3rem;
+  background-color: #fff;
+  padding: 3.5rem;
 }
-input{
-    padding: 1.3em 1em;
-     border-radius: 1rem;
-     border: none;
-     font-size: 1.1rem;
-     background-color: var(--text-5);
+input {
+  padding: 1.3em 1em;
+  border-radius: 1rem;
+  border: none;
+  font-size: 1.1rem;
+  background-color: var(--text-5);
 }
 
-.inputs-container{
-    margin-top: 2rem;
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
-    width: 34rem;
-    
+.inputs-container {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  /* width: 34rem; */
 }
-.form-btns{
-    display: flex;
-    align-items: center;
+.form-btns {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.form-btn {
+  background-color: transparent;
+  border: none;
+  padding: 1em 2em;
+  font-size: 1.6rem;
+  border-bottom: 3px solid transparent;
+  color: var(--text-3);
+}
+.form-btn:active,
+.form-btn:hover {
+  color: var(--primary-color);
+  border-bottom: 3px solid var(--primary-color);
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  /* CSS rules for extra small devices */
+  .form-btns{
     justify-content: space-around;
+  }
+  .form-btn {
+    font-size: 1.2rem;
+    padding: 0.5em 1em;
+  }
+  .form-container {
+    width: 25rem;
+    padding: 2rem;
+  }
+  input{
+    padding: 0.8em 1em;
+    border-radius: 0.5rem;
+    font-size: 1rem;
 }
-.form-btn{
-    background-color: transparent;
-    border: none;
-    padding: 1em 2em;
-    font-size: 1.6rem;
-    border-bottom: 3px solid transparent;
-    color: var(--text-3);
 }
-.form-btn:active, .form-btn:hover{
-    color: var(--primary-color);
-    border-bottom: 3px solid var(--primary-color);
+/* Large devices (laptops/desktops, 1024px and up) */
+@media only screen and (min-width: 1025px) and (max-width: 1440px) {
+  /* CSS rules for large devices */
+  .form-container {
+    max-width: 28rem;
+    padding: 2.5rem;
+  }
+  .inputs-container {
+    margin-top: 2em;
+    gap: 1.5rem;
+  }
+  input {
+    font-size: 1rem;
+  }
+  .form-btn {
+    font-size: 1.4rem;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1440px and up) */
+@media only screen and (min-width: 1441px) and (max-width: 1920px) {
+  /* CSS rules for extra large devices */
+  .form-container {
+    /* max-width: 40rem; */
+    padding: 3rem;
+  }
+  input {
+    font-size: 1rem;
+  }
+  .form-btn {
+    font-size: 1.5rem;
+  }
 }

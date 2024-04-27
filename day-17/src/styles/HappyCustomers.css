@@ -1,22 +1,85 @@
-.happy-customers-container{
-    border: 1px solid black;
-    display: inline-block;
-    max-width: 36rem;
+.happy-customers-container {
+  display: inline-block;
+  max-width: 36rem;
 }
 
-.happy-customers-sub-container{
-    display: flex;
-    align-items: center;
+.happy-customers-sub-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  background-color: #fff;
+  border: 1px solid black;
+  border-radius: 5rem;
+  padding: 1rem 3rem;
+}
+
+.customers-images-container {
+  display: flex;
+}
+
+.hero-collapsed-images {
+  margin-left: -1rem;
+  border: 2px solid white;
+  border-radius: 50%;
+  width: 3.5rem;
+}
+
+.happy-customers-text {
+  font-size: 1.94rem;
+  text-align: center;
+  color: var(--text-2);
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  /* CSS rules for medium devices */
+  .happy-customers-container {
+    max-width: 30rem;
+  }
+  .happy-customers-text{
+    font-size: 1.5rem;
+  }
+  .happy-customers-sub-container {
     padding: 1rem 2rem;
-
+  }
+  .hero-collapsed-images {
+    width: 3.1rem;
+  }
 }
 
-.customers-images-container{
-    display: flex;
-    /* flex: 1; */
+/* Large devices (laptops/desktops, 1024px and up) */
+@media only screen and (min-width: 1025px) and (max-width: 1440px) {
+  /* CSS rules for large devices */
+  .happy-customers-container {
+    max-width: 25rem;
+  }
+  .happy-customers-text{
+    font-size: 1.5rem;
+  }
+  .happy-customers-sub-container {
+    padding: 1rem 2rem;
+    flex-direction: column;
+    gap: 0rem;
+  }
+  .hero-collapsed-images {
+    width: 2.5rem;
+  }
 }
 
-.happy-customers-text{
-    font-size: 1.94rem;
-    color: var(--text-2);
+/* Extra large devices (large laptops and desktops, 1440px and up) */
+@media only screen and (min-width: 1441px) and (max-width: 1920px) {
+  /* CSS rules for extra large devices */
+  .happy-customers-container {
+    max-width: 30rem;
+  }
+  .happy-customers-text{
+    font-size: 1.5rem;
+  }
+  .happy-customers-sub-container {
+    padding: 1rem 2rem;
+  }
+  .hero-collapsed-images {
+    width: 3.1rem;
+  }
 }

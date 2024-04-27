@@ -5,3 +5,27 @@
     justify-content: center;
 }
 
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    /* CSS rules for extra small devices */
+    .hero-right-container{
+        max-width: 100%;
+    }
+  }
+  
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 601px) and (max-width: 768px) {
+    /* CSS rules for small devices */
+    .hero-right-container{
+        max-width: 100%;
+    }
+  }
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 769px) and (max-width: 1024px) {
+    /* CSS rules for medium devices */
+    .hero-right-container{
+        max-width: 100%;
+    }
+  }
+ 
