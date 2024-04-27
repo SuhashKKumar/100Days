@@ -1,0 +1,10 @@
+.supporters-container{
+    padding: 4em 24em ;
+    text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+    .supporters-container{
+        display: none;
+    }
+  }
