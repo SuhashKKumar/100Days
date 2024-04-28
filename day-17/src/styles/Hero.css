@@ -1,90 +1,99 @@
-.hero-bg{
-    background: url('../assets/hero-bg.svg')  no-repeat;
-    background-size: cover;
-    background-position: center;
-    min-height: 100vh;
+.hero-bg {
+  background: url("../assets/hero-bg.svg") no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 100dvh;
 }
-.hero-sub-container{
-    padding: 4em 14em;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.padding-container {
+  padding: 4em 14em;
 }
-.hero-second-sub-container{
-    display: flex;
-    gap: 3rem;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 3rem;
+.hero-sub-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hero-second-sub-container {
+  display: flex;
+  gap: 3rem;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 3rem;
 }
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-    .hero-second-sub-container{
-        display: none;
-    }
-    .hero-main-container{
-        margin-top: 2em;
-    }
-    .hero-sub-container{
-        flex-direction: column;
-        padding: 0 3em ;
-        gap: 3rem;
-    }
-    /* CSS rules for extra small devices */
+  .hero-second-sub-container {
+    display: none;
   }
-  
-  /* Small devices (portrait tablets and large phones, 600px and up) */
-  @media only screen and (min-width: 601px) and (max-width: 768px) {
-    /* CSS rules for small devices */
-    .hero-main-container{
-        margin-top: 2em;
-    }
-    .hero-sub-container{
-        flex-direction: column;
-        padding: 0 3em ;
-        gap: 3rem;
-    }
-    .hero-second-sub-container{
-        display: none;
-    }
+  .hero-main-container {
+    margin-top: 2em;
   }
-  
-  /* Medium devices (landscape tablets, 768px and up) */
-  @media only screen and (min-width: 769px) and (max-width: 1023px) {
-    /* CSS rules for medium devices */
-    .hero-main-container{
-        margin-top: 3rem;
-    }
-    .hero-sub-container{
-        flex-direction: column;
-        padding: 0 6em ;
-        gap: 3rem;
-        align-items: center;
-    }
-    .hero-second-sub-container{
-        margin-top: 4rem;
-        flex-direction: column;
-    }
+  .hero-sub-container {
+    flex-direction: column;
+    padding: 0 3em;
+    gap: 3rem;
   }
-  
-  /* Large devices (laptops/desktops, 1024px and up) */
-  @media only screen and (min-width: 1024px) and (max-width: 1440px) {
-    /* CSS rules for large devices */
-    .hero-sub-container{
-       padding: 4em;
-       justify-content: space-around;
-        gap: 2rem;
-   }
+  /* CSS rules for extra small devices */
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 601px) and (max-width: 768px) {
+  /* CSS rules for small devices */
+  .hero-main-container {
+    margin-top: 2em;
   }
-  
-  /* Extra large devices (large laptops and desktops, 1440px and up) */
-  @media only screen and (min-width: 1441px) and (max-width: 1920px) {
-    /* CSS rules for extra large devices */
-    .hero-sub-container{
-        padding: 4em 6em;
-        justify-content: space-around;
-        gap: 2rem;
-    }
+  .padding-container {
+    padding: 0 3em;
   }
- 
+  .hero-sub-container {
+    flex-direction: column;
+    gap: 3rem;
+  }
+  .hero-second-sub-container {
+    display: none;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 769px) and (max-width: 1023px) {
+  /* CSS rules for medium devices */
+  .hero-main-container {
+    margin-top: 3rem;
+  }
+  .padding-container {
+    padding: 0 6em;
+  }
+  .hero-sub-container {
+    flex-direction: column;
+    gap: 3rem;
+    align-items: center;
+  }
+  .hero-second-sub-container {
+    margin-top: 4rem;
+    flex-direction: column;
+  }
+}
+
+/* Large devices (laptops/desktops, 1024px and up) */
+@media only screen and (min-width: 1024px) and (max-width: 1440px) {
+  /* CSS rules for large devices */
+  .padding-container {
+    padding: 4em;
+  }
+  .hero-sub-container {
+    justify-content: space-around;
+    gap: 2rem;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1440px and up) */
+@media only screen and (min-width: 1441px) and (max-width: 1920px) {
+  /* CSS rules for extra large devices */
+  .padding-container {
+    padding: 4em 6em;
+  }
+  .hero-sub-container {
+    justify-content: space-around;
+    gap: 2rem;
+  }
+}

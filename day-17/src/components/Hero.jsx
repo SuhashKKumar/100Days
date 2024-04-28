@@ -6,7 +6,7 @@ import "../styles/Hero.css";
 const Hero = () => {
   return (
     <div className="hero-main-container">
-      <div className="hero-sub-container">
+      <div className="hero-sub-container padding-container">
         <HeroLeftContainer />
         <HeroRightContainer />
       </div>

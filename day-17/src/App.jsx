@@ -1,4 +1,5 @@
 import "./App.css";
+import AboutUs from "./components/AboutUs";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import Supporters from "./components/Supporters";
@@ -7,11 +8,12 @@ function App() {
   return (
     <div>
       <TopHeader />
+      <Navbar />
       <div className="hero-bg">
-        <Navbar />
         <Hero />
-        <Supporters/>
       </div>
+      <Supporters />
+      <AboutUs />
     </div>
   );
 }

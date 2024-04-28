@@ -6,7 +6,7 @@ import "../styles/HeroLeftContainer.css";
 const HeroLeftContainer = () => {
   return (
     <div className="hero-left-container">
-      <BlueText text="real estate" />
+      <BlueText text="REAL ESTATE" />
       <h1 className="hero-headline">Find a perfect home you love..!</h1>
       <GreyParagraph text="Etiam eget elementum elit. Aenean dignissim dapibus vestibulum. Integer a dolor eu sapien sodales vulputate ac in purus." />
       <HeroCarousel/>

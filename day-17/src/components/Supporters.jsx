@@ -3,7 +3,7 @@ import LogosContainer from "../misc/LogosContainer"
 import '../styles/Supporters.css'
 const Supporters = () => {
   return (
-    <div className="supporters-container" >
+    <div className="supporters-container padding-container" >
     <GreyParagraph text="Trusted by 100+ Companies across the globe!" />
     <LogosContainer/>
     </div>

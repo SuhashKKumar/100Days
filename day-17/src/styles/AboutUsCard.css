@@ -1,15 +1,30 @@
-.blue-text{
-    color: var(--color-1);
-    letter-spacing: 1px;
-    font-size: 1.94rem;
-    line-height: 0.8;
+.about-us-card-container{
+    max-width: 65%;
+    display: flex;
+    gap: 2rem;
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+.about-us-icon{
+    max-width: 4rem;
 }
 
+.about-us-blue{
+    color: var(--color-1);
+    font-size: 1.8rem;
+    line-height: 0.8;
+}
+.about-us-text-container{
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+}
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   /* CSS rules for extra small devices */
-  .blue-text{
+  .about-us-blue{
     font-size: 1.2rem;
 }
 }
@@ -17,7 +32,7 @@
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 601px) and (max-width: 768px) {
   /* CSS rules for small devices */
-  .blue-text{
+  .about-us-blue{
     font-size: 1.2rem;
 }
 }
@@ -30,7 +45,7 @@
 /* Large devices (laptops/desktops, 1024px and up) */
 @media only screen and (min-width: 1025px) and (max-width: 1440px) {
   /* CSS rules for large devices */
-  .blue-text{
+  .about-us-blue{
     font-size: 1.4rem;
 }
 }
@@ -38,8 +53,8 @@
 /* Extra large devices (large laptops and desktops, 1440px and up) */
 @media only screen and (min-width: 1441px) and (max-width: 1920px) {
   /* CSS rules for extra large devices */
-  .blue-text{
-    font-size: 1.8rem;
+  .about-us-blue{
+    font-size: 1.7rem;
 }
 }
 
