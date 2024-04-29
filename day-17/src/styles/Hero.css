@@ -30,8 +30,10 @@
   }
   .hero-sub-container {
     flex-direction: column;
-    padding: 0 3em;
     gap: 3rem;
+  }
+  .padding-container{
+    padding: 0 3em;
   }
   /* CSS rules for extra small devices */
 }

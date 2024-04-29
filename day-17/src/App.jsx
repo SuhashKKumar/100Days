@@ -1,6 +1,7 @@
 import "./App.css";
 import AboutUs from "./components/AboutUs";
 import Hero from "./components/Hero";
+import Listings from "./components/Listings";
 import Navbar from "./components/Navbar";
 import Supporters from "./components/Supporters";
 import TopHeader from "./components/TopHeader";
@@ -14,6 +15,7 @@ function App() {
       </div>
       <Supporters />
       <AboutUs />
+      <Listings/>
     </div>
   );
 }

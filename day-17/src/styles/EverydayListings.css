@@ -1,4 +1,4 @@
-.listings-container{
+.everyday-listings-container{
     display: inline-block;
     max-width: 32rem;
     
@@ -20,7 +20,7 @@
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 769px) and (max-width: 1024px) {
     /* CSS rules for medium devices */
-    .listings-container{
+    .everyday-listings-container{
         max-width: 30rem;
     }
     .listings-sub-container{
@@ -34,7 +34,7 @@
   /* Large devices (laptops/desktops, 1024px and up) */
   @media only screen and (min-width: 1025px) and (max-width: 1440px) {
     /* CSS rules for large devices */
-    .listings-container{
+    .everyday-listings-container{
         max-width: 30rem;
     }
     .listings-sub-container{
@@ -48,7 +48,7 @@
   /* Extra large devices (large laptops and desktops, 1440px and up) */
   @media only screen and (min-width: 1441px) and (max-width: 1920px) {
     /* CSS rules for extra large devices */
-    .listings-container{
+    .everyday-listings-container{
         max-width: 30rem;
     }
     .listings-sub-container{

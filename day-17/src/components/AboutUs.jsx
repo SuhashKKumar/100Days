@@ -3,10 +3,10 @@ import BlueText from "../misc/BlueText";
 import GreyParagraph from "../misc/GreyParagraph";
 import SecondaryHeadline from "../misc/SecondaryHeadline";
 import smartHome from "../assets/smart-home-icon.svg";
-import "../styles/AboutUs.css";
 import house1 from "../assets/house-interior-1.svg";
 import house2 from "../assets/house-interior-2.svg";
 import house3 from "../assets/house-interior-3.svg";
+import "../styles/AboutUs.css";
 const AboutUs = () => {
   const houses = [house1, house2, house3];
   return (
@@ -31,7 +31,7 @@ const AboutUs = () => {
           <img
             key={index}
             src={house}
-            className={`about-us-house${index + 1}`}
+            className={`aboutus-house-${index + 1}`}
             alt={`house-${index + 1}`}
           />
         ))}
