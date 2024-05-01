@@ -10,6 +10,7 @@
 
 .bg-image-container {
   position: relative;
+
 }
 
 .bg-image {
@@ -19,7 +20,9 @@
   width: 34rem;
   height: 34rem;
   border-radius: 3rem;
+  transition: all 300ms ease-in-out;
 }
+
 
 .tag-container {
   position: absolute;
