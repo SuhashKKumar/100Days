@@ -6,6 +6,7 @@ import Navbar from "./components/Navbar";
 import NeighborProperties from "./components/NeighborProperties";
 import Services from "./components/Services";
 import Supporters from "./components/Supporters";
+import Team from "./components/Team";
 import TopHeader from "./components/TopHeader";
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <Listings/>
       <Services/>
       <NeighborProperties/>
+      <Team/>
     </div>
   );
 }

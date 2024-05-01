@@ -1,0 +1,121 @@
+.team-cards-container{
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+}
+.team-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.person-image{
+    border-radius: 3rem;
+    border-top-left-radius: 60%;
+    width: 20rem;
+}
+.person-name{
+    font-size: 2.76rem;
+    font-weight: 600;
+
+}
+.person-designation{
+    font-size: 1.6rem;
+    color: var(--color-1);
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    /* CSS rules for extra small devices */
+    .team-cards-container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 2rem;
+    }
+    .person-image{
+        width: 18rem;
+    }
+    .person-name{
+        font-size: 2rem;    
+    }
+    .person-designation{
+        font-size: 1.5rem;
+    }
+  }
+  
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 601px) and (max-width: 768px) {
+    /* CSS rules for small devices */
+    .team-cards-container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 2rem;
+    }
+    .person-image{
+        width: 15rem;
+    }
+    .person-name{
+        font-size: 1.5rem;    
+    }
+    .person-designation{
+        font-size: 1.1rem;
+    }
+  }
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 769px) and (max-width: 1024px) {
+    /* CSS rules for medium devices */
+    .team-cards-container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 3rem;
+    }
+    .person-image{
+        width: 18rem;
+    }
+    .person-name{
+        font-size: 2rem;    
+    }
+    .person-designation{
+        font-size: 1.4rem;
+    }
+  }
+  
+  /* Large devices (laptops/desktops, 1024px and up) */
+  @media only screen and (min-width: 1025px) and (max-width: 1440px) {
+    /* CSS rules for large devices */
+    .team-cards-container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 3rem;
+    }
+    .person-image{
+        width: 20rem;
+    }
+    .person-name{
+        font-size: 2rem;    
+    }
+    .person-designation{
+        font-size: 1.4rem;
+    }
+  }
+  
+  /* Extra large devices (large laptops and desktops, 1440px and up) */
+  @media only screen and (min-width: 1441px) and (max-width: 1920px) {
+    /* CSS rules for extra large devices */
+    .person-image{
+        width: 18rem;
+    }
+    .person-name{
+        font-size: 2.5rem;    
+    }
+    .person-designation{
+        font-size: 1.4rem;
+    }
+  }
+  
