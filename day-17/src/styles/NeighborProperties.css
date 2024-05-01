@@ -18,6 +18,7 @@
   border-radius: 3rem;
   align-content: flex-end;
   padding: 2em 4em;
+  background-color: var(--text-5);
 }
 .neighbor-grid-item-1 {
   background-image: linear-gradient(
