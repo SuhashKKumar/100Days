@@ -3,7 +3,8 @@
   border-radius: 3rem;
   background-color: #fff;
   padding: 3.5rem;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
 }
 input {
   padding: 1.3em 1em;
@@ -42,7 +43,7 @@ input {
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   /* CSS rules for extra small devices */
-  .form-btns{
+  .form-btns {
     justify-content: space-around;
   }
   .form-btn {
@@ -53,11 +54,11 @@ input {
     width: 25rem;
     padding: 2rem;
   }
-  input{
+  input {
     padding: 0.8em 1em;
     border-radius: 0.5rem;
     font-size: 1rem;
-}
+  }
 }
 /* Large devices (laptops/desktops, 1024px and up) */
 @media only screen and (min-width: 1025px) and (max-width: 1440px) {

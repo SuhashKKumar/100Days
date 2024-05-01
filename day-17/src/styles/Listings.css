@@ -1,3 +1,75 @@
-.listings-container{
-    margin-top: 3rem;
+.listing-container{
+    margin: 3rem 0;
 }
+
+.listing-sub-container{
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+.listing-left-container{
+    max-width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.listing-right-container{
+    max-width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    /* CSS rules for extra small devices */
+    .listing-sub-container{
+        flex-direction: column;
+        gap: 1.5rem;
+        align-items: flex-start;
+    }
+    .listing-left-container, .listing-right-container{
+        gap: 0.8rem;
+        max-width: 100%;
+    }
+  }
+  
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 601px) and (max-width: 768px) {
+    /* CSS rules for small devices */
+    .listing-sub-container{
+        flex-direction: column;
+        gap: 1.5rem;
+        align-items: flex-start;
+    }
+    .listing-left-container, .listing-right-container{
+        gap: 0.8rem;
+        max-width: 100%;
+    }
+  }
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 769px) and (max-width: 1024px) {
+    /* CSS rules for medium devices */
+
+    .listing-sub-container{
+        flex-direction: column;
+        gap: 1.5rem;
+        align-items: flex-start;
+    }
+    .listing-left-container, .listing-right-container{
+        gap: 0.8rem;
+        max-width: 100%;
+    }
+  }
+  
+  /* Large devices (laptops/desktops, 1024px and up) */
+  @media only screen and (min-width: 1025px) and (max-width: 1440px) {
+    /* CSS rules for large devices */
+    .listing-left-container, .listing-right-container{
+        gap: 1rem;
+    }
+  }
+  
+  

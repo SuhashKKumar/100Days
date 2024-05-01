@@ -1,0 +1,153 @@
+.listing-card-container {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: start;
+  gap: 2rem;
+  overflow-x: hidden;
+  margin-top: 3rem;
+}
+
+.bg-image-container {
+  position: relative;
+}
+
+.bg-image {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 34rem;
+  height: 34rem;
+  border-radius: 3rem;
+}
+
+.tag-container {
+  position: absolute;
+  bottom: 2rem;
+  left: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 1rem;
+  padding: 1em 2em;
+  border-radius: 2rem;
+}
+
+.tag-icon {
+  max-width: 2.4rem;
+}
+.tag-name {
+  font-size: 1.6rem;
+}
+.popular {
+  background-color: #ffe1e1;
+  color: #ff1111;
+}
+.new-listing {
+  background-color: #d7eeff;
+  color: #119bff;
+}
+.discounted-price {
+  background-color: #f1fff1;
+  color: #00ce3a;
+}
+.card-price {
+  font-size: 2.76rem;
+  font-weight: 500;
+}
+.card-title {
+  font-size: 1.94rem;
+}
+.beds-or-bath-container{
+  /* width: 50%; */
+  display: flex;
+  align-items: center;
+  /* justify-content: start; */
+  gap: 2rem;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  /* CSS rules for extra small devices */
+  .listing-card-container {
+    flex-direction: column-reverse;
+    gap: 3rem;
+    margin-top: 5rem;
+  }
+  .bg-image {
+    width: 27rem;
+    height: 15rem;
+    border-radius: 1.5rem;
+  }
+  .card-price {
+    font-size: 1.94rem;
+    margin-bottom: 0.2rem;
+  }
+  .card-title {
+    font-size: 1.5rem;
+  }
+  .tag-container {
+    bottom: 1rem;
+    left: 1rem;
+      border-radius: 1rem;
+  }
+  .tag-name {
+    font-size: 1rem;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 601px) and (max-width: 768px) {
+  /* CSS rules for small devices */
+  .listing-card-container {
+    flex-direction: column-reverse;
+    gap: 3rem;
+    margin-top: 5rem;
+  }
+  .bg-image {
+    width: 33rem;
+    height: 22rem;
+    border-radius: 3rem;
+  }
+  .card-price {
+    font-size: 1.94rem;
+    margin-bottom: 0.5rem;
+  }
+  .card-title {
+    font-size: 1.6rem;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  /* CSS rules for medium devices */
+  .bg-image {
+    width: 31rem;
+    height: 31rem;
+    border-radius: 3rem;
+  }
+  .card-price {
+    font-size: 2rem;
+  }
+  .card-title {
+    font-size: 1.4rem;
+  }
+}
+
+/* Large devices (laptops/desktops, 1024px and up) */
+@media only screen and (min-width: 1025px) and (max-width: 1440px) {
+  /* CSS rules for large devices */
+  .bg-image {
+    width: 30rem;
+    height: 30rem;
+    border-radius: 2.5rem;
+  }
+  .card-price {
+    font-size: 2.5rem;
+  }
+  .card-title {
+    font-size: 1.7rem;
+  }
+}
+
+
