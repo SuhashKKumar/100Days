@@ -39,8 +39,8 @@ const ListingCard = () => {
               <p className="card-title">{title}</p>
               <GreyParagraph text={description} />
               <div className="beds-or-bath-container">
-              <BedsAndBath text={bath} icon={bathIcon} />
               <BedsAndBath text={beds} icon={bedIcon} />
+              <BedsAndBath text={bath} icon={bathIcon} />
               </div>
             </div>
           );

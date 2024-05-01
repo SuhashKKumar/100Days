@@ -1,0 +1,112 @@
+.services-card-contaier {
+  margin-top: 2rem;
+  background-color: #fff;
+  padding: 3rem 4rem;
+  max-width: 34rem;
+  border-radius: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+.service-icon {
+  background-color: var(--color-1);
+  box-shadow: #4362ee49 0px 1px 2px 0px, #4362ee27 0px 1px 3px 1px;
+  padding: 1rem;
+  border-radius: 1.5rem;
+  width: 4.8rem;
+}
+.service-title {
+  font-size: 1.94rem;
+}
+.service-description {
+  color: var(--text-3);
+  font-size: 1.6rem;
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  /* CSS rules for extra small devices */
+  .services-card-contaier {
+    padding: 2rem;
+    max-width: 23rem;
+  }
+  .service-icon {
+    border-radius: 1.5rem;
+    width: 4.3rem;
+  }
+  .service-title {
+    font-size: 1.5rem;
+  }
+  .service-description {
+    font-size: 1.3rem;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 601px) and (max-width: 768px) {
+  /* CSS rules for small devices */
+  .services-card-contaier {
+    padding: 2rem;
+    max-width: 33rem;
+  }
+  .service-icon {
+    border-radius: 1.5rem;
+    width: 4.8rem;
+  }
+  .service-title {
+    font-size: 1.94rem;
+  }
+  .service-description {
+    font-size: 1.6rem;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  /* CSS rules for medium devices */
+  .services-card-contaier {
+    padding: 2rem;
+    max-width: 14rem;
+  }
+  .service-icon {
+    border-radius: 1rem;
+    width: 4rem;
+  }
+  .service-title {
+    font-size: 1rem;
+  }
+  .service-description {
+    font-size: 0.9rem;
+  }
+}
+
+/* Large devices (laptops/desktops, 1024px and up) */
+@media only screen and (min-width: 1025px) and (max-width: 1440px) {
+  /* CSS rules for large devices */
+  .services-card-contaier {
+    padding: 2.5rem;
+    max-width: 18rem;
+    border-radius: 2rem;
+  }
+  .service-icon {
+    border-radius: 1rem;
+    width: 4rem;
+  }
+  .service-title {
+    font-size: 1.5rem;
+  }
+  .service-description {
+    font-size: 1.3rem;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1440px and up) */
+@media only screen and (min-width: 1441px) and (max-width: 1920px) {
+  /* CSS rules for extra large devices */
+  .services-card-contaier {
+    padding: 3rem;
+    max-width: 26rem;
+  }
+}
