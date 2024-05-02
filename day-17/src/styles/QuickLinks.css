@@ -1,0 +1,127 @@
+.quick-links-container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  background-color: #4362ee31;
+}
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  align-items: flex-start;
+  max-width: 20%;
+}
+.quick-links-text {
+  font-size: 1.94rem;
+  color: var(--text-1);
+}
+.quick-link {
+  font-size: 1.3rem;
+  color: var(--text-2);
+  font-weight: 200;
+}
+.email-container {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  border-radius: 10rem;
+}
+.email-container > input {
+  background-color: transparent;
+  height: 1.5rem;
+}
+
+.social-media-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  /* CSS rules for extra small devices */
+  .quick-links-container > .contact-container:nth-child(2),  .quick-links-container > .contact-container:nth-child(3){
+    display: none;
+  }
+  .quick-links-container {
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .contact-container {
+    max-width: 100%;
+    padding: 2em 0;
+    align-items: center;
+  }
+  .quick-links-text {
+    font-size: 1.6rem;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 601px) and (max-width: 768px) {
+  /* CSS rules for small devices */
+  .quick-links-container > .contact-container:nth-child(2),  .quick-links-container > .contact-container:nth-child(3){
+    display: none;
+  }
+  .quick-links-container {
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .contact-container {
+    max-width: 100%;
+    padding: 2em 0;
+    align-items: center;
+  }
+  .quick-links-text {
+    font-size: 1.6rem;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  /* CSS rules for medium devices */
+  .quick-links-container {
+    justify-content: space-between;
+  }
+  .quick-links-text {
+    font-size: 1.1rem;
+  }
+  .quick-link {
+    font-size: 0.8rem;
+  }
+  .email-container {
+    max-width: 90%;
+    gap: 0;
+    justify-content: flex-start;
+  }
+  .email-container > input {
+    max-width: 75%;
+    font-size: 0.8rem;
+  }
+  .contact-container {
+    max-width: 25%;
+    padding: 2em 0;
+  }
+}
+
+/* Large devices (laptops/desktops, 1024px and up) */
+@media only screen and (min-width: 1025px) and (max-width: 1440px) {
+  /* CSS rules for large devices */
+  .quick-links-text {
+    font-size: 1.4rem;
+  }
+  .quick-link {
+    font-size: 1.1rem;
+  }
+  .email-container {
+    max-width: 90%;
+    gap: 0;
+    justify-content: flex-start;
+  }
+  .email-container > input {
+    max-width: 75%;
+  }
+}

@@ -6,6 +6,7 @@ import Hero from "./components/Hero";
 import Listings from "./components/Listings";
 import Navbar from "./components/Navbar";
 import NeighborProperties from "./components/NeighborProperties";
+import QuickLinks from "./components/QuickLinks";
 import Services from "./components/Services";
 import Supporters from "./components/Supporters";
 import Team from "./components/Team";
@@ -29,6 +30,7 @@ function App() {
       <Trending />
       <Testimonials />
       <Developer/>
+      <QuickLinks/>
       <Footer />
     </div>
   );

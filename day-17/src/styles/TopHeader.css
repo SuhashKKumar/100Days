@@ -15,6 +15,12 @@
   color: white;
   font-weight: 200;
 }
+.icon-with-text > .white-text {
+  font-size: 1.33rem;
+  color: var(--text-2);
+  line-height: 1.2;
+  font-weight: 200;
+}
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
@@ -36,6 +42,9 @@
   .icon-with-text > .text {
     font-size: 0.7rem;
   }
+  .icon-with-text > .white-text {
+    font-size: 0.7rem;
+  }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -47,6 +56,9 @@
   .icon-with-text > .text {
     font-size: 0.8rem;
   }
+  .icon-with-text > .white-text {
+    font-size: 0.8rem;
+  }
 }
 
 /* Large devices (laptops/desktops, 1024px and up) */
@@ -56,6 +68,9 @@
     padding: 0.5em 5.5em;
   }
   .icon-with-text > .text {
+    font-size: 1rem;
+  }
+  .icon-with-text > .white-text {
     font-size: 1rem;
   }
 }
