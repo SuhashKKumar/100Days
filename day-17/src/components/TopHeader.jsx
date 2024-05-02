@@ -1,8 +1,8 @@
 import IconWithText from "../misc/IconWithText";
-import "../styles/TopHeader.css";
 import pin from "../assets/pin-icon.svg";
 import phone from "../assets/phone-icon.svg";
 import mail from "../assets/mail-icon.svg";
+import "../styles/TopHeader.css";
 
 const TopHeader = () => {
   return (

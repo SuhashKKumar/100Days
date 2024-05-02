@@ -1,5 +1,6 @@
 import "./App.css";
 import AboutUs from "./components/AboutUs";
+import Developer from "./components/Developer";
 import Footer from "./components/Footer";
 import Hero from "./components/Hero";
 import Listings from "./components/Listings";
@@ -27,6 +28,7 @@ function App() {
       <Team />
       <Trending />
       <Testimonials />
+      <Developer/>
       <Footer />
     </div>
   );

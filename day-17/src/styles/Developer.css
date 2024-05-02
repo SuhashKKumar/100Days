@@ -1,0 +1,129 @@
+.developer-container {
+  background-color: var(--primary-color);
+  margin: 5rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 19rem;
+  gap: 3rem;
+}
+.developer-model {
+  order: 1;
+}
+.developer-sub-container {
+  display: flex;
+  flex-direction: column;
+  max-width: 40%;
+  gap: 1rem;
+  order: 2;
+}
+.developer-btn {
+  color: var(--primary-color);
+  background-color: #fff;
+  border: none;
+  padding: 1em 3em;
+  border-radius: 3em;
+  font-size: 1.6rem;
+  order: 3;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  /* CSS rules for extra small devices */
+  .developer-container {
+    margin: 2rem;
+    border-radius: 3rem;
+    padding: 5rem 2rem 0 2rem;
+    gap: 2rem;
+    height: auto;
+    flex-direction: column;
+  }
+  .developer-sub-container{
+    order: 1;
+    max-width: 100%;
+  }
+  .developer-btn {
+    padding: 0.7em 1.5em;
+    font-size: 1.6rem;
+    order: 2;
+  }
+  .developer-sub-container > .white-headline {
+    font-size: 3rem;
+  }
+  .developer-sub-container > .white-paragraph {
+    font-size: 1.4rem;
+  }
+  .developer-model {
+    order: 3;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 601px) and (max-width: 768px) {
+  /* CSS rules for small devices */
+  .developer-container {
+    margin: 2rem;
+    border-radius: 3rem;
+    padding: 5rem 2rem 0 2rem;
+    gap: 2rem;
+    height: auto;
+    flex-direction: column;
+  }
+  .developer-sub-container{
+    order: 1;
+    max-width: 100%;
+  }
+  .developer-btn {
+    padding: 0.7em 1.5em;
+    font-size: 1.6rem;
+    order: 2;
+  }
+  .developer-sub-container > .white-headline {
+    font-size: 3rem;
+  }
+  .developer-sub-container > .white-paragraph {
+    font-size: 1.4rem;
+  }
+  .developer-model {
+    order: 3;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  /* CSS rules for medium devices */
+  .developer-container {
+    gap: 0rem;
+    height: auto;
+  }
+  .developer-btn {
+    color: var(--primary-color);
+    background-color: #fff;
+    border: none;
+    padding: 0.7em 1.5em;
+    border-radius: 3em;
+    font-size: 0.6rem;
+  }
+  .developer-sub-container > .white-headline {
+    font-size: 2rem;
+  }
+  .developer-sub-container > .white-paragraph {
+    font-size: 1rem;
+  }
+}
+
+/* Large devices (laptops/desktops, 1024px and up) */
+@media only screen and (min-width: 1025px) and (max-width: 1440px) {
+  /* CSS rules for large devices */
+  .developer-container {
+    gap: 0rem;
+  }
+  .developer-btn {
+    color: var(--primary-color);
+    background-color: #fff;
+    border: none;
+    padding: 0.7em 1.5em;
+    border-radius: 3em;
+    font-size: 1.3rem;
+  }
+}
