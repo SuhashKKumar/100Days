@@ -8,6 +8,7 @@ import NeighborProperties from "./components/NeighborProperties";
 import Services from "./components/Services";
 import Supporters from "./components/Supporters";
 import Team from "./components/Team";
+import Testimonials from "./components/Testimonials";
 import TopHeader from "./components/TopHeader";
 import Trending from "./components/Trending";
 function App() {
@@ -20,12 +21,13 @@ function App() {
       </div>
       <Supporters />
       <AboutUs />
-      <Listings/>
-      <Services/>
-      <NeighborProperties/>
-      <Team/>
-      <Trending/>
-      <Footer/>
+      <Listings />
+      <Services />
+      <NeighborProperties />
+      <Team />
+      <Trending />
+      <Testimonials />
+      <Footer />
     </div>
   );
 }

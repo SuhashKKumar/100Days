@@ -1,0 +1,134 @@
+.testimonials-card-container {
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+  padding: 2rem;
+  border-radius: 3rem;
+}
+
+.testimonial-paragraph {
+  font-size: 1.8rem;
+  border-bottom: 1px solid grey;
+  padding-bottom: 2rem;
+}
+.user-contianer {
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.user-details {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.user-rating {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+.user-image {
+  width: 5rem;
+}
+.user-name {
+  font-size: 1.9rem;
+}
+.rating-icon {
+  width: 1.4rem;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  /* CSS rules for extra small devices */
+  .rating-icon {
+    max-width: 1.5rem;
+  }
+  .user-name {
+    font-size: 1.6rem;
+  }
+  .user-image {
+    max-width: 4.5rem;
+  }
+  .testimonial-paragraph {
+    font-size: 1.5rem;
+  }
+  .user-rating {
+    gap: 0.1rem;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 601px) and (max-width: 768px) {
+  /* CSS rules for small devices */
+  .rating-icon {
+    width: 1.5rem;
+  }
+  .user-name {
+    font-size: 1.6rem;
+  }
+  .user-image {
+    width: 4.5rem;
+  }
+  .testimonial-paragraph {
+    font-size: 1.5rem;
+  }
+  .user-rating {
+    gap: 0.1rem;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  /* CSS rules for medium devices */
+  .rating-icon {
+    width: 1.5rem;
+  }
+  .user-name {
+    font-size: 1.6rem;
+  }
+  .user-image {
+    width: 4.5rem;
+  }
+  .testimonial-paragraph {
+    font-size: 1.7rem;
+  }
+  .user-rating {
+    gap: 0.1rem;
+  }
+}
+
+/* Large devices (laptops/desktops, 1024px and up) */
+@media only screen and (min-width: 1025px) and (max-width: 1440px) {
+  /* CSS rules for large devices */
+  .rating-icon {
+    width: 0.8rem;
+  }
+  .user-name {
+    font-size: 1.1rem;
+  }
+  .user-image {
+    width: 3.5rem;
+  }
+  .testimonial-paragraph {
+    font-size: 1.2rem;
+  }
+  .user-rating {
+    gap: 0.1rem;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1440px and up) */
+@media only screen and (min-width: 1441px) and (max-width: 1920px) {
+  /* CSS rules for extra large devices */
+  .rating-icon {
+    width: 1.2rem;
+  }
+  .user-name {
+    font-size: 1.7rem;
+  }
+  .user-image {
+    width: 4.5rem;
+  }
+  .testimonial-paragraph {
+    font-size: 1.6rem;
+  }
+}
