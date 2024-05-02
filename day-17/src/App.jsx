@@ -8,6 +8,7 @@ import Services from "./components/Services";
 import Supporters from "./components/Supporters";
 import Team from "./components/Team";
 import TopHeader from "./components/TopHeader";
+import Trending from "./components/Trending";
 function App() {
   return (
     <div>
@@ -22,6 +23,7 @@ function App() {
       <Services/>
       <NeighborProperties/>
       <Team/>
+      <Trending/>
     </div>
   );
 }

@@ -1,10 +1,8 @@
-import '../styles/BlueText.css'
+import "../styles/BlueText.css";
 const BlueText = (prop) => {
-    const {text} = prop
-    
-  return (
-    <p className='blue-text' >{text}</p>
-  )
-}
+  const { text, secondary = false } = prop;
 
-export default BlueText
+  return <p className={`${secondary ? "white-text" : "blue-text"}`}>{text}</p>;
+};
+
+export default BlueText;

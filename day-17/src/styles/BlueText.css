@@ -4,12 +4,18 @@
     font-size: 1.94rem;
     line-height: 0.8;
 }
+.white-text{
+  color: white;
+  letter-spacing: 1px;
+  font-size: 1.94rem;
+  line-height: 0.8;
+}
 
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   /* CSS rules for extra small devices */
-  .blue-text{
+  .blue-text, .white-text{
     font-size: 1.2rem;
 }
 }
@@ -17,7 +23,7 @@
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 601px) and (max-width: 768px) {
   /* CSS rules for small devices */
-  .blue-text{
+  .blue-text, .white-text{
     font-size: 1.2rem;
 }
 }
@@ -30,7 +36,7 @@
 /* Large devices (laptops/desktops, 1024px and up) */
 @media only screen and (min-width: 1025px) and (max-width: 1440px) {
   /* CSS rules for large devices */
-  .blue-text{
+  .blue-text, .white-text{
     font-size: 1.4rem;
 }
 }
@@ -38,7 +44,7 @@
 /* Extra large devices (large laptops and desktops, 1440px and up) */
 @media only screen and (min-width: 1441px) and (max-width: 1920px) {
   /* CSS rules for extra large devices */
-  .blue-text{
+  .blue-text, .white-text{
     font-size: 1.8rem;
 }
 }

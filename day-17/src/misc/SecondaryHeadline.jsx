@@ -1,8 +1,8 @@
 import "../styles/SecondaryHeadline.css";
 
 const SecondaryHeadline = (prop) => {
-  const { text } = prop;
-  return <div className="secondary-headline">{text}</div>;
+  const { text, secondary=false } = prop;
+  return <div className={`${secondary? 'white-headline':'secondary-headline'}`}>{text}</div>;
 };
 
 export default SecondaryHeadline;
