@@ -1,0 +1,66 @@
+.footer-container {
+  background-color: var(--text-1);
+  color: var(--text-4);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 1rem 0;
+}
+.footer-rights {
+  font-size: 1.6rem;
+}
+.footer-sub-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  /* CSS rules for extra small devices */
+  .footer-sub-container {
+    display: none;
+  }
+  .footer-container {
+    justify-content: center;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 601px) and (max-width: 768px) {
+  /* CSS rules for small devices */
+  .footer-sub-container {
+    display: none;
+  }
+  .footer-container {
+    justify-content: center;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  /* CSS rules for medium devices */
+  .footer-sub-container {
+    gap: 1rem;
+  }
+  .footer-rights {
+    font-size: 0.8rem;
+  }
+}
+
+/* Large devices (laptops/desktops, 1024px and up) */
+@media only screen and (min-width: 1025px) and (max-width: 1440px) {
+  /* CSS rules for large devices */
+  .footer-rights {
+    font-size: 1.1rem;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1440px and up) */
+@media only screen and (min-width: 1441px) and (max-width: 1920px) {
+  /* CSS rules for extra large devices */
+  .footer-rights {
+    font-size: 1.4rem;
+  }
+}

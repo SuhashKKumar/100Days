@@ -1,5 +1,6 @@
 import "./App.css";
 import AboutUs from "./components/AboutUs";
+import Footer from "./components/Footer";
 import Hero from "./components/Hero";
 import Listings from "./components/Listings";
 import Navbar from "./components/Navbar";
@@ -24,6 +25,7 @@ function App() {
       <NeighborProperties/>
       <Team/>
       <Trending/>
+      <Footer/>
     </div>
   );
 }
