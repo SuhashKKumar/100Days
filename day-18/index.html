@@ -1,37 +1,1005 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Bootstrap Learning</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Navbar section starts -->
+    <nav class="navbar navbar-expand-lg bg-color py-5 pt-lg-5">
+      <div class="container">
+        <a class="navbar-brand text-white" href="#home-section">iCoder</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#home-section"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#services-section">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about-section">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-capitalize" href="#contact-section"
+                >contact</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Navbar section ends -->
+
+    <!-- hero section starts -->
+    <section class="bg-main bg-color hero-section" id="home-section">
+      <div class="container">
+        <div class="row">
+          <div
+            class="mb-lg-0 pb-lg-0 pb-5 mb-5 text-center text-lg-start order-lg-1 order-2 col-12 col-lg-6 col-md-12 d-flex flex-column justify-content-center align-items-start"
+          >
+            <h1 class="text-capitalize fw-bolder text-white">
+              We collect high quality leads
+            </h1>
+            <p class="mt-3 mb-5 para-width text-light-grey">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi
+              optio porro non maiores veritatis? At ad perferendis expedita
+              beatae totam?
+            </p>
+            <div class="text-center text-lg-start w-100">
+              <button
+                class="btn-primary text-capitalize btn px-5 py-2"
+                data-bs-toggle="tooltip"
+                data-bs-placement="right"
+                data-bs-title="Contact Now"
+              >
+                contact us
+              </button>
+            </div>
+          </div>
+          <div
+            class="mb-lg-0 mb-5 order-lg-2 order-1 col-12 col-lg-6 col-md-12"
+          >
+            <div class="text-center text-lg-end">
+              <video
+                class="hero-section--video"
+                src="./assets/hero.mp4"
+                loop
+                muted
+                autoplay
+              >
+                Video tag isn't supported in your browser
+              </video>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="custom-shape-divider-bottom-1714828744">
+        <svg
+          data-name="Layer 1"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 1200 120"
+          preserveAspectRatio="none"
+        >
+          <path
+            d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
+            class="shape-fill"
+          ></path>
+        </svg>
+      </div>
+    </section>
+    <!-- hero section ends -->
+
+    <!-- service section starts -->
+    <section id="services-section" class="service-section my-5">
+      <div class="container text-center common-title fw-bold">
+        <h2 class="common-heading text-capitalize">
+          What we will do for <br />
+          your business
+        </h2>
+        <hr class="w-25 mx-auto" />
+      </div>
+      <div class="container mt-5">
+        <div class="row d-flex justify-content-center">
+          <div class="col-12 col-lg-4 col-md-12">
+            <div class="text-center card-box rounded-2 p-5">
+              <img
+                src="https://picsum.photos/300/200"
+                alt="random image"
+                class="img-fluid rounded shadow-sm"
+                width="200px"
+              />
+              <h5 class="my-3 fw-normal">Link Building</h5>
+              <p class="mb-5">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Repudiandae excepturi pariatur dolores doloremque! Ab dolor
+                numquam sit quas alias cumque
+              </p>
+              <div class="d-flex justify-content-center align-items-center">
+                <a
+                  href="#service"
+                  class="icon-span rounded-circle d-flex justify-content-center align-items-center"
+                >
+                  <i class="fa-solid fa-chevron-right"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-lg-4 col-md-12">
+            <div class="text-center rounded-3 shadow card-box rounded-2 p-5">
+              <img
+                src="https://picsum.photos/300/200"
+                alt="random image"
+                class="img-fluid rounded shadow-sm"
+                width="200px"
+              />
+              <h5 class="my-3 fw-normal">Link Building</h5>
+              <p class="mb-5">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Repudiandae excepturi pariatur dolores doloremque! Ab dolor
+                numquam sit quas alias cumque
+              </p>
+              <div class="d-flex justify-content-center align-items-center">
+                <a
+                  href="#service"
+                  class="icon-span rounded-circle d-flex justify-content-center align-items-center"
+                >
+                  <i class="fa-solid fa-chevron-right"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-lg-4 col-md-12">
+            <div class="text-center card-box rounded-2 p-5">
+              <img
+                src="https://picsum.photos/300/200"
+                alt="random image"
+                class="img-fluid rounded shadow-sm"
+                width="200px"
+              />
+              <h5 class="my-3 fw-normal">Link Building</h5>
+              <p class="mb-5">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Repudiandae excepturi pariatur dolores doloremque! Ab dolor
+                numquam sit quas alias cumque
+              </p>
+              <div class="d-flex justify-content-center align-items-center">
+                <a
+                  href="#service"
+                  class="icon-span rounded-circle d-flex justify-content-center align-items-center"
+                >
+                  <i class="fa-solid fa-chevron-right"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- service section ends -->
+
+    <!-- Digital Products Showcase Starts -->
+    <section class="bg-color more-info-section">
+      <div class="container">
+        <div class="row d-flex align-items-center">
+          <div
+            class=" mb-5 mb-lg-0 col-12 col-lg-6 col-md-12 img-section"
+          >
+            <video
+              class="hero-section--video"
+              src="./assets/hero.mp4"
+              loop
+              muted
+              autoplay
+            >
+              Video tag isn't supported in your browser
+            </video>
+          </div>
+          <div
+            class=" col-12 col-lg-6 col-md-12 d-flex flex-column justify-content-center align-items-start"
+          >
+            <h2 class="text-capitalize fw-bold text-white">
+              Steps to build a successful digital product
+            </h2>
+            <p class="mt-3 mb-5 para-width text-light-grey">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi
+              optio porro non maiores veritatis? At ad perferendis expedita
+              beatae totam?
+            </p>
+            <div class=" w-100">
+              <button
+                class="btn-primary text-capitalize btn px-5 py-2"
+                data-bs-toggle="tooltip"
+                data-bs-placement="right"
+                data-bs-title="Contact Now"
+              >
+                contact us
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Digital Products Showcase Ends -->
+
+    <!-- Online mode section starts -->
+    <section class="common-section business-section my-5" id="online-section">
+      <div class="container text-center common-title fw-bold">
+        <h2 class="common-heading text-capitalize">
+          Generating new customers via <br />
+          online mode
+        </h2>
+        <hr class="w-25 mx-auto" />
+      </div>
+      <div class="container mt-5">
+        <div class="row g-5">
+          <div class="col-12 col-md-12 col-lg-6">
+            <div class="d-flex px-3 shadow-sm py-5">
+              <img
+                src="https://source.unsplash.com/random"
+                width="100px"
+                alt="GIF image"
+                class="d-md-block d-none img-fluid mx-3 rounded shadow-sm"
+              />
+              <div>
+                <p class="mb-3 fw-bolder">Social Media Advertising</p>
+                <p>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Totam, obcaecati. Minima ex saepe minus quidem accusantium
+                  modi dolorem eaque nobis laudantium atque ullam illum, eius
+                  quam odit vel in a.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-12 col-lg-6">
+            <div class="d-flex px-3 shadow-sm py-5">
+              <img
+                src="https://source.unsplash.com/random"
+                width="100px"
+                alt="GIF image"
+                class="d-md-block d-none img-fluid mx-3 rounded shadow-sm"
+              />
+              <div>
+                <p class="mb-3 fw-bolder">Social Media Advertising</p>
+                <p>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Totam, obcaecati. Minima ex saepe minus quidem accusantium
+                  modi dolorem eaque nobis laudantium atque ullam illum, eius
+                  quam odit vel in a.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-12 col-lg-6">
+            <div class="d-flex px-3 shadow-sm py-5">
+              <img
+                src="https://source.unsplash.com/random"
+                width="100px"
+                alt="GIF image"
+                class="d-md-block d-none img-fluid mx-3 rounded shadow-sm"
+              />
+              <div>
+                <p class="mb-3 fw-bolder">Social Media Advertising</p>
+                <p>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Totam, obcaecati. Minima ex saepe minus quidem accusantium
+                  modi dolorem eaque nobis laudantium atque ullam illum, eius
+                  quam odit vel in a.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-12 col-lg-6">
+            <div class="d-flex px-3 shadow-sm py-5">
+              <img
+                src="https://source.unsplash.com/random"
+                width="100px"
+                alt="GIF image"
+                class="d-md-block d-none img-fluid mx-3 rounded shadow-sm"
+              />
+              <div>
+                <p class="mb-3 fw-bolder">Social Media Advertising</p>
+                <p>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Totam, obcaecati. Minima ex saepe minus quidem accusantium
+                  modi dolorem eaque nobis laudantium atque ullam illum, eius
+                  quam odit vel in a.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Online mode section ends -->
+
+    <!-- testimonial section starts -->
+    <section
+      id="about-section"
+      class="common-section mb-5 pt-5 bg-color text-white"
+    >
+      <div class="container text-center common-title fw-bold">
+        <h2 class="common-heading text-capitalize text-white">
+          What client say <br />
+          about us
+        </h2>
+        <hr class="w-25 mx-auto" />
+      </div>
+      <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="container">
+              <div class="row g-5">
+                <div class="col-lg-4 col-12">
+                  <div class="d-flex justify-content-center align-items-center">
+                    <div class="card p-3" style="width: 18rem">
+                      <img
+                        src="https://source.unsplash.com/random/60*150/?model,potrait"
+                        width="60px"
+                        height="200px"
+                        class="card-img-top"
+                        alt="..."
+                      />
+                      <div class="card-body">
+                        <h5 class="card-title mb-3">Scarlet Johnsson</h5>
+                        <p class="card-text">
+                          Some quick example text to build on the card title and
+                          make up the bulk of the card's content.
+                        </p>
+                        <div class="mt-3">
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="far fa-star"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-12">
+                  <div class="d-flex justify-content-center align-items-center">
+                    <div class="card p-3" style="width: 18rem">
+                      <img
+                        src="https://source.unsplash.com/random/60*150/?model,potrait"
+                        width="60px"
+                        height="200px"
+                        class="card-img-top"
+                        alt="..."
+                      />
+                      <div class="card-body">
+                        <h5 class="card-title mb-3">Scarlet Johnsson</h5>
+                        <p class="card-text">
+                          Some quick example text to build on the card title and
+                          make up the bulk of the card's content.
+                        </p>
+                        <div class="mt-3">
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="far fa-star"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-12">
+                  <div class="d-flex justify-content-center align-items-center">
+                    <div class="card p-3" style="width: 18rem">
+                      <img
+                        src="https://source.unsplash.com/random/60*150/?model,potrait"
+                        width="60px"
+                        height="200px"
+                        class="card-img-top"
+                        alt="..."
+                      />
+                      <div class="card-body">
+                        <h5 class="card-title mb-3">Scarlet Johnsson</h5>
+                        <p class="card-text">
+                          Some quick example text to build on the card title and
+                          make up the bulk of the card's content.
+                        </p>
+                        <div class="mt-3">
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="far fa-star"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-4 col-12">
+                  <div class="d-flex justify-content-center align-items-center">
+                    <div class="card p-3" style="width: 18rem">
+                      <img
+                        src="https://source.unsplash.com/random/60*150/?model,potrait"
+                        width="60px"
+                        height="200px"
+                        class="card-img-top"
+                        alt="..."
+                      />
+                      <div class="card-body">
+                        <h5 class="card-title mb-3">Scarlet Johnsson</h5>
+                        <p class="card-text">
+                          Some quick example text to build on the card title and
+                          make up the bulk of the card's content.
+                        </p>
+                        <div class="mt-3">
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="far fa-star"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-12">
+                  <div class="d-flex justify-content-center align-items-center">
+                    <div class="card p-3" style="width: 18rem">
+                      <img
+                        src="https://source.unsplash.com/random/60*150/?model,potrait"
+                        width="60px"
+                        height="200px"
+                        class="card-img-top"
+                        alt="..."
+                      />
+                      <div class="card-body">
+                        <h5 class="card-title mb-3">Scarlet Johnsson</h5>
+                        <p class="card-text">
+                          Some quick example text to build on the card title and
+                          make up the bulk of the card's content.
+                        </p>
+                        <div class="mt-3">
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="far fa-star"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-12">
+                  <div class="d-flex justify-content-center align-items-center">
+                    <div class="card p-3" style="width: 18rem">
+                      <img
+                        src="https://source.unsplash.com/random/60*150/?model,potrait"
+                        width="60px"
+                        height="200px"
+                        class="card-img-top"
+                        alt="..."
+                      />
+                      <div class="card-body">
+                        <h5 class="card-title mb-3">Scarlet Johnsson</h5>
+                        <p class="card-text">
+                          Some quick example text to build on the card title and
+                          make up the bulk of the card's content.
+                        </p>
+                        <div class="mt-3">
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="far fa-star"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-4 col-12">
+                  <div class="d-flex justify-content-center align-items-center">
+                    <div class="card p-3" style="width: 18rem">
+                      <img
+                        src="https://source.unsplash.com/random/60*150/?model,potrait"
+                        width="60px"
+                        height="200px"
+                        class="card-img-top"
+                        alt="..."
+                      />
+                      <div class="card-body">
+                        <h5 class="card-title mb-3">Scarlet Johnsson</h5>
+                        <p class="card-text">
+                          Some quick example text to build on the card title and
+                          make up the bulk of the card's content.
+                        </p>
+                        <div class="mt-3">
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="far fa-star"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-12">
+                  <div class="d-flex justify-content-center align-items-center">
+                    <div class="card p-3" style="width: 18rem">
+                      <img
+                        src="https://source.unsplash.com/random/60*150/?model,potrait"
+                        width="60px"
+                        height="200px"
+                        class="card-img-top"
+                        alt="..."
+                      />
+                      <div class="card-body">
+                        <h5 class="card-title mb-3">Scarlet Johnsson</h5>
+                        <p class="card-text">
+                          Some quick example text to build on the card title and
+                          make up the bulk of the card's content.
+                        </p>
+                        <div class="mt-3">
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="far fa-star"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-12">
+                  <div class="d-flex justify-content-center align-items-center">
+                    <div class="card p-3" style="width: 18rem">
+                      <img
+                        src="https://source.unsplash.com/random/60*150/?model,potrait"
+                        width="60px"
+                        height="200px"
+                        class="card-img-top"
+                        alt="..."
+                      />
+                      <div class="card-body">
+                        <h5 class="card-title mb-3">Scarlet Johnsson</h5>
+                        <p class="card-text">
+                          Some quick example text to build on the card title and
+                          make up the bulk of the card's content.
+                        </p>
+                        <div class="mt-3">
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="far fa-star"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+    <!-- testimonial section ends -->
+
+    <!-- experts panel starts -->
+    <section class="common-section mb-5 pt-5">
+      <div class="container text-center common-title fw-bold">
+        <h2 class="common-heading text-capitalize">
+          Tips and tricks from<br />
+          our experts
+        </h2>
+        <hr class="w-25 mx-auto" />
+      </div>
+      <div class="container">
+        <div class="row g-5">
+          <div class="col-lg-3 col-md-6 col-12">
+            <div class="d-flex justify-content-center align-items-center">
+              <div class="card" style="width: 18rem">
+                <img
+                  src="https://source.unsplash.com/random/60*150/?model,potrait"
+                  width="60px"
+                  height="200px"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <div class="d-flex justify-content-between">
+                    <p class="text-grey small">
+                      <i class="fa-solid fa-book-open-reader d-i"></i> : 5000
+                    </p>
+                    <p class="text-grey small">May 6, 2024</p>
+                  </div>
+                  <h5 class="card-title mt-3">Web Developement</h5>
+                  <p class="card-text mt-2 mb-3">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </p>
+                  <button class="btn btn-dark px-4">Read More</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-12">
+            <div class="d-flex justify-content-center align-items-center">
+              <div class="card" style="width: 18rem">
+                <img
+                  src="https://source.unsplash.com/random/60*150/?model,potrait"
+                  width="60px"
+                  height="200px"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <div class="d-flex justify-content-between">
+                    <p class="text-grey small">
+                      <i class="fa-solid fa-book-open-reader d-i"></i> : 5000
+                    </p>
+                    <p class="text-grey small">May 6, 2024</p>
+                  </div>
+                  <h5 class="card-title mt-3">Web Developement</h5>
+                  <p class="card-text mt-2 mb-3">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </p>
+                  <button class="btn btn-dark px-4">Read More</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-12">
+            <div class="d-flex justify-content-center align-items-center">
+              <div class="card" style="width: 18rem">
+                <img
+                  src="https://source.unsplash.com/random/60*150/?model,potrait"
+                  width="60px"
+                  height="200px"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <div class="d-flex justify-content-between">
+                    <p class="text-grey small">
+                      <i class="fa-solid fa-book-open-reader d-i"></i> : 5000
+                    </p>
+                    <p class="text-grey small">May 6, 2024</p>
+                  </div>
+                  <h5 class="card-title mt-3">Web Developement</h5>
+                  <p class="card-text mt-2 mb-3">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </p>
+                  <button class="btn btn-dark px-4">Read More</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-12">
+            <div class="d-flex justify-content-center align-items-center">
+              <div class="card" style="width: 18rem">
+                <img
+                  src="https://source.unsplash.com/random/60*150/?model,potrait"
+                  width="60px"
+                  height="200px"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <div class="d-flex justify-content-between">
+                    <p class="text-grey small">
+                      <i class="fa-solid fa-book-open-reader d-i"></i> : 5000
+                    </p>
+                    <p class="text-grey small">May 6, 2024</p>
+                  </div>
+                  <h5 class="card-title mt-3">Web Developement</h5>
+                  <p class="card-text mt-2 mb-3">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </p>
+                  <button class="btn btn-dark px-4">Read More</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- experts panel ends -->
+
+    <!-- contact section starts -->
+    <section
+      class="common-section contact-section text-white py-5 bg-color"
+      id="contact-section"
+    >
+      <div class="custom-shape-divider-top-1714980472">
+        <svg
+          data-name="Layer 1"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 1200 120"
+          preserveAspectRatio="none"
+        >
+          <path
+            d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
+            class="shape-fill"
+          ></path>
+        </svg>
+      </div>
+      <div class="container text-center common-title fw-bold">
+        <h2 class="common-heading text-capitalize text-white">Contact us</h2>
+        <hr class="w-25 mx-auto" />
+      </div>
+      <div class="container">
+        <div class="form-section mx-auto">
+          <form>
+            <div class="mb-3">
+              <div class="row">
+                <div class="col-lg-6 col-12">
+                  <label for="exampleFormUserFirstName" class="form-label"
+                    >First Name</label
+                  >
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="exampleFormUserFirstName"
+                    placeholder="Tony"
+                  />
+                </div>
+                <div class="col-lg-6 col-12">
+                  <label for="exampleFormUserLastName" class="form-label"
+                    >Last Name</label
+                  >
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="exampleFormUserLastName"
+                    placeholder="Stark"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="mb-3">
+              <label for="exampleFormControlInput1" class="form-label"
+                >Email address</label
+              >
+              <input
+                type="email"
+                class="form-control"
+                id="exampleFormControlInput1"
+                placeholder="name@example.com"
+              />
+            </div>
+            <div class="mb-3">
+              <label for="exampleFormControlTextarea1" class="form-label"
+                >Example textarea</label
+              >
+              <textarea
+                class="form-control"
+                id="exampleFormControlTextarea1"
+                rows="3"
+              ></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary px-5">Submit</button>
+          </form>
+        </div>
+      </div>
+    </section>
+    <!-- contact section ends -->
+
+    <!-- footer section starts -->
+    <footer class="common-section text-white bg-color pt-5">
+      <div class="container">
+        <div class="row g-5">
+          <div class="d-flex justify-content-center align-items-center">
+            <div class="col-4">
+              <div class="d-flex flex-column align-items-center">
+                <i
+                  class="fa-solid fa-phone fa-shake fa-8x"
+                  style="color: #ffffff"
+                ></i>
+                <p class="text-white pt-4">(+91) 8074-251-636</p>
+              </div>
+            </div>
+            <div class="col-4">
+              <div class="d-flex flex-column align-items-center">
+                <i
+                  class="fa-solid fa-envelope-circle-check fa-beat fa-8x"
+                  style="color: #fff"
+                ></i>
+                <p class="text-white pt-4">(+91) 8074-251-636</p>
+              </div>
+            </div>
+            <div class="col-4">
+              <div class="d-flex flex-column align-items-center">
+                <i
+                  class="fa-solid fa-map-location-dot fa-bounce fa-8x"
+                  style="color: #ffffff"
+                ></i>
+                <p class="text-white pt-4">(+91) 8074-251-636</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container mb-3"></div>
+      <div class="container pt-5">
+        <div class="row">
+          <div class="col-2 d-sm-none d-md-block d-none">
+            <div class="d-flex flex-column align-items-center gap-3">
+              <h3 class="text-white">About</h3>
+              <ul>
+                <li class="text-grey">Our Story</li>
+                <li class="text-grey">Our Story</li>
+                <li class="text-grey">Our Story</li>
+                <li class="text-grey">Our Story</li>
+                <li class="text-grey">Our Story</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-2 d-sm-none d-md-block d-none">
+            <div class="d-flex flex-column align-items-center gap-3">
+              <h3 class="text-white">About</h3>
+              <ul>
+                <li class="text-grey">Our Story</li>
+                <li class="text-grey">Our Story</li>
+                <li class="text-grey">Our Story</li>
+                <li class="text-grey">Our Story</li>
+                <li class="text-grey">Our Story</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-2 d-sm-none d-md-block d-none">
+            <div class="d-flex flex-column align-items-center gap-3">
+              <h3 class="text-white">About</h3>
+              <ul>
+                <li class="text-grey">Our Story</li>
+                <li class="text-grey">Our Story</li>
+                <li class="text-grey">Our Story</li>
+                <li class="text-grey">Our Story</li>
+                <li class="text-grey">Our Story</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-6 col-12">
+            <div class="d-flex flex-column align-items-start gap-3">
+              <h3 class="text-white">Subscribe</h3>
+              <div class="input-group mb-3">
+                <input
+                  type="text"
+                  class="form-control text-grey form-control-sm"
+                  placeholder="Recipient's username"
+                  aria-label="Recipient's username"
+                  aria-describedby="button-addon2"
+                />
+                <button
+                  class="btn btn-primary"
+                  type="button"
+                  id="button-addon2"
+                >
+                  Subscribe
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <hr />
+        <div class="row mt-4">
+          <!-- <div class="d-flex align-items-center justify-content-between"> -->
+          <p class="text-white col-lg-10 col-12">
+            Copyright &copy;2024. All rights reserved | Made as a part of
+            Learning by <span class="bg-theme fw-bold"> SuhashKKumar.</span>
+          </p>
+          <div class=" mt-0 mt-sm-3 col-lg-2 col-12 d-flex justify-content-center gap-3">
+            <i
+              class="fa-brands rounded-circle fa-instagram"
+              style="color: #fff"
+            ></i>
+            <i
+              class="fa-brands rounded-circle fa-whatsapp"
+              style="color: #fff"
+            ></i>
+            <i
+              class="fa-brands rounded-circle fa-github"
+              style="color: #fff"
+            ></i>
+          </div>
+          <!-- </div> -->
+        </div>
+      </div>
+    </footer>
+    <!-- footer section ends -->
+
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
       crossorigin="anonymous"
     ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
-      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
-      integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
-      crossorigin="anonymous"
-    ></script>
-  </head>
-  <body>
-    <h1>Hello world</h1>
-    <div class="alert alert-primary alert-dismissible fade show" role="alert">
-        A simple primary alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you like.
-        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
-      </div>
-      <h6>Example heading <span class="badge text-bg-warning rounded-pill">New</span></h6>
+    <script>
+      const tooltipTriggerList = document.querySelectorAll(
+        '[data-bs-toggle="tooltip"]'
+      );
+      const tooltipList = [...tooltipTriggerList].map(
+        (tooltipTriggerEl) => new bootstrap.Tooltip(tooltipTriggerEl)
+      );
+    </script>
   </body>
 </html>
