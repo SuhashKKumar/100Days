@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Navbar section starts -->
+    <nav class="navbar navbar-expand-lg bg-color py-5 pt-lg-5">
+      <div class="container">
+        <a class="navbar-brand text-white" href="#home-section">iCoder</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#home-section"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#services-section">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about-section">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-capitalize" href="/contact.html"
+                >contact</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Navbar section ends -->
+    <!-- contact section starts -->
+    <section
+      class="common-section contact-section text-white py-5 bg-color"
+      id="contact-section"
+    >
+      <div class="container text-center common-title fw-bold">
+        <h2 class="common-heading text-capitalize text-white">Contact us</h2>
+        <hr class="w-25 mx-auto" />
+      </div>
+      <div class="container mb-5 pb-5">
+        <div class="form-section mx-auto">
+          <form>
+            <div class="mb-3">
+              <div class="row">
+                <div class="col-lg-6 col-12">
+                  <label for="exampleFormUserFirstName" class="form-label"
+                    >First Name</label
+                  >
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="exampleFormUserFirstName"
+                    placeholder="Tony"
+                  />
+                </div>
+                <div class="col-lg-6 col-12">
+                  <label for="exampleFormUserLastName" class="form-label"
+                    >Last Name</label
+                  >
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="exampleFormUserLastName"
+                    placeholder="Stark"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="mb-3">
+              <label for="exampleFormControlInput1" class="form-label"
+                >Email address</label
+              >
+              <input
+                type="email"
+                class="form-control"
+                id="exampleFormControlInput1"
+                placeholder="name@example.com"
+              />
+            </div>
+            <div class="mb-3">
+              <label for="exampleFormControlTextarea1" class="form-label"
+                >Example textarea</label
+              >
+              <textarea
+                class="form-control"
+                id="exampleFormControlTextarea1"
+                rows="3"
+              ></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary px-5">Submit</button>
+          </form>
+        </div>
+      </div>
+      
+    </section>
+    <!-- contact section ends -->
+
+    <!-- footer section starts -->
+    <footer class="common-section text-white bg-color pt-5">
+        
+      <div class="container">
+        
+        <div class="row g-5">
+          <div class="d-flex justify-content-center align-items-center">
+            <div class="col-4">
+              <div class="d-flex flex-column align-items-center">
+                <i
+                  class="fa-solid fa-phone fa-shake fa-8x"
+                  style="color: #ffffff"
+                ></i>
+                <p class="text-white pt-4">(+91) 8074-251-636</p>
+              </div>
+            </div>
+            <div class="col-4">
+              <div class="d-flex flex-column align-items-center">
+                <i
+                  class="fa-solid fa-envelope-circle-check fa-beat fa-8x"
+                  style="color: #fff"
+                ></i>
+                <p class="text-white pt-4">(+91) 8074-251-636</p>
+              </div>
+            </div>
+            <div class="col-4">
+              <div class="d-flex flex-column align-items-center">
+                <i
+                  class="fa-solid fa-map-location-dot fa-bounce fa-8x"
+                  style="color: #ffffff"
+                ></i>
+                <p class="text-white pt-4">(+91) 8074-251-636</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container mb-3"></div>
+      <div class="container pt-5">
+        <div class="row">
+          <div class="col-2 d-sm-none d-md-block d-none">
+            <div class="d-flex flex-column align-items-center gap-3">
+              <h3 class="text-white">About</h3>
+              <ul>
+                <li class="text-grey">Our Story</li>
+                <li class="text-grey">Our Story</li>
+                <li class="text-grey">Our Story</li>
+                <li class="text-grey">Our Story</li>
+                <li class="text-grey">Our Story</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-2 d-sm-none d-md-block d-none">
+            <div class="d-flex flex-column align-items-center gap-3">
+              <h3 class="text-white">About</h3>
+              <ul>
+                <li class="text-grey">Our Story</li>
+                <li class="text-grey">Our Story</li>
+                <li class="text-grey">Our Story</li>
+                <li class="text-grey">Our Story</li>
+                <li class="text-grey">Our Story</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-2 d-sm-none d-md-block d-none">
+            <div class="d-flex flex-column align-items-center gap-3">
+              <h3 class="text-white">About</h3>
+              <ul>
+                <li class="text-grey">Our Story</li>
+                <li class="text-grey">Our Story</li>
+                <li class="text-grey">Our Story</li>
+                <li class="text-grey">Our Story</li>
+                <li class="text-grey">Our Story</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-6 col-12">
+            <div class="d-flex flex-column align-items-start gap-3">
+              <h3 class="text-white">Subscribe</h3>
+              <div class="input-group mb-3">
+                <input
+                  type="text"
+                  class="form-control text-grey form-control-sm"
+                  placeholder="Recipient's username"
+                  aria-label="Recipient's username"
+                  aria-describedby="button-addon2"
+                />
+                <button
+                  class="btn btn-primary"
+                  type="button"
+                  id="button-addon2"
+                >
+                  Subscribe
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <hr />
+        <div class="row mt-4">
+          <!-- <div class="d-flex align-items-center justify-content-between"> -->
+          <p class="text-white col-lg-10 col-12">
+            Copyright &copy;2024. All rights reserved | Made as a part of
+            Learning by <span class="bg-theme fw-bold"> SuhashKKumar.</span>
+          </p>
+          <div
+            class="mt-0 mt-sm-3 col-lg-2 col-12 d-flex justify-content-center gap-3"
+          >
+            <i
+              class="fa-brands rounded-circle fa-instagram"
+              style="color: #fff"
+            ></i>
+            <i
+              class="fa-brands rounded-circle fa-whatsapp"
+              style="color: #fff"
+            ></i>
+            <i
+              class="fa-brands rounded-circle fa-github"
+              style="color: #fff"
+            ></i>
+          </div>
+          <!-- </div> -->
+        </div>
+      </div>
+    </footer>
+    <!-- footer section ends -->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      const tooltipTriggerList = document.querySelectorAll(
+        '[data-bs-toggle="tooltip"]'
+      );
+      const tooltipList = [...tooltipTriggerList].map(
+        (tooltipTriggerEl) => new bootstrap.Tooltip(tooltipTriggerEl)
+      );
+    </script>
+  </body>
+</html>
