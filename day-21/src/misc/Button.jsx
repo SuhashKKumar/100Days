@@ -2,7 +2,7 @@ import "../styles/Button.css";
 const Button = (prop) => {
   const { icon, text, color } = prop;
   return (
-    <button>
+    <button className="btn-component" >
       <div className="default-btn">
         <span>{text}</span>
         {icon}
