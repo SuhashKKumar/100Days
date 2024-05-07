@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Urbanist", sans-serif;
+}
+
+:root {
+  --ns-dark-color: #1c1c1c;
+  --ns-grey-color: #4f4e4e;
+}
+html {
+  scroll-behavior: smooth;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Lexend Deca", sans-serif;
+  color: var(--ns-dark-color);
+}
+h1 {
+  font-size: 3.4rem;
+}
+h2 {
+  font-size: 3.4rem;
+  line-height: 4rem;
+  font-weight: 600;
+}
+p {
+  margin: 0;
+  font-weight: 400;
+  font-size: 1rem;
+  color: var(--ns-grey-color);
+  letter-spacing: 0.07rem;
+  line-height: 1.55rem;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+button,
+a {
+  font-size: 1.15rem !important;
+  letter-spacing: 0.03rem;
+  word-spacing: 0.1rem;
+}
+ol,
+ul {
+  padding: 0;
+}
+
+.icon-text {
+  font-size: 1.5rem;
+}
+
+@media screen and (max-width: 992px) {
+    h1{
+        font-size: 3rem;
+    }
+  .first-card {
+    border-right: none !important;
+  }
+  .second-card {
+    border-right: none !important;
+  }
+  .fourth-card {
+    border-bottom: 1px solid var(--bs-border-color);
+    border-right: none !important;
+  }
+  .fifth-card {
+    border-bottom: 1px solid var(--bs-border-color);
+    border-right: none !important;
+  }
+
+}
