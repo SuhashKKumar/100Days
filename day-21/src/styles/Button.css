@@ -1,42 +1,36 @@
 button {
-    position: relative;
-    overflow: hidden;
-    outline: none;
-    cursor: pointer;
-    border-radius: 50px;
-    font-family: inherit;
-    border: none;
-   }
-   
-   .default-btn,.hover-btn {
-    display: flex;
-    align-items: center;
-    gap: 1rem;
-    padding: 0.3em 1.7em;
-    border-radius: 50%;
-    text-transform: capitalize;
-    font-size: 1.2rem;
-    font-weight: 500;
-    transition: all 400ms ease;
+  position: relative;
+  overflow: hidden;
+  outline: none;
+  cursor: pointer;
+  border-radius: 50px;
+  font-family: inherit;
+  border: none;
 }
 
-   
-   .hover-btn {
-    position: absolute;
-    inset: 0;
-    transform: translate(0%,100%);
-   }
-   
-   .default-btn span, .hover-btn span {
-    color: hsl(0, 0%, 100%);
-   }
-   
-   
-   button:hover .default-btn {
-    transform: translate(0%,-100%);
-   }
-   
-   button:hover .hover-btn {
-       transform: translate(0%,0%);
-    }
-  
+.default-btn,
+.hover-btn {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 0.3em 1.7em;
+  border-radius: 50%;
+  text-transform: capitalize;
+  font-size: 1.2rem;
+  font-weight: 500;
+  transition: all 400ms ease;
+}
+
+.hover-btn {
+  position: absolute;
+  inset: 0;
+  transform: translate(0%, 100%);
+}
+
+button:hover .default-btn {
+  transform: translate(0%, -100%);
+}
+
+button:hover .hover-btn {
+  transform: translate(0%, 0%);
+}
