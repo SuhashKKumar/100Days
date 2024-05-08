@@ -1,7 +1,7 @@
 .hero-animation {
   margin-top: 1rem;
   animation: rotate 5s infinite linear;
-  max-width: 7rem !important;
+  max-width: 5rem !important;
   height: 10rem !important;
 }
 .hero--background-video {

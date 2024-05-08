@@ -3,7 +3,7 @@ import { faAsterisk } from "@fortawesome/free-solid-svg-icons";
 import "../styles/Hero.css";
 const Hero = () => {
   return (
-    <div className=" mt-5 pt-4 padding-container">
+    <div className=" mt-5 padding-container">
       <div className="container-fluid">
         <div className="row d-flex align-items-start ">
           <h1 className=" col-11 text-start text-uppercase">
@@ -15,7 +15,7 @@ const Hero = () => {
           />
         </div>
       </div>
-      <div className="container-fluid my-3">
+      <div className="container-fluid mt-3 mb-5">
         <div className="row">
           <div className="col-12 hero--background-video"></div>
         </div>
