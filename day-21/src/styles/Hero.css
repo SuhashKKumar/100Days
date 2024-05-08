@@ -1,6 +1,6 @@
 .hero-animation {
   margin-top: 1rem;
-  animation: rotate 5s infinite linear;
+  animation: rotate 10s infinite linear;
   max-width: 5rem !important;
   height: 10rem !important;
 }
