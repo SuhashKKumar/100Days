@@ -1,0 +1,30 @@
+.navbar-brand {
+  font-family: nikodecs, sans-serif;
+  font-size: 3.3rem;
+}
+.nav-link {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: var(--black);
+  transition: all 400ms ease-in;
+}
+.nav-link:hover {
+  opacity: 0.7;
+}
+.container-fluid{
+  padding: 0;
+}
+/* Large devices (laptops/desktops, 1024px and up) */
+@media only screen and (min-width: 1025px) and (max-width: 1440px) {
+  /* CSS rules for large devices */
+  .nav-link {
+    font-size: 1.2rem;
+  }
+}
+/* Extra large devices (large laptops and desktops, 1440px and up) */
+@media only screen and (min-width: 1441px) and (max-width: 1920px) {
+  /* CSS rules for extra large devices */
+  .nav-link {
+    font-size: 1.3rem;
+  }
+}

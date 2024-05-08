@@ -2,17 +2,15 @@
 
 @font-face {
   font-family: podiumSharp;
-  src: url('./assets/fonts/Fontspring-DEMO-podiumsharp-1.10.otf');
+  src: url('assets/fonts/Fontspring-DEMO-podiumsharp-2.11.otf');
 }
 @font-face {
   font-family: nikodecs;
-  src: url('./assets/fonts/Nikodecs-87E2.otf');
+  src: url('assets/fonts/Nikodecs-87E2.otf');
 }
 
 #root {
-  max-width: 1280px;
   margin: 0 auto;
-  padding: 2rem;
   text-align: center;
 }
 :root {
@@ -44,12 +42,20 @@
   /* font-family: podiumSharp, sans-serif; */
   /* font-family: nikodecs, sans-serif; */
 }
-
-body {
+/* html{
   font-size: 62.5%;
+} */
+body {
   background-color: var(--off-white);
   color: var(--black) ;
 }
 h1 {
-  font-size: 17.5rem;
+  font-size: 19.5rem;
+  letter-spacing:8px;
+  line-height: 0.93;
+  font-family: podiumSharp, sans-serif;
 }
+.padding-container{
+  padding: 0 2em;
+}
+

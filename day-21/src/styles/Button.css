@@ -7,15 +7,23 @@
   font-family: inherit;
   border: none;
 }
+.btn-component:hover{
+  background-color: none;
+}
+.primary-comp{
+  background-color: var(--green-100);
+}
+.secondary-comp{
+  background-color: blue;
+}
 
 .default-btn,
 .hover-btn {
   display: flex;
   align-items: center;
   gap: 1rem;
-  padding: 0.3em 1.7em;
+  padding: 0.3em 0.7em;
   border-radius: 50%;
-  text-transform: capitalize;
   font-size: 1.2rem;
   font-weight: 500;
   transition: all 400ms ease;

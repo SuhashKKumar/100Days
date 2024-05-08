@@ -1,13 +1,14 @@
-import './App.css'
-import Button from './misc/Button'
-
+import "./App.css";
+import Hero from "./components/Hero";
+import Navbar from "./components/Navbar";
+import '@fortawesome/fontawesome-svg-core/styles.css';
 function App() {
-
   return (
     <>
-      <Button text="login" />
+      <Navbar />
+      <Hero/>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
