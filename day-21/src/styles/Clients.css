@@ -1,0 +1,6 @@
+.clients-container{
+    min-height: 98vh;
+    display: grid;
+    place-items: center;
+    background-color: var(--grey-200);
+}
