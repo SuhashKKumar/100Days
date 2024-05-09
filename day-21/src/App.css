@@ -2,11 +2,11 @@
 
 @font-face {
   font-family: podiumSharp;
-  src: url('assets/fonts/Fontspring-DEMO-podiumsharp-2.11.otf');
+  src: url("assets/fonts/Fontspring-DEMO-podiumsharp-2.11.otf");
 }
 @font-face {
   font-family: nikodecs;
-  src: url('assets/fonts/Nikodecs-87E2.otf');
+  src: url("assets/fonts/Nikodecs-87E2.otf");
 }
 
 #root {
@@ -35,7 +35,7 @@
   --green-100: #94e8d0;
 }
 * {
-  padding: 0 ;
+  padding: 0;
   margin: 0;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
@@ -43,21 +43,27 @@
   /* font-family: nikodecs, sans-serif; */
 }
 
-html{
+html {
   scroll-behavior: smooth;
 }
 
 body {
   background-color: var(--off-white);
-  color: var(--black) ;
+  color: var(--black);
+}
+::selection{
+  background-color: var(--peach-100);
 }
 h1 {
   font-size: 19.2rem;
-  letter-spacing:8px;
+  letter-spacing: 8px;
   line-height: 0.93;
   font-family: podiumSharp, sans-serif;
 }
-.padding-container{
+.padding-container {
   padding: 0 3rem !important;
 }
-
+.common-container {
+  min-height: 100vh;
+  width: 100%;
+}
