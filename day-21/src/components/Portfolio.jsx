@@ -1,3 +1,4 @@
+import LogoSlider from '../misc/LogoSlider'
 import SecondaryHeadline from '../misc/SecondaryHeadline'
 import '../styles/Portfolio.css'
 const Portfolio = () => {
@@ -9,7 +10,7 @@ const Portfolio = () => {
             <SecondaryHeadline text="portfolio" />
           </div>
           <div className="col-12">
-            <p>image carasoul</p>
+            <LogoSlider/>
           </div>
         </div>
       </div>
