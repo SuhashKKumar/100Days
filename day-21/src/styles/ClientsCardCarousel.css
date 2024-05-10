@@ -8,11 +8,21 @@
   color: var(--grey-300);
 }
 .carousel-caption {
-  bottom: 40%;
+  top: 50%;
+}
+.carousel-caption h5{
+    font-size: 1.1rem;
 }
 .carousel-img {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  height: 35rem;
+  height: 23rem;
+}
+
+.client-description{
+    font-size: 1.7rem;
+    font-weight: 500;
+    line-height: 1.4;
+    letter-spacing: -1.1px;
 }

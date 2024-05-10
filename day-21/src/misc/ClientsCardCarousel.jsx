@@ -1,5 +1,4 @@
 import { ClientsData } from "../lib/ClientsData";
-import DescriptionText from "../misc/DescriptionText";
 import Button from "../misc/Button";
 import "../styles/ClientsCardCarousel.css";
 const ClientsCardCarousel = () => {
@@ -13,13 +12,13 @@ const ClientsCardCarousel = () => {
         {ClientsData.map(
           ({ id, description, brand, status, logo, designation }) => {
             const imgStyles = {
-              backgroundImage: `linear-gradient(to bottom, rgba(245, 246, 252, 0), rgba(25, 24, 25, 0.73)),
+              backgroundImage: `linear-gradient(to bottom, rgba(245, 246, 252, 0), rgba(25, 24, 25, 0.80)),
               url(assets/images/carousel-${id}.jpg)`,
             };
             return (
               <div
                 key={id}
-                className={`p-5 bg-light carousel-item ${id === 1 && "active"}`}
+                className={`p-4 bg-light carousel-item ${id === 1 && "active"}`}
               >
                 <div className="row mb-4">
                   <div className="d-flex align-items-start justify-content-between ">
@@ -35,12 +34,12 @@ const ClientsCardCarousel = () => {
                   <h5>{designation}</h5>
                 </div>
                 <div className="mt-5">
-                  <DescriptionText text={description} />
+                  <p className=" text-start client-description" >{description}.</p>
                 </div>
                 <div className="row mt-5">
                   <div className="d-flex align-items-end justify-content-between ">
                     <Button comp="secondary" text="Visit now" />
-                    <img src={logo} height={80} />
+                    <img src={logo} height={60} />
                   </div>
                 </div>
               </div>

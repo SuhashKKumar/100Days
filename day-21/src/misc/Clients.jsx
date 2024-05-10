@@ -5,7 +5,7 @@ const Clients = () => {
     <div className="clients-container">
       <div className="container-fluid">
         <div className="row">
-          <div className="mx-auto py-5 col-12 col-lg-6">
+          <div className="mx-auto py-5 col-12 col-lg-4">
           <ClientsCardCarousel/>
           </div>
         </div>
