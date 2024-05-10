@@ -7,20 +7,28 @@
   font-family: inherit;
   border: none;
 }
-.btn-component:hover{
+.btn-component:hover {
   background-color: none;
 }
-.primary-comp{
+.primary-comp {
   background-color: var(--green-100);
 }
-.secondary-comp{
-  background-color: blue;
+.secondary-comp {
+  background-color: transparent !important;
+  border-bottom: 2px solid var(--black);
+  border-radius: 0;
+}
+.secondary-comp .default-btn,
+.secondary-comp .hover-btn {
+  padding: 0;
+  
 }
 
 .default-btn,
 .hover-btn {
   display: flex;
   align-items: center;
+  justify-content: start;
   gap: 1rem;
   padding: 0.3em 0.7em;
   border-radius: 50%;

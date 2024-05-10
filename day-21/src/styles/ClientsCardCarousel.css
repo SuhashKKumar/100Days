@@ -1,0 +1,18 @@
+.client-brand {
+  font-size: 4rem;
+  font-family: podiumSharp, sans-serif;
+  text-transform: uppercase;
+}
+.client-status {
+  font-size: 1.3rem;
+  color: var(--grey-300);
+}
+.carousel-caption {
+  bottom: 40%;
+}
+.carousel-img {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 35rem;
+}
