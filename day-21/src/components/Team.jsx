@@ -25,7 +25,9 @@ const Team = () => {
             alt="a group of people having a meeting"
           />
         </div>
-       
+        <div className='d-flex justify-content-start my-5' >
+        <Button text="meet the team" comp="primary" />
+        </div>
       </div>
     </div>
   );
