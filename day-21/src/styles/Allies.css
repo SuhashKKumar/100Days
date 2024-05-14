@@ -1,0 +1,6 @@
+.allies-container {
+  height: 150vh;
+  display: grid;
+  place-items: center;
+  position: relative;
+}

@@ -1,0 +1,26 @@
+.allies-card-container {
+  max-width: 500px;
+}
+.allies-img {
+  width: 100%;
+}
+.uneven-position .col-12:nth-child(1) .allies-card-container {
+  position: absolute;
+  top: 5%;
+  left: 5%;
+}
+.uneven-position .col-12:nth-child(2) .allies-card-container {
+  position: absolute;
+  top: 50%;
+  left: 13%;
+}
+.uneven-position .col-12:nth-child(3) .allies-card-container {
+  position: absolute;
+  top: 35%;
+  left: 45%;
+}
+.uneven-position .col-12:nth-child(4) .allies-card-container {
+  position: absolute;
+  top: 60%;
+  left: 73%;
+}
