@@ -4,3 +4,23 @@
   place-items: center;
   position: relative;
 }
+
+.parallax-text {
+  background-image: url(assets/images/parallax-text.png);
+  background-attachment: fixed;
+  position: absolute;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 150%;
+  opacity: 1;
+  animation: parallax linear;
+  animation-timeline: scroll();
+}
+
+@keyframes parallax {
+ 
+  to {
+    opacity: 0.4;
+  }
+}

@@ -5,6 +5,8 @@ import "../styles/Allies.css";
 const Allies = () => {
   return (
     <div className="  padding-container my-5 common-container">
+      <div className="parallax-text "></div>
+
       <div className="row allies-container">
         <div className="d-flex flex-column uneven-position">
           {AlliesCardData.map(({ id, img, description }) => {
