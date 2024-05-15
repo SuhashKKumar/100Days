@@ -5,6 +5,7 @@
   cursor: pointer;
   border-radius: 50px;
   font-family: inherit;
+  /* min-width: fit-content !important; */
   border: none;
 }
 .btn-component:hover {
@@ -35,8 +36,13 @@
   font-size: 1.2rem;
   font-weight: 500;
   transition: all 150ms ease;
+  flex-wrap: wrap;
 }
+.default-btn *, .hover-btn *{
+  min-width: fit-content !important;
+  flex: 1;
 
+}
 .hover-btn {
   position: absolute;
   inset: 0;
