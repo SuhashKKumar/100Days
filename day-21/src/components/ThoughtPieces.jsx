@@ -1,7 +1,8 @@
 import DescriptionText from "../misc/DescriptionText";
 import SecondaryHeadline from "../misc/SecondaryHeadline";
-import "../styles/ThoughtPieces.css";
 import Articles from "./Articles";
+import "../styles/ThoughtPieces.css";
+import Button from "../misc/Button";
 const ThoughtPieces = () => {
   const description =
     "We love to solve problems and sharing ideas is integral to how we do it.";
@@ -17,7 +18,15 @@ const ThoughtPieces = () => {
           </div>
         </div>
       </div>
-      <Articles/>
+      <Articles />
+      <div className=" border-top container-fluid py-5 ">
+        <div className="row">
+          <div className="d-flex align-items-start justify-content-between ">
+            <img src="assets/logos/logo-1.svg" height="50" alt="logo" />
+            <Button text="ALL ARTICLES" comp="primary" />
+          </div>
+        </div>
+      </div>
     </div>
   );
 };
