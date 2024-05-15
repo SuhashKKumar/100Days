@@ -22,7 +22,6 @@ function App() {
       <InvestmentPlan />
       <hr />
       <ThoughtPieces />
-      <hr />
     </div>
   );
 }
