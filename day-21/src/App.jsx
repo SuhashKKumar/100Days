@@ -5,18 +5,21 @@ import Navbar from "./components/Navbar";
 import Portfolio from "./components/Portfolio";
 import Allies from "./components/Allies";
 import Team from "./components/Team";
+import InvestmentPlan from "./components/InvestmentPlan";
 function App() {
   return (
-    <div className="main-bg" >
+    <div className="main-bg">
       <Navbar />
-      <Hero/>
-      <Brilliant/>
-      <Portfolio/>
-      <hr/> 
-      <Allies/>
-      <hr/> 
-      <Team/>
-      <hr/> 
+      <Hero />
+      <Brilliant />
+      <Portfolio />
+      <hr />
+      <Allies />
+      <hr />
+      <Team />
+      <hr />
+      <InvestmentPlan />
+      <hr />
     </div>
   );
 }
