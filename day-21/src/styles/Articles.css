@@ -1,0 +1,17 @@
+.article-date {
+  font-size: 1rem;
+}
+
+.article-title {
+  font-size: 1.4rem;
+  transition: all 250ms ease-in-out;
+}
+.article:hover .article-title,
+.article:hover .article-date {
+  opacity: 0.7;
+}
+.article-container{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 60rem;
+}

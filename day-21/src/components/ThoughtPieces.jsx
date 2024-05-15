@@ -1,6 +1,7 @@
 import DescriptionText from "../misc/DescriptionText";
 import SecondaryHeadline from "../misc/SecondaryHeadline";
 import "../styles/ThoughtPieces.css";
+import Articles from "./Articles";
 const ThoughtPieces = () => {
   const description =
     "We love to solve problems and sharing ideas is integral to how we do it.";
@@ -15,8 +16,8 @@ const ThoughtPieces = () => {
             <DescriptionText text={description} />
           </div>
         </div>
-        <hr className="mt-5" />
       </div>
+      <Articles/>
     </div>
   );
 };
