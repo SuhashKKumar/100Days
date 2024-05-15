@@ -13,6 +13,7 @@
   position: absolute;
   top: 50%;
   left: 10%;
+  z-index: 1 !important;
 }
 .uneven-position .col-12:nth-child(3) .allies-card-container {
   position: absolute;
@@ -23,4 +24,5 @@
   position: absolute;
   top: 60%;
   left: 70%;
+  z-index: 3 !important;
 }
