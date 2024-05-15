@@ -6,6 +6,7 @@ import Portfolio from "./components/Portfolio";
 import Allies from "./components/Allies";
 import Team from "./components/Team";
 import InvestmentPlan from "./components/InvestmentPlan";
+import ThoughtPieces from "./components/ThoughtPieces";
 function App() {
   return (
     <div className="main-bg">
@@ -19,6 +20,8 @@ function App() {
       <Team />
       <hr />
       <InvestmentPlan />
+      <hr />
+      <ThoughtPieces />
       <hr />
     </div>
   );
