@@ -26,7 +26,7 @@ const InvestmentPlan = () => {
       </div>
       <div className="container-fluid my-5 pb-5 ">
         <div className="row justify-content-between align-items-start">
-          <div className="col-12 col-md-6 col-xl-4 mb-sm-5 order-0">
+          <div className="col-12 col-md-6 col-xl-4 mb-5 order-0">
             <div className="investment-btn">
               <div className="blur-effect">
                 <Button text="submit your pitch" comp="primary" />
