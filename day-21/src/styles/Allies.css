@@ -11,11 +11,12 @@
   position: absolute;
   background-repeat: no-repeat;
   background-position: center;
+  background-size: cover;
   width: 90%;
   height: 200%;
-  z-index: 2 !important;
+  z-index: 0 !important;
   opacity: 1;
-  animation: parallax linear infinite;
+  animation: parallax linear;
   animation-timeline: scroll();
 }
 
@@ -23,5 +24,64 @@
  
   to {
     opacity: 0.4;
+  }
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 576px) {
+  /* CSS rules for extra small devices */
+  .allies-container {
+    height: fit-content;
+  }
+  .parallax-text{
+    display: none;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 577px) and (max-width: 768px) {
+  /* CSS rules for small devices */
+  .allies-container {
+    height: fit-content;
+  }
+  .parallax-text{
+    display: none;
+  }
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+  /* CSS rules for small devices */
+  .allies-container {
+    height: fit-content;
+  }
+  .parallax-text{
+    display: none;
+    margin: 0 auto !important;
+    /* height: 100%; */
+  }
+  .uneven-position{
+    /* display: flex;
+    flex-direction: column; */
+    gap: 4rem;
+    /* margin:  0 auto; */
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 993px) and (max-width: 1200px) {
+  /* CSS rules for medium devices */
+  .parallax-text{
+    width: 100%;
+    margin: 0 auto !important;
+  }
+
+}
+
+/* 4K devices (large desktops, 1920px and up) */
+@media only screen and (min-width: 1921px) {
+  /* CSS rules for 4K devices */
+  .parallax-text{
+    z-index: 2 !important;
   }
 }

@@ -7,10 +7,10 @@ const Allies = () => {
     <div className="  padding-container my-5 common-container">
     <div className="parallax-text "></div>
       <div className="row allies-container">
-        <div className="d-flex flex-column uneven-position">
+        <div className="d-flex uneven-position flex-wrap">
           {AlliesCardData.map(({ id, img, description }) => {
             return (
-              <div key={id} className="col-12">
+              <div key={id} className="col-12 col-md-5 p-3 mx-auto">
                 <AlliesCard img={img} description={description} />
               </div>
             );
