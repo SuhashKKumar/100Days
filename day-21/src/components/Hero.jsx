@@ -11,7 +11,7 @@ const Hero = () => {
           </h1>
           <FontAwesomeIcon
             icon={faAsterisk}
-            className="col-1 col-auto hero-animation"
+            className="col-1 hero-animation"
           />
         </div>
       </div>
