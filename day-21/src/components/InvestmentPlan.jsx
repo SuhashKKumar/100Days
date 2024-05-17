@@ -9,10 +9,10 @@ const InvestmentPlan = () => {
     <div className="padding-container my-5 common-container">
       <div className="container-fluid py-5">
         <div className="row justify-content-between align-items-start">
-          <div className="col-12 col-lg-5">
+          <div className="col-12 col-xl-6 mb-xl-0 mb-3 ">
             <SecondaryHeadline text="our investment approach" />
           </div>
-          <div className="col-12 col-lg-6">
+          <div className="col-12 col-xl-6">
             <div className="row d-flex flex-column align-items-start">
               <div className="col-12">
                 <DescriptionText text={description} />
@@ -26,14 +26,14 @@ const InvestmentPlan = () => {
       </div>
       <div className="container-fluid my-5 pb-5 ">
         <div className="row justify-content-between align-items-start">
-          <div className="col-4">
+          <div className="col-12 col-md-6 col-xl-4 mb-sm-5 order-0">
             <div className="investment-btn">
               <div className="blur-effect">
                 <Button text="submit your pitch" comp="primary" />
               </div>
             </div>
           </div>
-          <div className="col-3">
+          <div className="col-xl-3 col-12 col-md-6 order-1">
             <img
               className="teams-img"
               src="assets/images/investment-1.jpg"
