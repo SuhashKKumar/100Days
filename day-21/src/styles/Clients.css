@@ -8,7 +8,7 @@
     /* CSS rules for extra small devices */
     .clients-container{
         background-color: transparent;
-        
+        min-height: fit-content;
     }
   }
   
