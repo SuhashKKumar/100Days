@@ -50,6 +50,7 @@ html {
   background-color: var(--peach-100);
 }
 
+
 h1 {
   font-size: 19.2rem;
   letter-spacing: 8px;
@@ -64,6 +65,8 @@ h1 {
   width: 100%;
 }
 .main-bg {
+  margin: 0 !important ;
+  padding: 0 !important ;
   background-color: var(--off-white);
   color: var(--black);
   /* overflow: hidden; */

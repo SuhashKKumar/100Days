@@ -27,15 +27,11 @@ const Articles = () => {
           key={id}
           onMouseOver={() => mouseOverHandler(id)}
           onMouseOut={mouseOutHandler}
-          className=" article row py-5 border-top d-flex align-items-start justify-content-between gap-5"
+          className=" article row py-5 border-top d-flex align-items-start justify-content-between"
         >
-          <div className="col-1">
-            <p className="m-0 p-0 article-date">{date}</p>
-          </div>
-          <div className="col-7">
-            <p className="text-start m-0 p-0 article-title">{title}</p>
-          </div>
-          <div className="col-1">
+          <p className="col-lg-2 m-0 pt-2 article-date">{date}</p>
+          <p className=" col-lg-8 text-start m-0 p-0 article-title">{title}</p>
+          <div className="col-lg-2 read-more--btn ">
             <Button text="READ NOW" comp="secondary" />
           </div>
         </div>
