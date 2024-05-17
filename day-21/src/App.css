@@ -40,8 +40,6 @@
   margin: 0;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
-  /* font-family: podiumSharp, sans-serif; */
-  /* font-family: nikodecs, sans-serif; */
 }
 
 html {
@@ -70,7 +68,6 @@ h1 {
   padding: 0 !important ;
   background-color: var(--off-white);
   color: var(--black);
-  /* overflow: hidden; */
 }
 
 /* Extra small devices (phones, 600px and down) */
