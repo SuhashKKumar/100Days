@@ -4,3 +4,46 @@
     letter-spacing: -2px;
     line-height: 1.3;
 }
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 576px) {
+    /* CSS rules for extra small devices */
+    .description{
+        font-size: 1.5rem;
+        letter-spacing: -1px;
+        line-height: 1.2;
+    }
+  }
+  
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 577px) and (max-width: 768px) {
+    /* CSS rules for small devices */
+    .description{
+        font-size: 2rem;
+    }
+  }
+  
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 769px) and (max-width: 992px) {
+    /* CSS rules for small devices */
+    .description{
+        font-size: 2rem;
+    }
+  }
+  
+  
+  /* Large devices (laptops/desktops, 1024px and up) */
+  @media only screen and (min-width: 1201px) and (max-width: 1440px) {
+    /* CSS rules for large devices */
+    .description{
+        font-size: 2rem;
+    }
+  }
+  
+  /* Extra large devices (large laptops and desktops, 1440px and up) */
+  @media only screen and (min-width: 1441px) and (max-width: 1920px) {
+    /* CSS rules for extra large devices */
+    .description{
+        font-size: 2.3rem;
+    }
+  }
+  
