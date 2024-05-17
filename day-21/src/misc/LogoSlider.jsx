@@ -45,7 +45,7 @@ const LogoSlider = () => {
   },[]);
 
   return (
-    <div className=" my-5 scroller">
+    <div className=" my-5 mb-sm-3 scroller">
       <div className=" scroller--inner">
         {imageFileNames.map((image, index) => (
           <img

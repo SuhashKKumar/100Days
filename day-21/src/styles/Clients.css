@@ -4,3 +4,26 @@
     place-items: center;
     background-color: var(--grey-200);
 }
+@media only screen and (max-width: 576px) {
+    /* CSS rules for extra small devices */
+    .clients-container{
+        background-color: transparent;
+        
+    }
+  }
+  
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 577px) and (max-width: 768px) {
+    /* CSS rules for small devices */
+    .clients-container{
+        background-color: transparent;
+    }
+  }
+  
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 769px) and (max-width: 992px) {
+    /* CSS rules for small devices */
+    .clients-container{
+        background-color: transparent;
+    }
+  }
