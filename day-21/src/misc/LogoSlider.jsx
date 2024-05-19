@@ -15,14 +15,14 @@ const LogoSlider = () => {
     "logo-18",
     "logo-9",
     "logo-14",
-    // "logo-12",
-    // "logo-7",
-    // "logo-13",
-    // "logo-11",
-    // "logo-19",
-    // "logo-10",
-    // "logo-15",
-    // "logo-20",
+    "logo-12",
+    "logo-7",
+    "logo-13",
+    "logo-11",
+    "logo-19",
+    "logo-10",
+    "logo-15",
+    "logo-20",
   ];
 
   useEffect(() => {

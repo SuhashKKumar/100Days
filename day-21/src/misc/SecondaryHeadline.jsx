@@ -1,9 +1,9 @@
-import '../styles/SecondaryHeadline.css'
+import "../styles/SecondaryHeadline.css";
 const SecondaryHeadline = (prop) => {
-    const {text}=prop
+  const { text } = prop;
   return (
-    <h2 className='secondary-headline text-uppercase text-start ' >{text}</h2>
-  )
-}
+    <h2 className="secondary-headline text-uppercase text-start ">{text}</h2>
+  );
+};
 
-export default SecondaryHeadline
+export default SecondaryHeadline;
