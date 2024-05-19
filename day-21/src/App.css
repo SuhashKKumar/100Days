@@ -2,11 +2,11 @@
 
 @font-face {
   font-family: podiumSharp;
-  src: url("assets/fonts/Fontspring-DEMO-podiumsharp-2.11.otf");
+  src: url("/assets/fonts/Fontspring-DEMO-podiumsharp-2.11.otf");
 }
 @font-face {
   font-family: nikodecs;
-  src: url("assets/fonts/Nikodecs-87E2.otf");
+  src: url("/assets/fonts/Nikodecs-87E2.otf");
 }
 
 #root {
@@ -18,14 +18,14 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  --off-white: #f8f7f5; 
-  --black: #1b1c1f; 
-  --grey-200: #eaeaec; 
-  --grey-300: #aaa; 
-  --peach-100: #ffc3b0; 
-  --green-100: #94e8d0; 
+  --off-white: #f8f7f5;
+  --black: #1b1c1f;
+  --grey-200: #eaeaec;
+  --grey-300: #aaa;
+  --peach-100: #ffc3b0;
+  --green-100: #94e8d0;
   /* not used yet */
-  --grey-100: #f2f2f2; 
+  --grey-100: #f2f2f2;
   --grey-400: #606060;
   --blue-100: #a4abff;
   --blue-200: #6e74ff;
@@ -48,7 +48,6 @@ html {
 ::selection {
   background-color: var(--peach-100);
 }
-
 
 h1 {
   font-size: 19.2rem;

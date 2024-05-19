@@ -6,7 +6,7 @@
 }
 
 .parallax-text {
-  background-image: url("assets/images/parallax-text.svg");
+  background-image: url("/assets/images/parallax-text.svg");
   background-attachment: fixed;
   position: absolute;
   background-repeat: no-repeat;
