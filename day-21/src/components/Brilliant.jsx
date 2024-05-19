@@ -20,7 +20,7 @@ const Brilliant = () => {
       <div className="container-fluid">
         <div className="row align-items-start brilliant-images-container" >
         {
-            brilliantImages.map((brilliantImage)=><img className="col-xl-4 col-12 brilliant-image" key={brilliantImage} className="col-12 col-lg-4" src={`assets/images/brilliant-${brilliantImage}.jpg`} />)
+            brilliantImages.map((brilliantImage)=><img className="col-xl-4 col-12 brilliant-image" key={brilliantImage} src={`assets/images/brilliant-${brilliantImage}.jpg`} />)
         }
         
         </div>

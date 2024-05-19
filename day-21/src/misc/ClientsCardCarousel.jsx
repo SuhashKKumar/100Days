@@ -37,7 +37,7 @@ const ClientsCardCarousel = () => {
                   <p className=" text-start client-description" >{description}.</p>
                 </div>
                 <div className="row mt-5">
-                  <div className="d-flex align-items-end justify-content-between ">
+                  <div className="d-flex align-items-center justify-content-between ">
                     <Button comp="secondary" text="Visit now" />
                     <img className="client-brand--logo" src={logo} height={60} />
                   </div>
