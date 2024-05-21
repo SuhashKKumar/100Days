@@ -1,15 +1,15 @@
 const Navbar = () => {
   return (
-    <nav className="px-4 py-6 bg-slate-700 text-white flex justify-between items-center">
+    <nav className="flex items-center justify-between px-4 py-2 text-white bg-purple-700 sm:bg-red-700 md:bg-amber-600 xl:bg-blue-700 2xl:bg-slate-700">
       <img
         src="https://randomuser.me/api/portraits/women/68.jpg"
-        className="w-14 rounded-full"
+        className="rounded-full w-14"
       />
-      <ul className="flex gap-5 ">
-        <li className="mx-2 cursor-pointer">Home</li>
-        <li className="mx-2 cursor-pointer ">About US</li>
-        <li className="mx-2 cursor-pointer ">Catalogue</li>
-        <li className="mx-2 cursor-pointer ">Contact</li>
+      <ul className="flex gap-[2rem]">
+        <li className="font-bold cursor-pointer">Home</li>
+        <li className="font-bold cursor-pointer">About US</li>
+        <li className="font-bold cursor-pointer">Catalogue</li>
+        <li className="font-bold cursor-pointer">Contact</li>
       </ul>
     </nav>
   );

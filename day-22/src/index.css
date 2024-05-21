@@ -1,5 +1,8 @@
 @tailwind base;
 @tailwind components;
+.componentsAfter {
+  text-align: center;
+}
 @tailwind utilities;
 
 :root {
@@ -17,4 +20,16 @@
 
 body {
   margin: 0rem auto;
+}
+.btn {
+  @apply px-4 py-2 font-bold text-white bg-blue-500 rounded-full hover:bg-blue-700;
+}
+.btn2 {
+  background-color: red;
+}
+
+@layer utilities {
+  .text-wired {
+    @apply py-2 font-bold bg-slate-400;
+  }
 }
