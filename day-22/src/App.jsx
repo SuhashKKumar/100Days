@@ -1,11 +1,10 @@
-import Hero from "./components/Hero";
-import Navbar from "./components/Navbar";
+import Facebook from "./components/Facebook";
+
 
 function App() {
   return (
     <>
-      <Navbar/>
-      <Hero/>
+      <Facebook/>
     </>
   );
 }
