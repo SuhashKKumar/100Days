@@ -8,12 +8,14 @@ const Facebook = () => {
             className="w-96"
             alt="facebook logo"
           />
-          <p className="text-2xl mx-9" >Facebook helps you connect and share with people in your life.</p>
+          <p className="text-2xl mx-9">
+            Facebook helps you connect and share with people in your life.
+          </p>
         </div>
         <div className="right flex-col w-1/3 flex gap-8">
           <div className="flex flex-col items-center gap-3 rounded-lg bg-white p-4 shadow-lg">
             <input
-              type="text"
+              type="email"
               className="border border-solid px-2 py-3 w-full  border-slate-300 rounded-md"
               placeholder="Email address or phone number"
             />
@@ -31,8 +33,9 @@ const Facebook = () => {
               Create New Account
             </button>
           </div>
-          <p className="text-xs text-center" >
-            <span className="font-bold" >Create a Page</span> for a celebrity, brand or business.
+          <p className="text-xs text-center">
+            <span className="font-bold">Create a Page</span> for a celebrity,
+            brand or business.
           </p>
         </div>
       </div>
