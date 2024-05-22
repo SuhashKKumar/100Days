@@ -20,7 +20,7 @@ const Navbar = () => {
           className="w-6 "
         />
         <p className="font-bold text-slate-600 text-lg">Microsoft</p>
-        <div className="nav-items text-sm mt-1 md:flex items-center mx-4 gap-4 absolute md:static w-fit inset-0 ">
+        <div className="nav-items text-sm mx-4 gap-4 w-fit inset-0 bg-gray-200 mt-4 absolute -translate-x-28 md:translate-x-0 md:static md:mt-1 md:flex md:items-center md:bg-transparent">
           <div className="nav-item w-fit border-solid hover:border-blue-950 border-b-2 border-transparent cursor-pointer">
             Microsoft 365
           </div>
