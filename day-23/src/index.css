@@ -9,3 +9,6 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+.hamberger-lines{
+  @apply h-0.5 w-6 bg-black my-1
+}
