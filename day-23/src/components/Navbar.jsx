@@ -1,6 +1,6 @@
 const Navbar = () => {
   return (
-    <nav className="navbar flex justify-between items-center p-3 ">
+    <nav className="navbar flex justify-between items-center p-3 md:px-10 lg:px-20 xl:px-28 ">
       <div className="flex items-center gap-5 md:justify-end ">
         <div className="hamberger inline-block cursor-pointer md:hidden ">
           <div className="hamberger-lines"></div>
