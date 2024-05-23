@@ -21,25 +21,27 @@ const Navbar = () => {
         />
         <p className="font-bold text-slate-600 text-lg">Microsoft</p>
         <div className="nav-items text-sm mx-4 gap-4 w-fit inset-0 bg-gray-200 mt-4 absolute -translate-x-28 md:translate-x-0 md:static md:mt-1 md:flex md:items-center md:bg-transparent">
-          <div className="nav-item w-fit border-solid hover:border-blue-950 border-b-2 border-transparent cursor-pointer">
+          <div className="nav-item w-fit hover:underline underline-offset-4 cursor-pointer">
             Microsoft 365
           </div>
-          <div className="nav-item w-fit border-solid hover:border-blue-950 border-b-2 border-transparent cursor-pointer">
+          <div className="nav-item w-fit hover:underline underline-offset-4 cursor-pointer">
             Teams
           </div>
-          <div className="nav-item w-fit border-solid hover:border-blue-950 border-b-2 border-transparent cursor-pointer">
+          <div className="nav-item w-fit hover:underline underline-offset-4 cursor-pointer">
             Copilot
           </div>
-          <div className="nav-item w-fit border-solid hover:border-blue-950 border-b-2 border-transparent cursor-pointer">
+          <div className="nav-item w-fit hover:underline underline-offset-4 cursor-pointer">
             Windows
           </div>
 
           <select
             name="More"
             id="More"
-            className="nav-item w-fit border-solid hover:border-blue-950 border-b-2 border-transparent cursor-pointer inline-block lg:hidden bg-transparent "
+            className="nav-item w-fit hover:underline underline-offset-4 cursor-pointer inline-block lg:hidden bg-transparent "
           >
-          <option value="" selected disabled hidden>More</option>
+            <option value="" selected disabled hidden>
+              More
+            </option>
             <option className="bg-transparent" value="Surface">
               Surface
             </option>
@@ -51,25 +53,39 @@ const Navbar = () => {
             </option>
           </select>
 
-          <div className="nav-item w-fit border-solid hover:border-blue-950 border-b-2 border-transparent cursor-pointer hidden lg:inline-block ">
+          <div className="nav-item w-fit hover:underline underline-offset-4 cursor-pointer hidden lg:inline-block ">
             Surface
           </div>
-          <div className="nav-item w-fit border-solid hover:border-blue-950 border-b-2 border-transparent cursor-pointer hidden lg:inline-block ">
+          <div className="nav-item w-fit hover:underline underline-offset-4 cursor-pointer hidden lg:inline-block ">
             Xbox
           </div>
-          <div className="nav-item w-fit border-solid hover:border-blue-950 border-b-2 border-transparent cursor-pointer hidden lg:inline-block ">
+          <div className="nav-item w-fit hover:underline underline-offset-4 cursor-pointer hidden lg:inline-block ">
             Support
           </div>
         </div>
       </div>
       <div className="flex items-center gap-5 md:order-last mt-1 ">
-        <img
-          src="/assets/search-icon.svg"
-          alt="Search"
-          className="w-6 hidden md:block"
-        />
-        <img src="/assets/cart-icon.svg" alt="Cart" className="w-6 " />
-        <img src="/assets/user-icon.svg" alt="User Account" className="w-6 " />
+        <p className="hidden lg:inline-block text-sm hover:underline underline-offset-4 cursor-pointer">All Microsoft</p>
+        <div className="flex item-center mt-1 xl:gap-1">
+          <p className="text-sm hidden xl:inline-block hover:underline underline-offset-4 cursor-pointer">Search</p>
+          <img
+            src="/assets/search-icon.svg"
+            alt="Search"
+            className="w-6 hidden md:block"
+          />
+        </div>
+        <div className="flex item-center mt-1 xl:gap-1">
+          <p className="text-sm hidden xl:inline-block hover:underline underline-offset-4 cursor-pointer">Cart</p>
+          <img src="/assets/cart-icon.svg" alt="Cart" className="w-6 " />
+        </div>
+        <div className="flex item-center mt-1 xl:gap-1">
+        <p className="text-sm hidden xl:inline-block hover:underline underline-offset-4 cursor-pointer">Sign In</p>
+          <img
+            src="/assets/user-icon.svg"
+            alt="User Account"
+            className="w-6 "
+          />
+        </div>
       </div>
     </nav>
   );
