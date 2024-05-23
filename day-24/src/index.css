@@ -8,3 +8,6 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+.sponsor {
+  @apply cursor-pointer max-h-10 grayscale hover:grayscale-0 transition-all duration-200 ease-in-out w-1/3;
+}
