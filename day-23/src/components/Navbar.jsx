@@ -12,9 +12,9 @@ const Navbar = () => {
           className="hamberger inline-block cursor-pointer md:hidden"
           onClick={menuHandler}
         >
-          <div className="hamberger-lines"></div>
-          <div className="hamberger-lines"></div>
-          <div className="hamberger-lines"></div>
+          <div className={`hamberger-lines ${showMenu?"rotate-45 ":"rotate-0"} origin-center`}></div>
+          <div className={`hamberger-lines ${showMenu?"hidden":"block"}`}></div>
+          <div className={`hamberger-lines ${showMenu?"-rotate-45 ":"rotate-0"} origin-center`}></div>
         </div>
         <img
           src="/assets/search-icon.svg"
