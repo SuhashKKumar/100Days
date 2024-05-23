@@ -46,7 +46,7 @@ const Navbar = () => {
           <select
             name="More"
             id="More"
-            className="nav-item my-2 md:my-0 w-fit hover:underline underline-offset-4 cursor-pointer inline-block lg:hidden bg-transparent "
+            className=" hidden md:inline-block nav-item my-2 md:my-0 w-fit hover:underline underline-offset-4 cursor-pointer lg:hidden bg-transparent "
           >
             <option value="" selected disabled hidden>
               More
@@ -62,13 +62,13 @@ const Navbar = () => {
             </option>
           </select>
 
-          <div className="nav-item w-fit hover:underline underline-offset-4 cursor-pointer hidden lg:inline-block ">
+          <div className="nav-item w-fit hover:underline underline-offset-4 cursor-pointer block my-4 md:my-0 md:hidden lg:inline-block ">
             Surface
           </div>
-          <div className="nav-item w-fit hover:underline underline-offset-4 cursor-pointer hidden lg:inline-block ">
+          <div className="nav-item w-fit hover:underline underline-offset-4 cursor-pointer block my-4 md:my-0 md:hidden lg:inline-block ">
             Xbox
           </div>
-          <div className="nav-item w-fit hover:underline underline-offset-4 cursor-pointer hidden lg:inline-block ">
+          <div className="nav-item w-fit hover:underline underline-offset-4 cursor-pointer block my-4 md:my-0 md:hidden lg:inline-block ">
             Support
           </div>
         </div>
