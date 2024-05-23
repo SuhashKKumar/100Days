@@ -29,7 +29,7 @@ const Navbar = () => {
           className="w-6 "
         />
         <p className="font-bold text-slate-600 text-lg">Microsoft</p>
-        <div className={`nav-items text-sm mx-4 md:gap-4 md:px-0 w-full inset-0 bg-gray-200 mt-14 absolute  ${showMenu? '-translate-x-4': '-translate-x-[-100rem]'} md:w-fit md:translate-x-0 md:static md:mt-1 md:flex md:items-center md:bg-transparent`}>
+        <div className={`nav-items text-sm mx-4 md:gap-4 md:px-0 w-full inset-0 bg-gray-200 mt-14 absolute  ${showMenu? '-translate-x-4': '-translate-x-[-100rem]'} md:w-fit md:translate-x-0 md:static md:mt-0 md:flex md:items-center md:bg-transparent`}>
           <div className="nav-item p-3 md:px-0 md:py-0 text-lg md:text-sm border-b-gray-300 border w-full  md:border-0  md:w-fit md:hover:underline underline-offset-4 cursor-pointer">
             Microsoft 365
           </div>
