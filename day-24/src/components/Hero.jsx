@@ -10,7 +10,7 @@ const Hero = () => {
             MORE &rarr;
           </button>
         </div>
-        <p className="headline text-7xl font-bold md:text-[9rem] lg:text-[4rem]">
+        <p className="headline text-7xl font-bold md:text-[9rem] lg:text-[5rem] xl:text-[6rem]">
           Buy Now. Pay Later. Simply
         </p>
         <p className="text-xl font-semibold md:text-3xl md:w-2/3 lg:text-2xl lg:w-full">
