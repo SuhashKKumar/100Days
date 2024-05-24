@@ -20,7 +20,9 @@ const Hero = () => {
           Get the App
         </button>
         <div className="last-section my-6 w-full">
-          <p className="font-bold mb-1 md:text-2xl md:mb-5 lg:mt-5 lg:text-sm lg:tracking-tighter ">TRUSTED BY</p>
+          <p className="font-bold mb-1 md:text-2xl md:mb-5 lg:mt-5 lg:text-sm lg:tracking-tighter ">
+            TRUSTED BY
+          </p>
           <div className="sponsors-container flex gap-3 justify-between">
             <img
               src="/assets/client-1.svg"
@@ -56,15 +58,19 @@ const Hero = () => {
             own limitless virtual card.
           </p>
           <div className="flex items-center gap-3 my-3">
-            <p className="font-semibold order-1 md:text-lg lg:text-sm lg:tracking-tighter">See how it works</p>
+            <p className="font-semibold order-1 md:text-lg lg:text-sm lg:tracking-tighter">
+              See how it works
+            </p>
             <div className="bg-gray-100 p-2 order-0 ">
               <img src="/assets/video-icon.svg" className="h-8" />
             </div>
           </div>
         </div>
         <div className="flex flex-col gap-3 md:text-center lg:text-start">
-          <p className="font-bold md:text-xl lg:text-sm lg:tracking-tighter">SPLIT IN NUMBERS</p>
-          <div className="md:flex md:justify-around md:text-center lg:flex-col lg:text-start lg:gap-4" >
+          <p className="font-bold md:text-xl lg:text-sm lg:tracking-tighter">
+            SPLIT IN NUMBERS
+          </p>
+          <div className="md:flex md:justify-around md:text-center lg:flex-col lg:text-start lg:gap-4">
             <div>
               <h1 className="text-7xl font-bold">1.45M</h1>
               <p className="text-xl font-semibold md:text-2xl lg:text-lg ">
