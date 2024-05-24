@@ -9,12 +9,12 @@ const Navbar = () => {
     <nav className="navbar flex justify-between items-center p-3 md:px-8 lg:px-20 xl:px-28 ">
       <div className="flex items-center gap-5 md:justify-end ">
         <div
-          className="hamberger inline-block cursor-pointer md:hidden"
+          className="hamberger cursor-pointer flex flex-col items-center justify-center gap-[2px] md:hidden"
           onClick={menuHandler}
         >
-          <div className={`hamberger-lines ${showMenu?"rotate-[45deg] ":"rotate-0"} origin-center`}></div>
-          <div className={`hamberger-lines ${showMenu?"hidden":"block"}`}></div>
+          <div className={`hamberger-lines ${showMenu?"rotate-[45deg] translate-y-1 ":"rotate-0"} origin-center`}></div>
           <div className={`hamberger-lines ${showMenu?"-rotate-[45deg] ":"rotate-0"}origin-center`}></div>
+          <div className={`hamberger-lines ${showMenu?"hidden":"block"}`}></div>
         </div>
         <img
           src="/assets/search-icon.svg"
