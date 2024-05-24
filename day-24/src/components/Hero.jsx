@@ -2,7 +2,7 @@ const Hero = () => {
   return (
     <main className="hero-container flex flex-col px-2 my-9 items-center lg:flex-row lg:items-start lg:mt-14 lg:mb-0 lg:gap-3">
       <div className="left w-full lg:w-1/3 flex flex-col gap-5 items-start">
-        <div className="offer-container flex flex-col w-full items-start gap-2 md:flex-row md:items-center lg:w-full lg:justify-between lg:gap-1">
+        <div className="offer-container flex flex-col w-full items-start gap-2 md:flex-row md:items-center lg:w-full lg:justify-start lg:gap-2">
           <p className="offer font-semibold md:text-2xl lg:text-sm lg:tracking-tighter ">
             GET 20% OFF THE FIRST PURCHASE
           </p>
