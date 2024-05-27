@@ -58,7 +58,7 @@ const Navbar = () => {
       <div
         className={` ${
           navExpand ? "inline-block" : "hidden"
-        } absolute w-full p-5 lg:p-0 lg:static lg:flex lg:gap-8 lg:mx-20`}
+        } absolute w-full z-10 p-5 lg:p-0 lg:static lg:flex lg:gap-8 lg:mx-20`}
       >
         {NavbarData.map(({ id, title, items }) => {
           return (
@@ -99,7 +99,7 @@ const Navbar = () => {
           <p className="text-dark-blue-200 font-semibold text-lg mt-5">
             Make your CRM Work now.
           </p>
-          <button className="py-2 bg-dark-blue-200 text-white rounded-md text-sm font-semibold">
+          <button className="free-btn">
             Start for free
           </button>
         </div>

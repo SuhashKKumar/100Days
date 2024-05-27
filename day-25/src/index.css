@@ -1,5 +1,8 @@
 @tailwind base;
 @tailwind components;
+.free-btn {
+  @apply py-2 bg-dark-blue-200 text-white rounded-md text-sm font-semibold;
+}
 @tailwind utilities;
 
 :root {
@@ -9,14 +12,15 @@
   -moz-osx-font-smoothing: grayscale;
   scroll-behavior: smooth;
 }
-*{
+* {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
-.special-font{
-  font-family: 'Cabinet Grotesk', sans-serif;
+.special-font {
+  font-family: "Cabinet Grotesk", sans-serif;
 }
-.hamburger-line{
-  @apply w-7 h-[1px] bg-black transition-all duration-300 ease-in-out
+.hamburger-line {
+  @apply w-7 h-[1px] bg-black transition-all duration-300 ease-in-out;
 }
+
