@@ -64,7 +64,6 @@ const Hero = () => {
         No credit card required . GDPR Complaint . ISO27001 Certified
       </p>
       <SubHero/>
-      
     </div>
   );
 };
