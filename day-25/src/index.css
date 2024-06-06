@@ -24,3 +24,31 @@
   @apply w-7 h-[1px] bg-black transition-all duration-300 ease-in-out;
 }
 
+.scroller {
+  max-width: 100%;
+}
+.scroller--inner {
+  padding-block: 1rem;
+}
+
+.scroller[data-animated="true"] {
+  overflow: hidden;
+}
+.scroller[data-animated="true"] .scroller--inner {
+  flex-wrap: nowrap;
+  /* animation: logo-scroll 200s linear infinite; */
+  width: max-content;
+}
+.logo-slider--item {
+  flex: 0 0 auto;
+  margin-right: 3rem;
+}
+
+@keyframes logo-scroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(calc(-50% - 0.5rem));
+  }
+}
