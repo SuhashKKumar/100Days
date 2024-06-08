@@ -58,7 +58,7 @@ const Navbar = () => {
       <div
         className={` ${
           navExpand ? "inline-block" : "hidden"
-        } absolute w-full z-10 p-5 lg:p-0 lg:static lg:flex lg:gap-8 lg:mx-20`}
+        } absolute w-full z-10 p-5 bg-white lg:bg-transparent lg:p-0 lg:static lg:flex lg:gap-8 lg:mx-20`}
       >
         {NavbarData.map(({ id, title, items }) => {
           return (
@@ -79,7 +79,7 @@ const Navbar = () => {
                   return (
                     <div key={item} className="lg:hidden">
                       <div className="flex items-center justify-between py-2 px-6">
-                        ={" "}
+                        
                         <p className="text-[15px] text-dark-blue-200">{item}</p>
                         <FontAwesomeIcon
                           icon={faChevronRight}

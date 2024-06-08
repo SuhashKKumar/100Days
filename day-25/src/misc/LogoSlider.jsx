@@ -48,13 +48,13 @@ const LogoSlider = () => {
       <p className="text-dark-blue-100 text-center md:text-start">
         Trusted by top-performing sales teams
       </p>
-      <div className=" scroller--inner flex flex-wrap gap-10">
+      <div className=" scroller--inner flex flex-wrap gap-2 md:gap-10">
         {imageFileNames.map((image, index) => (
           <img
             key={index}
             src={`assets/logos/${image}.svg`}
             alt={`Image ${index + 1}`}
-            className="h-5 w-20 opacity-60 md:h-10 md:w-28 "
+            className="h-5 w-20 oacity-60 md:h-10 md:w-28 "
           />
         ))}
       </div>

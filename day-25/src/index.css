@@ -36,7 +36,7 @@
 }
 .scroller[data-animated="true"] .scroller--inner {
   flex-wrap: nowrap;
-  /* animation: logo-scroll 200s linear infinite; */
+  animation: logo-scroll 200s linear infinite;
   width: max-content;
 }
 .logo-slider--item {
