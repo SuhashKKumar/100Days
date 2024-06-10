@@ -1,5 +1,6 @@
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
+import VideoSection from "./components/VideoSection";
 
 
 const App = () => {
@@ -7,6 +8,7 @@ const App = () => {
     <>
     <Navbar/>
     <Hero/>
+    <VideoSection/>
     </>
   );
 };

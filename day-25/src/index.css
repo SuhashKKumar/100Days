@@ -20,10 +20,16 @@
 .special-font {
   font-family: "Cabinet Grotesk", sans-serif;
 }
+
+.brush-font {
+  font-family: "Striper", sans-serif;
+}
+
 .hamburger-line {
   @apply w-7 h-[1px] bg-black transition-all duration-300 ease-in-out;
 }
 
+/* infinite logo slider */
 .scroller {
   max-width: 100%;
 }
@@ -52,3 +58,33 @@
     transform: translateX(calc(-50% - 0.5rem));
   }
 }
+
+/* shape divider css */
+
+.custom-shape-divider-bottom-1717859898 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1717859898 svg {
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 74px;
+}
+
+.custom-shape-divider-bottom-1717859898 .shape-fill {
+  fill: #ffffff;
+}
+
+/* video background css */
+
+.video-bg {
+  background-image: url("/assets/women-working.jpg");
+  height: 50rem;
+  }
+
