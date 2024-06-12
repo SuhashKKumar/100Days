@@ -42,7 +42,7 @@
 }
 .scroller[data-animated="true"] .scroller--inner {
   flex-wrap: nowrap;
-  animation: logo-scroll 200s linear infinite;
+  /* animation: logo-scroll 200s linear infinite; */
   width: max-content;
 }
 .logo-slider--item {
@@ -90,3 +90,29 @@
   height: 50rem;
   }
 
+
+/* parallax effect */
+.parallax-1 {
+  transform: translateZ(0);
+  transition: transform 0.5s ease-out;
+}
+
+.parallax-2 {
+  transform: translateZ(0);
+  transition: transform 0.5s ease-out;
+}
+
+.foreground:hover .parallax-1 {
+  transform: translateZ(-10px);
+}
+
+.foreground:hover .parallax-2 {
+  transform: translateZ(-20px);
+}
+.parallax-container.scroll {
+  transform: translateY(-10px);
+}
+
+.parallax-element.scroll {
+  transform: translateY(-20px);
+}

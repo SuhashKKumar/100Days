@@ -9,7 +9,6 @@ const App = () => {
       <Navbar />
       <Hero />
       <VideoSection />
-      
       <HowItWorks />
     </div>
   );

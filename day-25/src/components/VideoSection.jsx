@@ -1,4 +1,4 @@
-import PageDivider from '../misc/PageDivider'
+import PageDivider from "../misc/PageDivider";
 
 const VideoSection = () => {
   return (
@@ -7,14 +7,14 @@ const VideoSection = () => {
         <div className="flex flex-col gap-2 h-full backdrop-blur-2xl justify-center items-center">
           <p className="text-sm md:text-xl">PRODUCT TOUR</p>
           <p className="text-5xl font-bold md:text-7xl">
-            How <span className="brush-font text-6xl md:text-8xl ">Surfe</span>
+            How<span className="brush-font text-6xl md:text-7xl"> Surfe </span>
             works
           </p>
         </div>
       </div>
       <div className="py-16">
-      <PageDivider />
-    </div>
+        <PageDivider />
+      </div>
     </div>
   );
 };
