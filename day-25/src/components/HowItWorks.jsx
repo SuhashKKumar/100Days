@@ -12,8 +12,8 @@ const HowItWorks = () => {
   }, []);
 
   return (
-    <div className="flex flex-col gap-9 text-center my-28 items-center mx-auto px-6 md:w-[60%]">
-      <div className="how-it-works--left flex flex-col gap-6 items-center">
+    <div className="flex flex-col gap-9 text-center my-28 items-center mx-auto px-6 w-full lg:flex-row lg:justify-between lg:items-center ">
+      <div className="how-it-works--left flex flex-col gap-6 items-center lg:w-1/2">
         <h2 className="font-bold text-dark-blue-200 text-4xl md:text-5xl">
           One click.<span className="brush-font text-sky-blue-300"> DONE</span>
         </h2>
@@ -33,10 +33,10 @@ const HowItWorks = () => {
           <HowItWorksIcon />
         </div>
       </div>
-      <div className="how-it-works--right relative h-lvh overflow-hidden">
+      <div className="how-it-works--right relative  overflow-hidden lg:w-1/2">
         <div className="background">
           <img
-            className="bg-fixed inset-0 object-cover"
+            className="bg-fixed inset-0 object-cover w-[35rem] "
             src="https://www.surfe.com/wp-content/uploads/2024/01/MIA-TIDES_01-1024x890.png"
           />
         </div>
@@ -49,7 +49,7 @@ const HowItWorks = () => {
           <img
             src="/assets/linkedIn-logo.png"
             alt="Foreground Image 2"
-            className="parallax-2 -rotate-90 bg-blue-500 rounded-t-lg absolute -top-[25rem] left-[32rem] w-2/12 object-cover -translate-x-1/2 -translate-y-1/"
+            className="parallax-2 -rotate-90 bg-blue-500 rounded-t-lg absolute -top-[25rem] left-[32rem] w-2/12 object-cover -translate-x-1/2 -translate-y-1/2"
           />
         </div>
       </div>
