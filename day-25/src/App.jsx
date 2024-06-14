@@ -1,6 +1,7 @@
 import Databases from "./components/Databases";
 import Hero from "./components/Hero";
 import HowItWorks from "./components/HowItWorks";
+import IceBreakers from "./components/IceBreakers";
 import Navbar from "./components/Navbar";
 import VideoSection from "./components/VideoSection";
 
@@ -12,6 +13,7 @@ const App = () => {
       <VideoSection />
       <HowItWorks />
       <Databases/>
+      <IceBreakers/>
     </div>
   );
 };
