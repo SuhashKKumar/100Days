@@ -3,6 +3,7 @@
 .free-btn {
   @apply py-2 bg-dark-blue-200 text-white rounded-md text-sm font-semibold;
 }
+
 @tailwind utilities;
 
 :root {
@@ -115,4 +116,12 @@
 
 .parallax-element.scroll {
   transform: translateY(-20px);
+}
+.paragraph{
+  @apply
+    text-dark-blue-100 md:text-lg
+  
+}
+.sub-headline{
+  @apply font-bold text-dark-blue-200 text-4xl md:text-5xl
 }

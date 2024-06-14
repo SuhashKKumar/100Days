@@ -14,14 +14,14 @@ const HowItWorks = () => {
   return (
     <div className="flex flex-col gap-9 text-center my-28 items-center mx-auto px-6 w-full lg:flex-row lg:justify-between lg:items-center ">
       <div className="how-it-works--left flex flex-col gap-6 items-center lg:w-1/2">
-        <h2 className="font-bold text-dark-blue-200 text-4xl md:text-5xl">
+        <h2 className="sub-headline">
           One click.<span className="brush-font text-sky-blue-300"> DONE</span>
         </h2>
-        <p className="text-dark-blue-100 md:text-lg">
+        <p className="paragraph">
           Add prospects to your CRM and access their info directly from
           LinkedIn. No more tab switching!
         </p>
-        <p className="text-dark-blue-100 md:text-lg">
+        <p className="paragraph">
           Craving more speed? Export your lists from Sales Navigator in 1 click
           -Surfe additionally enriches the data in the process!
         </p>
