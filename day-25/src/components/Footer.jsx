@@ -1,6 +1,6 @@
 const Footer = () => {
   return (
-    <div className="footer-container mx-4">
+    <div className="footer-container mx-4 my-2">
       <div className="footer-sub-container flex justify-between md:justify-start items-center md:gap-1 md:border-b-2 pb-3 border-gray-500">
         <p className="hidden md:block text-xs font-semibold me-5">Status</p>
         <ul className="footer-items flex flex-col gap-1 md:flex-row md:items-center">
@@ -31,10 +31,26 @@ const Footer = () => {
           </li>
         </ul>
         <div className="md:order-0 flex gap-3 items-center mb-5 md:mb-0">
-          <img src="https://www.surfe.com/wp-content/uploads/2023/06/GDPR-1.png" className="h-6 md:h-9" alt="footer-logo" />
-          <img src="https://www.surfe.com/wp-content/uploads/2023/06/ISO-1.png" className="h-6 md:h-9" alt="footer-logo" />
-          <img src="https://www.surfe.com/wp-content/uploads/2023/06/G2-1.png" className="h-6 md:h-9" alt="footer-logo" />
-          <img src="https://www.surfe.com/wp-content/uploads/2023/10/G2-2.png" className="h-6 md:h-9" alt="footer-logo" />
+          <img
+            src="https://www.surfe.com/wp-content/uploads/2023/06/GDPR-1.png"
+            className="h-6 md:h-9"
+            alt="footer-logo"
+          />
+          <img
+            src="https://www.surfe.com/wp-content/uploads/2023/06/ISO-1.png"
+            className="h-6 md:h-9"
+            alt="footer-logo"
+          />
+          <img
+            src="https://www.surfe.com/wp-content/uploads/2023/06/G2-1.png"
+            className="h-6 md:h-9"
+            alt="footer-logo"
+          />
+          <img
+            src="https://www.surfe.com/wp-content/uploads/2023/10/G2-2.png"
+            className="h-6 md:h-9"
+            alt="footer-logo"
+          />
         </div>
       </div>
     </div>

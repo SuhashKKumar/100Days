@@ -8,8 +8,8 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const NewsLetter = () => {
   return (
-    <div className="news-letter--container bg-dark-blue-200 text-sky-blue-200 ">
-      <div className="mx-auto text-center md:text-start py-12 flex flex-col gap-5 w-3/5 md:w-full md:px-5 items-center md:flex-row md:justify-between ">
+    <div className="news-letter--container bg-dark-blue-200 text-sky-blue-200 py-12">
+      <div className="mx-auto text-center md:text-start flex flex-col gap-5 w-3/5 md:w-full md:px-5 items-center md:flex-row md:justify-between ">
         <div className="news-letter--right md:order-2">
           <img src="/assets/paper-rocket.gif" className="h-[6rem]" />
         </div>
