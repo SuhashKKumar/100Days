@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import HowItWorksIcon from "../misc/HowItWorksIcon";
 
 const IceBreakers = () => {
-    // https://www.surfe.com/wp-content/uploads/2024/01/RIDER_OCEANSIDE_MOBILE_01_V02-1024x1156.png
+  // https://www.surfe.com/wp-content/uploads/2024/01/RIDER_OCEANSIDE_MOBILE_01_V02-1024x1156.png
   return (
     <div className="ice-breakers--container my-28">
       <div className="ice-breakers--left mx-auto text-center flex flex-col gap-9">
@@ -24,7 +24,18 @@ const IceBreakers = () => {
           <HowItWorksIcon />
         </div>
       </div>
-      <div className="ice-breakers--right"></div>
+      <div className="ice-breakers--right bg-light-orange-50 my-16 rounded-lg mx-6 md:w-2/3 md:mx-auto md:h-[25rem] md:flex md:justify-center ">
+        <img
+          src="https://www.surfe.com/wp-content/uploads/2024/01/RIDER_OCEANSIDE_MOBILE_02_V02-1024x1156.png"
+          alt="ice-breakers image"
+          className="md:h-full"
+        />
+        <img
+          src="https://www.surfe.com/wp-content/uploads/2024/01/RIDER_OCEANSIDE_01-v02-1800x985.png"
+          alt="ice-breakers image"
+          className="hidden md:block w-1/2"
+        />
+      </div>
     </div>
   );
 };
