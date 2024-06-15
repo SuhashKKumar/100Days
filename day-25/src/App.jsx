@@ -1,4 +1,5 @@
 import Databases from "./components/Databases";
+import Footer from "./components/Footer";
 import Hero from "./components/Hero";
 import HowItWorks from "./components/HowItWorks";
 import IceBreakers from "./components/IceBreakers";
@@ -14,6 +15,8 @@ const App = () => {
       <HowItWorks />
       <Databases/>
       <IceBreakers/>
+      
+      <Footer/>
     </div>
   );
 };
