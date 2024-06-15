@@ -4,6 +4,7 @@ import Hero from "./components/Hero";
 import HowItWorks from "./components/HowItWorks";
 import IceBreakers from "./components/IceBreakers";
 import Navbar from "./components/Navbar";
+import NewsLetter from "./components/NewsLetter.jsx";
 import VideoSection from "./components/VideoSection";
 
 const App = () => {
@@ -16,6 +17,7 @@ const App = () => {
       <Databases/>
       <IceBreakers/>
       
+      <NewsLetter/>
       <Footer/>
     </div>
   );
