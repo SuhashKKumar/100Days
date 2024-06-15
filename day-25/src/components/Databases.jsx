@@ -20,10 +20,10 @@ const Databases = () => {
             Already have a provided? Connect it directly!
           </p>
         </div>
-        <div className="font-semibold flex flex-col items-center gap-3">
+        <div className="font-semibold flex flex-col items-center gap-3 md:flex-row md:mb-9">
           <div className="flex items-center gap-3">
-            <p className="text-dark-blue-200 text-lg hover:opacity-70 cursor-pointer">Try it now </p>
-            <p className="text-light-rose-300 bg-light-rose-50 rounded-md font-medium text-sm p-1">
+            <p className="text-dark-blue-200 text-lg hover:opacity-70 cursor-pointer md:text-2xl">Try it now </p>
+            <p className="text-light-rose-300 bg-light-rose-50 rounded-md font-medium text-sm p-1 md:text-xl">
               20 free credits
             </p>
             <FontAwesomeIcon icon={faArrowRight} size="xs" />
