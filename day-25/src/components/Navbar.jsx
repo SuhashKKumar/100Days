@@ -5,6 +5,7 @@ import {
   faChevronDown,
   faChevronRight,
 } from "@fortawesome/free-solid-svg-icons";
+import Logo from "../misc/Logo";
 
 const Navbar = () => {
   const [navExpand, setNavExpand] = useState(false);
@@ -18,9 +19,7 @@ const Navbar = () => {
       } lg:flex lg:items-center lg:justify-between lg:p-5 lg:bg-sky-blue-50`}
     >
       <div className=" p-5 flex items-center justify-between lg:p-0">
-        <h1 className="logo special-font font-bold text-4xl text-dark-blue-200 lg:text-[54px]">
-          Surfe
-        </h1>
+        <Logo/>
         <div className="flex items-center gap-5">
           <button
             className="text-dark-blue-200 font-medium text-sm bg-sky-blue-100

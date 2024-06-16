@@ -5,6 +5,7 @@ import HowItWorks from "./components/HowItWorks";
 import IceBreakers from "./components/IceBreakers";
 import Navbar from "./components/Navbar";
 import NewsLetter from "./components/NewsLetter.jsx";
+import ShortLinks from "./components/ShortLinks.jsx";
 import VideoSection from "./components/VideoSection";
 
 const App = () => {
@@ -17,6 +18,7 @@ const App = () => {
       <Databases/>
       <IceBreakers/>
       
+      <ShortLinks/>
       <NewsLetter/>
       <Footer/>
     </div>
