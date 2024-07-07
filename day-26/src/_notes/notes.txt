@@ -1,0 +1,1 @@
+1. replace => Link tag prop, which uses to navigate to Home Page from the nested routes

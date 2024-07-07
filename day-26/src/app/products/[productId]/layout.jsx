@@ -1,12 +1,15 @@
-import { notFound } from "next/navigation";
+import Link from "next/link";
+import React from "react";
 
-export default function ProductDetailsLayout({ children, params }) {
-  // if (params.productId > 5) return notFound();
-  
-    return (
-      <>
-        {children}
-        <h2>Feature Products!!</h2>
-      </>
-    );
-}
+const layout = ({ children }) => {
+  return (
+    <>
+      {children}
+      <Link href="/products">
+        <button>Back to Products</button>
+      </Link>
+    </>
+  );
+};
+
+export default layout;
