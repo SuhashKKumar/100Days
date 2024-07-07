@@ -1,1 +1,2 @@
 1. replace => Link tag prop, which uses to navigate to Home Page from the nested routes
+2. usePathname => Router hook which gives the url in the form of a string
