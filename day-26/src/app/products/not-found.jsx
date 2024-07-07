@@ -3,7 +3,7 @@ import React from 'react'
 const ProductNotFound = () => {
   return (
     <div>
-      product not found!!
+      productssss not found!!
     </div>
   )
 }

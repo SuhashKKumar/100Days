@@ -3,7 +3,7 @@ import React from "react";
 
 const ProductDetails = ({ params }) => {
   if (params.productId > 5) return notFound();
-  else return <h1>ProductDetails of {params.productId} Page!!</h1>;
+  return <h1>ProductDetails of {params.productId} Page!!</h1>;
 };
 
 export default ProductDetails;
