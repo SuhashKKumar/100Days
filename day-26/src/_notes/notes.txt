@@ -3,4 +3,6 @@
 3. useRouter => Navigation hook which helps to navigate programitically
 4. useRouter().push("route-name-goes-here") => will navigate to that particular usePathname
 5. useRouter().back() => navigates to the previous page of the browser
-5. useRouter().forward() => navigates to the next page of the browser
+6. useRouter().forward() => navigates to the next page of the browser
+7. layout.jsx => doesn't remount component, state is preserved, effects are in synchronized
+7. template.jsx => will remount component, state is not preserved, effects are  re-synchronized
