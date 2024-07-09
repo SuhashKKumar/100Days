@@ -6,3 +6,8 @@
 6. useRouter().forward() => navigates to the next page of the browser
 7. layout.jsx => doesn't remount component, state is preserved, effects are in synchronized
 7. template.jsx => will remount component, state is not preserved, effects are  re-synchronized
+9. error.jsx => used to catch the errors
+10. component hierarchy as follow:
+layout => template => error boundary => suspense => error boundary => page
+11. reset => is a function prop from error.jsx file, which helps to reset the UI
+12. loading.jsx => will displays the content of this file, when the data is being fetched.
