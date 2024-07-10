@@ -5,7 +5,6 @@ import React from "react";
 import Notifications from "./@notifications/page";
 import Revenue from "./@revenue/page";
 import Users from "./@users/page";
-import "./styles.css";
 
 const DashboardLayout = ({ children }) => {
   const router = useRouter();

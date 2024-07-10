@@ -1,4 +1,5 @@
 import Button from "./_components/Button"
+import './styles.css'
 
 export const metadata = {
   title: 'Next.js',
