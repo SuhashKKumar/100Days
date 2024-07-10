@@ -14,7 +14,7 @@ const layout = ({ children }) => {
   return (
     <>
       {children}
-        <button onClick={clickHandler} >Back to Products</button>
+        <button className="btn" onClick={clickHandler} >Back to Products</button>
     </>
   );
 };

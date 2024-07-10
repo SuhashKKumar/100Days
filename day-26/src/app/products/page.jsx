@@ -6,7 +6,7 @@ const ProductsList = () => {
   return (
     <div>
       <Link href="/">
-        <button>Home</button>
+        <button className="btn">Home</button>
       </Link>
       <h1>Products List</h1>
       <h2><Link href="/products/1" >Product 1</Link></h2>

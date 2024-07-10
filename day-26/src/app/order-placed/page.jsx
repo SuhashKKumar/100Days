@@ -11,7 +11,7 @@ const OrderPlaced = () => {
   return (
     <>
       <h1>Order product</h1>
-      <button onClick={orderHandler}>Place Order</button>
+      <button className="btn" onClick={orderHandler}>Place Order</button>
     </>
   );
 };

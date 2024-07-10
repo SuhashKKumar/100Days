@@ -6,7 +6,7 @@ const ErrorHandle = ({error, reset}) => {
   return (
     <div>
       we got error in reviewId - {error.message}
-      <button onClick={reset} >Reset</button>
+      <button className="btn" onClick={reset} >Reset</button>
     </div>
   )
 }

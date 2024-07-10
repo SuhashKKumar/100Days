@@ -9,11 +9,11 @@ const layout = ({ children }) => {
       {children}
       <h3>Storage Packet</h3>
       <div>
-        <button onClick={() => router.push("/cookies")}>Cookies</button>
-        <button onClick={() => router.push("/local-storage")}>
+        <button className="btn" onClick={() => router.push("/cookies")}>Cookies</button>
+        <button className="btn" onClick={() => router.push("/local-storage")}>
           local-storage
         </button>
-        <button onClick={() => router.push("/session-storage")}>
+        <button className="btn" onClick={() => router.push("/session-storage")}>
           session-storage
         </button>
       </div>
