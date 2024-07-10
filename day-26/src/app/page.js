@@ -15,6 +15,9 @@ const Home = () => {
         <Link href="/products">
           <button className="btn">Products Page</button>
         </Link>
+        <Link href="/f1">
+          <button className="btn">F1 Page</button>
+        </Link>
       </div>
     </div>
   );

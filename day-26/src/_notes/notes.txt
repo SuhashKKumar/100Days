@@ -12,7 +12,9 @@ layout => template => error boundary => suspense => error boundary => page
 11. reset => is a function prop from error.jsx file, which helps to reset the UI
 12. loading.jsx => will displays the content of this file, when the data is being fetched.
 13. default.tsx => to display the contents, when the route doesn't matches.
-
+14. (.)folderName => intercepting routes, to mach segments on the same level
+15. (..) => to match one level above
+16. (...) =>to match from the root app directory
 
 
 
