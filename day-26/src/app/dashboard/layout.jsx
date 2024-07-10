@@ -1,30 +1,40 @@
 "use client";
 
-import { useRouter } from "next/navigation";
-import React from "react";
-import Notifications from "./@notifications/page";
-import Revenue from "./@revenue/page";
-import Users from "./@users/page";
+import Link from "next/link";
+import React, { useState } from "react";
 
-const DashboardLayout = ({ children }) => {
-  const router = useRouter();
-  const homeHandler = () => {
-    router.push("/");
+const DashboardLayout = ({
+  children,
+  login,
+  users,
+  revenue,
+  notifications,
+}) => {
+  const [userLogin, setUserLogin] = useState(false);
+  const loginHandler = () => {
+    setUserLogin(!userLogin);
   };
   return (
     <>
-      <div>{children}</div>
-      <div className="flex my-6 gap-2 text-xs items-center text-center mx-3">
-        <div className="flex flex-col gap-3">
-          <Revenue />
-          <Users />
-        </div>
-        <div>
-          <Notifications />
-        </div>
-      </div>
-      <button className="btn" onClick={homeHandler}>
-        Home
+      {userLogin ? (
+        <>
+          <div>{children}</div>
+          <div className="flex my-6 gap-2 text-xs items-center text-center mx-3">
+            <div className="flex flex-col gap-3">
+              <div>{users}</div>
+              <div>{revenue}</div>
+            </div>
+            <div>{notifications}</div>
+          </div>
+          <Link href="/" className="btn">
+            Home
+          </Link>
+        </>
+      ) : (
+        login
+      )}
+      <button className="btn" onClick={loginHandler}>
+        Login Toggle
       </button>
     </>
   );
