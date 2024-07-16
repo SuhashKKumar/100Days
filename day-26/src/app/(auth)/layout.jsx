@@ -3,10 +3,10 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import React from "react";
-import "./styles.css";
 
 const AuthLayout = ({ children }) => {
   const pathname = usePathname();
+  
   const auth = [
     {
       id: 1,
@@ -41,6 +41,7 @@ const AuthLayout = ({ children }) => {
         );
       })}
       <div>{children}</div>
+      <h1>{pathname}</h1>
     </div>
   );
 };

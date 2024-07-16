@@ -2,7 +2,7 @@ import React from "react";
 
 const ReviewDetails = ({ params }) => {
   console.log(params);
-  if (parseInt(params.reviewId) === 3) {
+  if (parseInt(params.reviewId) > 30) {
     throw new Error("Error loading review");
   } else {
     return (

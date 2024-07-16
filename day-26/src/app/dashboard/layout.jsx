@@ -26,9 +26,6 @@ const DashboardLayout = ({
             </div>
             <div>{notifications}</div>
           </div>
-          <Link href="/" className="btn">
-            Home
-          </Link>
         </>
       ) : (
         login
