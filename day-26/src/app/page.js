@@ -1,5 +1,6 @@
 import Link from "next/link";
 import React from "react";
+import BGChange from "./_components/BGChange";
 
 const Home = () => {
   return (
@@ -20,8 +21,11 @@ const Home = () => {
         </Link> 
         <Link href="/cookies">
           <button className="btn">Cookies Page</button>
+        </Link><Link href="/toggle">
+          <button className="btn">Toggle Page</button>
         </Link>
       </div>
+      <BGChange/>
     </div>
   );
 };
