@@ -31,6 +31,9 @@ const Home = () => {
         <Link href="/order-placed">
           <button className="btn">Order Product Page</button>
         </Link>
+        <Link href="/photo-feed">
+          <button className="btn">Photo Feed Page</button>
+        </Link>
       </div>
       <BGChange />
     </div>

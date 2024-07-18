@@ -14,8 +14,9 @@ layout => template => error boundary => suspense => error boundary => page
 13. default.tsx => to display the contents, when the route doesn't matches.
 14. (.)folderName => intercepting routes, to mach segments on the same level
 15. (..) => to match one level above
-16. (...) =>to match from the root app directory
-17. The outermost layer will be layout.jsx and then template.jsx
+16. (..)(..) => to match two levels above
+17. (...) =>to match from the root app directory
+18. The outermost layer will be layout.jsx and then template.jsx
 
 
-Note: default, products/509/review/30
+Note: products/509/review/30
