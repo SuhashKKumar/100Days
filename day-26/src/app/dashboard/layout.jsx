@@ -10,7 +10,7 @@ const DashboardLayout = ({
   revenue,
   notifications,
 }) => {
-  const [userLogin, setUserLogin] = useState(false);
+  const [userLogin, setUserLogin] = useState(true);
   const loginHandler = () => {
     setUserLogin(!userLogin);
   };

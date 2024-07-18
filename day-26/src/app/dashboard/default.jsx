@@ -3,7 +3,7 @@ import React from 'react'
 const DefaultDashboardPage = () => {
   return (
     <div>
-      Dashboard Page!!
+      Default Dashboard Page!!
     </div>
   )
 }
