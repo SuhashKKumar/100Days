@@ -18,14 +18,21 @@ const Home = () => {
         </Link>
         <Link href="/f1">
           <button className="btn">F1 Page</button>
-        </Link> 
+        </Link>
+        <Link href="/login">
+          <button className="btn">Authentication Page</button>
+        </Link>
         <Link href="/cookies">
           <button className="btn">Cookies Page</button>
-        </Link><Link href="/toggle">
+        </Link>
+        <Link href="/toggle">
           <button className="btn">Toggle Page</button>
         </Link>
+        <Link href="/order-placed">
+          <button className="btn">Order Product Page</button>
+        </Link>
       </div>
-      <BGChange/>
+      <BGChange />
     </div>
   );
 };

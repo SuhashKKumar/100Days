@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import React, { useState } from "react";
 
@@ -7,7 +7,7 @@ const ToggleBtn = () => {
   return (
     <button
       onClick={() => setToggle(!toggle)}
-      className={`${toggle ? "bg-red-500" : "bg-blue-500"}`}
+      className={`px-4 py-1 rounded text-white ${toggle ? " bg-red-500" : " bg-blue-500"}`}
     >
       Toggle Button
     </button>
