@@ -13,7 +13,7 @@ const MemoryTemplate = ({ children }) => {
         <input
           onChange={(e) => setName(e.target.value)}
           value={name}
-          className="border border-red-500"
+          className="border border-green-500"
           placeholder="Enter your name"
         />
         <h1>{name}</h1>
