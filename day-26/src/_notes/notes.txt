@@ -18,6 +18,9 @@
 17. (...) =>to match from the root app directory
 18. The outermost layer will be layout.jsx and then template.jsx
 19. JSON.stringify(OBJECT) => converts object into string.
-19. STRING.json() => converts string into object
-
+20. STRING.json() => converts string into object
+21. Array.find() => will return the first item, whichever satisfies the condition
+22. Array.filter() => will return an array of items, whichever satisfies the condition
+23. Number(STRING) => converts string into number type, it can handle any format including Boolean
+24. parseInt(STRING) => converts string into number type, it stops parsing as soon as it encounters a non-numeric character(or a decimal point)
 Note: products/509/review/30
