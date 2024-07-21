@@ -1,6 +1,8 @@
+import { redirect } from "next/navigation";
 import { users } from "../data";
 
 export async function GET(request, { params }) {
+  if (parseInt(params.id) > users.length) redirect("/users");
   const result = users.filter((user) => user.id === parseInt(params.id));
   return Response.json(result);
 }
