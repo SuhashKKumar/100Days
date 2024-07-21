@@ -8,7 +8,7 @@
 7. template.jsx => will remount component, state is not preserved, effects are  re-synchronized
 9. error.jsx => used to catch the errors
 10. component hierarchy as follow:
-layout => template => error boundary => suspense => error boundary => page
+    layout => template => error boundary => suspense => error boundary => page
 11. reset => is a function prop from error.jsx file, which helps to reset the UI
 12. loading.jsx => will displays the content of this file, when the data is being fetched.
 13. default.tsx => to display the contents, when the route doesn't matches.
@@ -17,6 +17,7 @@ layout => template => error boundary => suspense => error boundary => page
 16. (..)(..) => to match two levels above
 17. (...) =>to match from the root app directory
 18. The outermost layer will be layout.jsx and then template.jsx
-
+19. JSON.stringify(OBJECT) => converts object into string.
+19. STRING.json() => converts string into object
 
 Note: products/509/review/30
