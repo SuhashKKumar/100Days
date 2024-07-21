@@ -15,5 +15,5 @@ export async function POST(request) {
     };
     users.push(newUser);
     return new Response(JSON.stringify(newUser));
-  } return new Response("already exists!!");
+  }  return new Response("already exists!!");
 }
