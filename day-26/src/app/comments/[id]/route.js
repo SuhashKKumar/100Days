@@ -13,3 +13,9 @@ export async function PATCH(request, { params }) {
   comments[index].text = await body.text;
   return Response.json(comments[index]);
 }
+
+export async function DELETE(request,{params}){
+  const index = comments.findIndex(comment=>comment.id === parseInt(params.id))
+  comments.splice(index,1)
+  return Response.json(comments)
+}
