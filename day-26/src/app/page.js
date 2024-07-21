@@ -6,7 +6,7 @@ const Home = () => {
   return (
     <div>
       Home Page!!
-      <div>
+      <div className="flex flex-col" >
         <Link href="/blog">
           <button className="btn">Blog Page</button>
         </Link>
@@ -20,7 +20,7 @@ const Home = () => {
           <button className="btn">F1 Page</button>
         </Link>
         <Link href="/login">
-          <button className="btn">Authentication Page</button>
+          <button className="btn">Authenticate Page</button>
         </Link>
         <Link href="/cookies">
           <button className="btn">Cookies Page</button>
@@ -29,10 +29,13 @@ const Home = () => {
           <button className="btn">Toggle Page</button>
         </Link>
         <Link href="/order-placed">
-          <button className="btn">Order Product Page</button>
+          <button className="btn">Order Page</button>
         </Link>
         <Link href="/photo-feed">
           <button className="btn">Photo Feed Page</button>
+        </Link>
+        <Link href="/hello">
+          <button className="btn">Hello Route</button>
         </Link>
       </div>
       <BGChange />
