@@ -23,4 +23,12 @@
 22. Array.filter() => will return an array of items, whichever satisfies the condition
 23. Number(STRING) => converts string into number type, it can handle any format including Boolean
 24. parseInt(STRING) => converts string into number type, it stops parsing as soon as it encounters a non-numeric character(or a decimal point)
+25. request.headers => to read headers that are coming from the request API
+26. request() => import from next/headers, second method for reading headers
+
+
+
+
+
+
 Note: products/509/review/30
