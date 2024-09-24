@@ -12,10 +12,10 @@ const layout = ({ children }) => {
     router.back()
   }
   return (
-    <>
-      {children}
-        <button className="btn" onClick={clickHandler} >Back to Products</button>
-    </>
+    <div>
+    <button className="btn" onClick={clickHandler} >Back to Products</button>
+    {children}
+    </div>
   );
 };
 

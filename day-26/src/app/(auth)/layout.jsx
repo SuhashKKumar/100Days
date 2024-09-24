@@ -6,8 +6,8 @@ import React from "react";
 
 const AuthLayout = ({ children }) => {
   const pathname = usePathname();
-  
-  const auth = [
+  console.log(pathname,'pathname')
+  const navLinks = [
     {
       id: 1,
       name: "login",
@@ -26,7 +26,7 @@ const AuthLayout = ({ children }) => {
   ];
   return (
     <div>
-      {auth.map((item) => {
+      {navLinks.map((item) => {
         const isActive = pathname.startsWith(item.href);
         return (
           <Link

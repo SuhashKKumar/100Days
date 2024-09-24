@@ -13,11 +13,11 @@ export async function GET(request) {
   const headersList = headers();
   console.log(headersList.get("Authorization"), "second");
 
-  // getting cookie value
+  // getting cookie value, first approach
   const theme = request.cookies.get("theme");
   console.log(theme, "cookies theme");
 
-  //   set and get cookie value using nextjs built-in function
+  //   set and get cookie value using nextjs built-in function, second approach
   cookies().set("resultsPerPage", 200);
   const resultsPerPageCookie = cookies().get("resultsPerPage");
   console.log(resultsPerPageCookie, "results");
@@ -25,7 +25,7 @@ export async function GET(request) {
   return new Response(<h1>Profile Page</h1>, {
     headers: {
       "Content-Type": "text/html",
-      //   manual setting of cookie value
+      //   manual setting of cookie value, frist approach
       "Set-Cookie": "theme=dark",
     },
   });

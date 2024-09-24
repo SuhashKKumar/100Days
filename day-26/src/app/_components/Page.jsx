@@ -5,7 +5,7 @@ const ButtonPage = () => {
     <div>
       this is button page!!
     </div>
-  )
+  ) 
 }
 
 export default ButtonPage

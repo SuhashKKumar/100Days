@@ -1,10 +1,10 @@
-import photo1 from "@/app/_assets/1.jpg";
-import photo2 from "@/app/_assets/2.jpg";
-import photo3 from "@/app/_assets/3.jpg";
-import photo4 from "@/app/_assets/4.jpg";
-import photo5 from "@/app/_assets/5.jpg";
-import photo6 from "@/app/_assets/6.jpg";
-import photo7 from "@/app/_assets/7.jpg";
+import photo1 from "@/app/_assets/image1.jpg";
+import photo2 from "@/app/_assets/image2.jpg";
+import photo3 from "@/app/_assets/image3.jpg";
+import photo4 from "@/app/_assets/image4.jpg";
+import photo5 from "@/app/_assets/image5.jpg";
+import photo6 from "@/app/_assets/image6.jpg";
+import photo7 from "@/app/_assets/image7.jpg";
 
 const wondersImages= [
   {

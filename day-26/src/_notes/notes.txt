@@ -1,6 +1,6 @@
 1. replace => Link tag prop, which uses to navigate to Home Page from the nested routes
 2. usePathname => Navigation hook which gives the url in the form of a string
-3. useRouter => Navigation hook which helps to navigate programitically
+3. useRouter => Navigation hook which helps to navigate programmatically
 4. useRouter().push("route-name-goes-here") => will navigate to that particular usePathname
 5. useRouter().back() => navigates to the previous page of the browser
 6. useRouter().forward() => navigates to the next page of the browser
@@ -31,4 +31,4 @@
 
 
 
-Note: products/509/review/30
+Note: products/509/review/30 
