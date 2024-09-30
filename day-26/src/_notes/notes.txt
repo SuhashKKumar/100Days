@@ -28,6 +28,7 @@
 27. cookies, headers => are imported from next/headers
 28. Suspense => a tag from react, which is used for streaming
 29. server-only => an npm package which prevents client components to use server side information
+29. client-only => an npm package which prevents client components to use client side information
 30. we don't convert server components to client components, instead we create separate file for client logic and invoke/import it in server file
 
 
