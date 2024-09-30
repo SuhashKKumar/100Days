@@ -25,8 +25,8 @@
 24. parseInt(STRING) => converts string into number type, it stops parsing as soon as it encounters a non-numeric character(or a decimal point)
 25. request.headers => to read headers that are coming from the request API
 26. request() => import from next/headers, second method for reading headers
-
-
+27. cookies, headers => are imported from next/headers
+28. Suspense => a tag from react, which is used for streaming
 
 
 

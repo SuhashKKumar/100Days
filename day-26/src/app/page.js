@@ -43,6 +43,9 @@ const Home = () => {
         <Link href="/client-about">
           <button className="btn">Client About Page</button>
         </Link>
+        <Link href="/product-details">
+          <button className="btn">Product Details Page</button>
+        </Link>
         
       </div>
       <BGChange />
