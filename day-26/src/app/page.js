@@ -46,7 +46,12 @@ const Home = () => {
         <Link href="/product-details">
           <button className="btn">Product Details Page</button>
         </Link>
-        
+        <Link href="/server-route">
+          <button className="btn">Server Route</button>
+        </Link>
+        <Link href="/client-route">
+          <button className="btn">Client Route</button>
+        </Link>
       </div>
       <BGChange />
     </div>
