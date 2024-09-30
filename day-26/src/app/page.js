@@ -6,7 +6,7 @@ const Home = () => {
   return (
     <div>
       Home Page!!
-      <div className="flex flex-col" >
+      <div className="flex flex-col">
         <Link href="/blog">
           <button className="btn">Blog Page</button>
         </Link>
@@ -37,6 +37,13 @@ const Home = () => {
         <Link href="/hello">
           <button className="btn">Hello Route</button>
         </Link>
+        <Link href="/server-about">
+          <button className="btn">Server About Page</button>
+        </Link>
+        <Link href="/client-about">
+          <button className="btn">Client About Page</button>
+        </Link>
+        
       </div>
       <BGChange />
     </div>

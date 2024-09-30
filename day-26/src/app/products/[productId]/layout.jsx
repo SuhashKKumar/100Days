@@ -1,11 +1,10 @@
 "use client";
-
-import Link from "next/link";
 import { useRouter } from "next/navigation";
 import React from "react";
 
 
 const layout = ({ children }) => {
+  // eslint-disable-next-line react-hooks/rules-of-hooks
   const router = useRouter();
   const clickHandler=()=>{
     console.log("clicked");
