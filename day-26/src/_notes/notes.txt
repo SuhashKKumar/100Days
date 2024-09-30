@@ -30,6 +30,8 @@
 29. server-only => an npm package which prevents client components to use server side information
 29. client-only => an npm package which prevents client components to use client side information
 30. we don't convert server components to client components, instead we create separate file for client logic and invoke/import it in server file
+31. If we use "use client" in one component, the child server components also converts to client components. So we need to use client components, in a specified component.
+32. Can't import a server comp into client comp. Instead we need to pass that server comp as a child prop to client comp
 
 
 
