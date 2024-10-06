@@ -20,7 +20,7 @@ const Counter = () => {
     <span>{count}</span>
     <button
         aria-label="Decrement value"
-        className='bg-black text-white'
+        className='bg-primary-300 text-black hover:bg-primary-400'
         onClick={() => dispatch(decrement())}
     >
       Decrease
