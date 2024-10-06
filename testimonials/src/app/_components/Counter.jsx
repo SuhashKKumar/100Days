@@ -19,10 +19,11 @@ const Counter = () => {
     </button>
     <span>{count}</span>
     <button
-      aria-label="Decrement value"
-      onClick={() => dispatch(decrement())}
+        aria-label="Decrement value"
+        className='bg-black text-white'
+        onClick={() => dispatch(decrement())}
     >
-      Decrement
+      Decrease
     </button>
 <FontAwesomeIcon icon={faEnvelope} />
   </div>
