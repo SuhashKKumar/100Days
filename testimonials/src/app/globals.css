@@ -3,6 +3,9 @@
 @tailwind utilities;
 
 body {
-@apply text-white bg-black;
-  font-family: Arial, Helvetica, sans-serif;
+    @apply text-white bg-black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.text-md{
+    @apply text-[17px];
 }
