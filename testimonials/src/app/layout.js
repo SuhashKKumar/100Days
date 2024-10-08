@@ -24,7 +24,7 @@ export default function RootLayout({ children }) {
     return (
         <html lang="en">
             <body
-                className={`${geistSans.variable} ${geistMono.variable} bg-black md:bg-blue-600 lg:bg-red-600 xl:bg-yellow-600`}
+                className={`${geistSans.variable} ${geistMono.variable} bg-black md:bg-blue-600 lg:bg-red-600 xl:bg-yellow-600 max-w-6xl mx-auto`}
             >
                 <StoreProvider>
                     <Navbar />
