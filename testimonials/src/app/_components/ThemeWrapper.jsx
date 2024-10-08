@@ -13,7 +13,6 @@ const ThemeWrapper = ({children}) => {
     return (
         <div>
             <button onClick={themeToggler} >Toggle Theme</button>
-        {children}
         </div>
         )
 }
