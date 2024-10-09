@@ -1,11 +1,11 @@
 "use client";
 import Link from "next/link";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
-import PrimaryButton from "./PrimaryButton";
 import OutlineButton from "./OutlineButton";
+import PrimaryButton from "./PrimaryButton";
 import PrimaryHeadline from "./PrimaryHeadline";
 import PrimaryDescription from "./PrimaryDescription";
+import VideoComp from "./VideoComp";
+import Customers from "./Customers";
 
 const Hero = () => {
     return (
@@ -14,7 +14,7 @@ const Hero = () => {
             <PrimaryDescription />
             <div className="btn-container my-4 flex flex-col gap-4 items-center w-[65%] mx-auto md:flex-row md:w-[60%]">
                 <PrimaryButton text="Try FREE now" navigate="/signup" />
-                <OutlineButton/>
+                <OutlineButton />
             </div>
             <p className="text-gray-400 text-sm font-light mx-auto w-[60%]">
                 Get started with free credits on us.
@@ -22,7 +22,8 @@ const Hero = () => {
                     See our pricing →
                 </Link>
             </p>
-        </div>
+            <VideoComp />
+<Customers/>        </div>
     );
 };
 
