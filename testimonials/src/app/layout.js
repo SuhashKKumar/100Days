@@ -28,8 +28,10 @@ export default function RootLayout({ children }) {
             >
                 <StoreProvider>
                     <Navbar />
-                    {children}
-                    <Footer />
+                    <div className="border-t border-gray-800">
+                        {children}
+                        <Footer />
+                    </div>
                 </StoreProvider>
             </body>
         </html>

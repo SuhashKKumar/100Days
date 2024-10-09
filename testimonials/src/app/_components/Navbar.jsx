@@ -12,8 +12,8 @@ const Navbar = () => {
         dispatch(menuToggler());
     };
     return (
-        <div className="nav-container lg:flex lg:items-center lg:justify-between lg:px-6">
-            <div className="nav-container px-6 flex justify-between rounded-full mt-3 lg:px-0">
+        <div className="nav-container lg:flex lg:items-center lg:justify-between md:max-w-3xl md:mx-auto py-5">
+            <div className="nav-container flex justify-between items-center px-1 lg:px-0">
                 <Link href="/">
                     <Logo />
                 </Link>
@@ -24,19 +24,19 @@ const Navbar = () => {
                     onClick={toggleMenuHandler}
                 >
                     <div
-                        className={`w-6 h-0.5 bg-white ${
+                        className={`w-6 h-0.5 bg-white rounded-full ${
                             toggleMenu ? "rotate-[50deg]" : "block"
                         }`}
                     ></div>
                     <div
-                        className={`w-6 h-0.5 bg-white ${
+                        className={`w-6 h-0.5 bg-white rounded-full ${
                             toggleMenu
                                 ? "-rotate-[50deg] -translate-y-0.5"
                                 : "block"
                         }`}
                     ></div>
                     <div
-                        className={`w-6 h-0.5 bg-white ${
+                        className={`w-6 h-0.5 bg-white rounded-full ${
                             toggleMenu ? "hidden" : "block"
                         }`}
                     ></div>
