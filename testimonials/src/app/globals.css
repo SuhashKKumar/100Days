@@ -1,11 +1,20 @@
 @tailwind base;
 @tailwind components;
+.card {
+@apply rounded-lg bg-grey px-4 py-6 flex flex-col gap-3 shadow-sm mb-4 shadow-primary-300
+}
 @tailwind utilities;
 
 body {
     @apply text-white bg-black;
     font-family: Arial, Helvetica, sans-serif;
 }
-.text-md{
+.text-md {
     @apply text-[17px];
+}
+.primary-headline {
+    @apply text-[2.5rem] font-extrabold text-center leading-tight md:text-[3.5rem];
+}
+.primary-description {
+    @apply text-xl text-center text-gray-400 leading-snug;
 }
