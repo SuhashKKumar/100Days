@@ -1,4 +1,3 @@
-import React from "react";
 import PrimaryDescription from "./PrimaryDescription";
 import Link from "next/link";
 import Image from "next/image";

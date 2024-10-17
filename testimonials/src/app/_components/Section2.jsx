@@ -1,7 +1,4 @@
-import Link from "next/link";
 import { section2Data } from "../_lib/data/section2/section2Data";
-import VideoCard from "./VideoCard";
-import TextCard from "./TextCard";
 import PrimaryHeadline from "./PrimaryHeadline";
 import Setup from "./Setup";
 

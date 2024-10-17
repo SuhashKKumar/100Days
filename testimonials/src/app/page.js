@@ -6,6 +6,7 @@ import Hero from "./_components/Hero";
 import Logo from "./_components/Logo";
 import Section1 from "./_components/Section1";
 import Section2 from "./_components/Section2";
+import Section3 from "./_components/Section3.jsx";
 import CodeSnippet from "./_components/CodeSnippet";
 import ThemeWrapper from "./_components/ThemeWrapper";
 function Home() {
@@ -31,7 +32,8 @@ function Home() {
                 </Link>
                 <CodeSnippet code={code} language={language} />
                 <hr className="border-b border-gray-800" />
-                <Section2/>
+                <Section2 />
+                <Section3 />
             </div>
         </>
     );
