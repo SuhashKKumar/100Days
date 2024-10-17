@@ -7,7 +7,7 @@ import person4 from "/public/_assets/images/person4.jpg";
 const OutlineButton = () => {
     const persons = [person1, person2, person3, person4];
     return (
-        <button className="w-full py-3 border border-primary-300 rounded">
+        <button className="w-full py-2 border border-primary-300 rounded">
             <div className="flex gap-1 justify-center items-center">
                 <p>Talk to us</p>
                 <div className="flex -space-x-1 ml-2">

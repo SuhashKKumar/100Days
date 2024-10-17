@@ -1,6 +1,6 @@
-const PrimaryDescription = ({ description }) => {
+const PrimaryDescription = ({ description, extraStyle="" }) => {
     return (
-        <p className="text-xl text-center text-gray-400 leading-snug">{description}</p>
+        <p className={`text-xl text-center text-gray-400 leading-snug ${extraStyle}`}>{description}</p>
     );
 };
 

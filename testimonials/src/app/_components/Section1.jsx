@@ -2,13 +2,13 @@ import Link from "next/link";
 import { section1Data } from "../_lib/data/section1/section1Data";
 import VideoCard from "./VideoCard";
 import TextCard from "./TextCard";
+import PrimaryHeadline from "./PrimaryHeadline";
 
 const Section1 = () => {
+const primaryHeadline = "Add testimonials to your website with no coding!"
     return (
         <div className="my-[3rem] mx-auto text-center flex flex-col gap-4 px-6 md:px-7 md:max-w-5xl md:my-[5rem]">
-            <p className="primary-headline">
-                Add testimonials to your website with no coding!
-            </p>
+<PrimaryHeadline text={primaryHeadline} />
             <p className="primary-description">
                 Copy and paste our HTML code to add the Wall Of Love (
                 <span className="underline">
