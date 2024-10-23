@@ -66,12 +66,12 @@ const Navbar = () => {
                     <ToggleTheme />
                 </li>
             </ul>
-            <div className="hidden lg:flex items-center lg:gap-2">
+            <div className="hidden lg:flex items-center lg:gap-1">
                 <ToggleTheme />
-                <button className="">
+                <button className="py-2 px-4">
                     <Link href="/signin">Sign in</Link>
                 </button>
-                <button className="">
+                <button className="py-2 px-4 bg-primary-300 hover:bg-primary-400">
                     <Link href="/signup">Sign up</Link>
                 </button>
             </div>
