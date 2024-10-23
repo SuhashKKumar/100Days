@@ -1,17 +1,19 @@
-    import { createSlice } from '@reduxjs/toolkit';
+import { createSlice } from "@reduxjs/toolkit";
 
-    // Define the initial state using that type
-    const initialState = {
+// Define the initial state using that type
+const initialState = {
     value: true,
-    }
+};
 
-    export const themeSlice = createSlice({
-    name: 'theme',
+export const themeSlice = createSlice({
+    name: "toggle",
     initialState,
     reducers: {
-        toggleTheme:(state) => { state.value = state.value === true ? false : true}
+        toggle: (state) => {
+            state.value = !state.value ;
+        },
     },
-    })
+});
 
-    export const { toggleTheme } = themeSlice.actions
-    export default themeSlice.reducer
+export const { toggle } = themeSlice.actions;
+export default themeSlice.reducer;

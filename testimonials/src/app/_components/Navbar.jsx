@@ -2,7 +2,7 @@
 import Link from "next/link";
 import { useAppDispatch, useAppSelector } from "../_lib/hooks/ReduxHooks";
 import { menuToggler } from "../_lib/redux/features/toggleMenu/toggleMenuSlice";
-import ThemeWrapper from "./ThemeWrapper";
+import ToggleTheme from "./ToggleTheme";
 import Logo from "./Logo";
 
 const Navbar = () => {
@@ -12,7 +12,7 @@ const Navbar = () => {
         dispatch(menuToggler());
     };
     return (
-        <div className="nav-container lg:flex lg:items-center lg:justify-between md:max-w-3xl md:mx-auto py-5">
+        <div className="nav-container lg:flex lg:items-center lg:justify-between md:max-w-3xl md:mx-auto lg:max-w-4xl py-5">
             <div className="nav-container flex justify-between items-center px-1 lg:px-0">
                 <Link href="/">
                     <Logo />
@@ -43,9 +43,9 @@ const Navbar = () => {
                 </button>
             </div>
             <ul
-                className={`"nav-links bg-black rounded-md p-4 ${
+                className={`nav-links bg-black rounded-md p-4 ${
                     toggleMenu ? "flex flex-col gap-2" : "hidden"
-                } lg:flex-row lg:bg-transparent lg:p-0"`}
+                } lg:flex lg:flex-row lg:justify-between lg:bg-transparent lg:p-0 lg:w-[45%]`}
             >
                 <li className="nav-link">
                     <Link href="/customers">Customers</Link>
@@ -62,10 +62,12 @@ const Navbar = () => {
                 <li className="nav-link lg:hidden">
                     <Link href="/signin">Sign in</Link>
                 </li>
-                <ThemeWrapper />
+                <li className="nav-link lg:hidden">
+                    <ToggleTheme />
+                </li>
             </ul>
-            <div className="btn-container hidden lg:flex lg:gap-2">
-                <ThemeWrapper />
+            <div className="hidden lg:flex items-center lg:gap-2">
+                <ToggleTheme />
                 <button className="">
                     <Link href="/signin">Sign in</Link>
                 </button>

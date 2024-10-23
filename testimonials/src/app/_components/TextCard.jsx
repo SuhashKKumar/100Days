@@ -15,12 +15,9 @@ import {
 
 const TextCard = ({ section }) => {
     const {
-        id,
-        type,
         name,
         designation,
         description,
-        rating,
         bgImg,
         logo,
         sideLogo,
@@ -40,7 +37,6 @@ const TextCard = ({ section }) => {
             setReaction(false);
         }
     };
-    // console.log(bgImg,"bgImg from text card")
     return (
         <>
             <div className="card">

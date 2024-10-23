@@ -8,7 +8,7 @@ import Section1 from "./_components/Section1";
 import Section2 from "./_components/Section2";
 import Section3 from "./_components/Section3.jsx";
 import CodeSnippet from "./_components/CodeSnippet";
-import ThemeWrapper from "./_components/ThemeWrapper";
+import ThemeWrapper from "./_components/ToggleTheme";
 import Testimonial from "./_components/Testimonial";
 function Home() {
     const imag = "/_assets/images/Pixar.jpeg";

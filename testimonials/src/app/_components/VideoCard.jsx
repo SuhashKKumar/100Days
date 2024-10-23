@@ -6,18 +6,11 @@ import Image from "next/image";
 
 const VideoCard = ({ section }) => {
     const {
-        id,
-        type,
         name,
         designation,
         description,
         rating,
         bgImg,
-        logo,
-        sideLogo,
-        heart,
-        topRating,
-        modalbtn,
     } = section;
     return (
         <div className="card p-0 gap-0">
