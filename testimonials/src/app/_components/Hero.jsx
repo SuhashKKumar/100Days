@@ -15,7 +15,7 @@ const Hero = () => {
         <section className="my-[3rem] mx-auto text-center flex flex-col gap-4 px-6 md:px-7 md:max-w-5xl md:my-[5rem]">
             <PrimaryHeadline text={primaryHeadline} />
             <PrimaryDescription description={primaryDescription} />
-            <div className="btn-container my-4 flex flex-col gap-4 items-center w-[65%] mx-auto md:flex-row md:w-[60%]">
+            <div className="btn-container">
                 <PrimaryButton text="Try FREE now" navigate="/signup" />
                 <OutlineButton />
             </div>

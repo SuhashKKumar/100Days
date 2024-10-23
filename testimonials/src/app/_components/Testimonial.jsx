@@ -78,11 +78,13 @@ const Testimonial = () => {
                         </div>
                     );
                 })}
-                <PrimaryButton
-                    text="Get started with FREE credits"
-                    navigate="/signup"
-                />
-                <OutlineButton />
+                <div className="btn-container md:w-[80%] lg:md:w-[60%]">
+                    <PrimaryButton
+                        text="Get started with FREE credits"
+                        navigate="/signup"
+                    />
+                    <OutlineButton />
+                </div>
                 <p className="underline text-sm text-gray-400">
                     See our pricing →
                 </p>

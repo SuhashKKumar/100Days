@@ -40,7 +40,9 @@ const Setup = ({ section }) => {
                         {actionNote}
                     </Link>
                 )}
-                <PrimaryButton text={btn} navigate={path} />
+                <div>
+                    <PrimaryButton text={btn} navigate={path} />
+                </div>
             </div>
             <div className={`right-container ${name && "relative"}`}>
                 <Image
