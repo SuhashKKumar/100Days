@@ -9,6 +9,7 @@ import Section2 from "./_components/Section2";
 import Section3 from "./_components/Section3.jsx";
 import CodeSnippet from "./_components/CodeSnippet";
 import ThemeWrapper from "./_components/ThemeWrapper";
+import Testimonial from "./_components/Testimonial";
 function Home() {
     const imag = "/_assets/images/Pixar.jpeg";
     const code = `
@@ -34,6 +35,7 @@ function Home() {
                 <hr className="border-b border-gray-800" />
                 <Section2 />
                 <Section3 />
+                <Testimonial />
             </div>
         </>
     );

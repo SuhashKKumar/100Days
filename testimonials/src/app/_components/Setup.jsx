@@ -2,6 +2,7 @@ import PrimaryDescription from "./PrimaryDescription";
 import Link from "next/link";
 import Image from "next/image";
 import PrimaryButton from "./PrimaryButton";
+import SecondaryHeadline from "./SecondaryHeadline";
 
 const Setup = ({ section }) => {
     const {
@@ -28,7 +29,7 @@ const Setup = ({ section }) => {
                 <p className="text-primary-300 text-lg font-bold">
                     {sectionTitle}
                 </p>
-                <p className="font-semibold text-3xl">{headline}</p>
+                <SecondaryHeadline text={headline} />
                 <PrimaryDescription
                     description={description}
                     extraStyle="text-start"
