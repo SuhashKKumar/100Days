@@ -10,10 +10,13 @@ export const toggleMenu = createSlice({
     initialState,
     reducers: {
         menuToggler: (state) => {
-            state.value = !state.value ;
+            state.value = !state.value;
+        },
+        menuClose: (state) => {
+            state.value = false;
         },
     },
 });
 
-export const { menuToggler } = toggleMenu.actions;
+export const { menuToggler, menuClose } = toggleMenu.actions;
 export default toggleMenu.reducer;

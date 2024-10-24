@@ -9,11 +9,14 @@ export const toggleCustomerMenu = createSlice({
     name: "toggleCustomerMenu",
     initialState,
     reducers: {
-        dropdownToggler: (state) => {
+        toggleDropdown: (state) => {
             state.value = !state.value;
+        },
+        closeDropdown: (state) => {
+            state.value = false;
         },
     },
 });
 
-export const { dropdownToggler } = toggleCustomerMenu.actions;
+export const { toggleDropdown, closeDropdown } = toggleCustomerMenu.actions;
 export default toggleCustomerMenu.reducer;
