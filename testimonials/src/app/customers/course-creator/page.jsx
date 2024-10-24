@@ -2,7 +2,7 @@
 const page = () => {
   return (
     <div>
-Customers Page
+      course-creator
     </div>
   )
 }

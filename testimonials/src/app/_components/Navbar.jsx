@@ -1,18 +1,28 @@
 "use client";
 import Link from "next/link";
-import { useAppDispatch, useAppSelector } from "../_lib/hooks/ReduxHooks";
-import { menuToggler } from "../_lib/redux/features/toggleMenu/toggleMenuSlice";
 import ToggleTheme from "./ToggleTheme";
 import Logo from "./Logo";
+import CustomersDropdown from "./CustomersDropdown";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faAngleDown } from "@fortawesome/free-solid-svg-icons";
+import { useAppDispatch, useAppSelector } from "../_lib/hooks/ReduxHooks";
+import { menuToggler } from "../_lib/redux/features/toggleMenu/toggleMenuSlice";
+import { dropdownToggler } from "../_lib/redux/features/toggleCustomerMenu/toggleCustomerMenuSlice";
 
 const Navbar = () => {
     const toggleMenu = useAppSelector((state) => state.toggleMenu.value);
+    const toggleCustomerMenu = useAppSelector(
+        (state) => state.customerMenuToggler.value
+    );
     const dispatch = useAppDispatch();
     const toggleMenuHandler = () => {
         dispatch(menuToggler());
     };
+    const dropdownHandler = () => {
+        dispatch(dropdownToggler());
+    };
     return (
-        <div className="nav-container lg:flex lg:items-center lg:justify-between md:max-w-3xl md:mx-auto lg:max-w-4xl py-5">
+        <div className="nav-container lg:flex lg:items-center lg:justify-between md:max-w-3xl md:mx-auto lg:max-w-4xl py-5 relative">
             <div className="nav-container flex justify-between items-center px-1 lg:px-0">
                 <Link href="/">
                     <Logo />
@@ -47,8 +57,18 @@ const Navbar = () => {
                     toggleMenu ? "flex flex-col gap-2" : "hidden"
                 } lg:flex lg:flex-row lg:justify-between lg:bg-transparent lg:p-0 lg:w-[45%]`}
             >
-                <li className="nav-link">
+                <li className="nav-link lg:hidden">
                     <Link href="/customers">Customers</Link>
+                </li>
+                <li
+                    onClick={dropdownHandler}
+                    className="nav-link hidden lg:inline-flex items-center gap-1 cursor-pointer"
+                >
+                    <p>Customers</p>
+                    <FontAwesomeIcon
+                        icon={faAngleDown}
+                        style={{ color: "#ffffff" }}
+                    />
                 </li>
                 <li className="nav-link">
                     <Link href="/features">Features</Link>
@@ -75,6 +95,12 @@ const Navbar = () => {
                     <Link href="/signup">Sign up</Link>
                 </button>
             </div>
+
+            {toggleCustomerMenu && (
+                <div className="absolute top-[5rem] left-[7rem] hidden lg:block">
+                    <CustomersDropdown />
+                </div>
+            )}
         </div>
     );
 };
