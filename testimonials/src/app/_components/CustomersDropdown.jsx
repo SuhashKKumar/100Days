@@ -5,10 +5,10 @@ import Link from "next/link";
 const CustomersDropdown = () => {
     return (
         <div className="bg-grey rounded-xl p-8 flex flex-col gap-3">
-            {customersDropdownData.map(({ id, name, icon }) => {
+            {customersDropdownData.map(({ id, name, icon,link }) => {
                 return (
                     <Link
-                        href=""
+                        href={link}
                         key={id}
                         className="flex items-center gap-4 justify-start hover:bg-black px-6 py-4 rounded-lg"
                     >

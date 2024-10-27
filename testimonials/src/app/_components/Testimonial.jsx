@@ -64,20 +64,22 @@ const Testimonial = () => {
             <div className="layout">
                 <SecondaryHeadline text={headline} />
                 <PrimaryDescription description={description} />
-                {bulletPoints.map((point, index) => {
-                    return (
-                        <div
-                            key={index}
-                            className="flex gap-3 items-center justify-center"
-                        >
-                            <FontAwesomeIcon
-                                icon={faCircleCheck}
-                                style={{ color: "#00fa32" }}
-                            />
-                            <p className="text-sm text-gray-300">{point}</p>
-                        </div>
-                    );
-                })}
+                <div className="mx-auto flex gap-3 items-center justify-between lg:flex-row lg:max-w-xl">
+                    {bulletPoints.map((point, index) => {
+                        return (
+                            <div
+                                key={index}
+                                className="flex gap-3 items-center justify-center lg:flex-row"
+                            >
+                                <FontAwesomeIcon
+                                    icon={faCircleCheck}
+                                    style={{ color: "#00fa32" }}
+                                />
+                                <p className="text-sm text-gray-300">{point}</p>
+                            </div>
+                        );
+                    })}
+                </div>
                 <div className="btn-container md:w-[80%] lg:md:w-[60%]">
                     <PrimaryButton
                         text="Get started with FREE credits"
