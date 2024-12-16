@@ -1,12 +1,12 @@
-1. replace => Link tag prop, which uses to navigate to Home Page from the nested routes
-2. usePathname => Navigation hook which gives the url in the form of a string
-3. useRouter => Navigation hook which helps to navigate programmatically
-4. useRouter().push("route-name-goes-here") => will navigate to that particular usePathname
-5. useRouter().back() => navigates to the previous page of the browser
-6. useRouter().forward() => navigates to the next page of the browser
-7. layout.jsx => doesn't remount component, state is preserved, effects are in synchronized
-7. template.jsx => will remount component, state is not preserved, effects are  re-synchronized
-9. error.jsx => used to catch the errors
+01. replace => Link tag prop, which uses to navigate to Home Page from the nested routes
+02. usePathname => Navigation hook which gives the url in the form of a string
+03. useRouter => Navigation hook which helps to navigate programmatically
+04. useRouter().push("route-name-goes-here") => will navigate to that particular usePathname
+05. useRouter().back() => navigates to the previous page of the browser
+06. useRouter().forward() => navigates to the next page of the browser
+07. layout.jsx => doesn't remount component, state is preserved, effects are in synchronized
+08. template.jsx => will remount component, state is not preserved, effects are  re-synchronized
+09. error.jsx => used to catch the errors
 10. component hierarchy as follow:
     layout => template => error boundary => suspense => error boundary => page
 11. reset => is a function prop from error.jsx file, which helps to reset the UI
@@ -28,11 +28,12 @@
 27. cookies, headers => are imported from next/headers
 28. Suspense => a tag from react, which is used for streaming
 29. server-only => an npm package which prevents client components to use server side information
-29. client-only => an npm package which prevents client components to use client side information
-30. we don't convert server components to client components, instead we create separate file for client logic and invoke/import it in server file
-31. If we use "use client" in one component, the child server components also converts to client components. So we need to use client components, in a specified component.
-32. Can't import a server comp into client comp. Instead we need to pass that server comp as a child prop to client comp
+30. client-only => an npm package which prevents client components to use client side information
+31. we don't convert server components to client components, instead we create separate file for client logic and invoke/import it in server file
+32. If we use "use client" in one component, the child server components also converts to client components. So we need to use client components, in a specified component.
+33. Can't import a server comp into client comp. Instead we need to pass that server comp as a child prop to client comp
 
 
 
-Note: products/509/review/30 
+
+

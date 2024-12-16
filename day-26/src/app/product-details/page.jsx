@@ -11,6 +11,7 @@ const ProductDetails = () => {
         <Suspense fallback={<h1>Loading Products Page...</h1>} >
       <Reviews/>
         </Suspense>
+<h1>this is a sample tag for testing spacing</h1>
     </div>
   )
 }

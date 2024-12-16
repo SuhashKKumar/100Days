@@ -3,6 +3,7 @@ import React from "react";
 import BGChange from "./_components/BGChange";
 
 const Home = () => {
+//
   return (
     <div>
       Home Page!!

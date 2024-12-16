@@ -5,7 +5,7 @@ import { serverSideFunction } from "../_utils/server-utils";
 // try to comment and uncomment server-only in the above directory
 
 const ClientRoute = () => {
-    const serverResult = serverSideFunction()
+    const serverResult =serverSideFunction()
     const clientResult = clientSideFunction()
     console.log("server side function fetched in client route");
     return (
