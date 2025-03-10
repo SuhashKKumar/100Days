@@ -204,3 +204,8 @@ margin-top: 10px !important;
         margin-bottom: 5%;
       }
 }
+/* mobile */
+/* min(calc(100vw*height/width),height) */
+
+/* desktop */
+/* calc(100vw*height/width) */
