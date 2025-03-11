@@ -7,14 +7,19 @@ import SecondaryHeadline from "./SecondaryHeadline";
 import PrimaryDescription from "./PrimaryDescription";
 import PrimaryButton from "./PrimaryButton";
 import OutlineButton from "./OutlineButton";
+import TextWithIcon from "./TextWithIcon";
 const Testimonial = () => {
     const headline = " Ready to collect testimonials?";
     const description =
         "We are loved by Fortune 500 companies, early-stage startups, marketing agencies, real estate agents, freelancers, and many more. Your customers' testimonials are the best social proof you can get! Get started now 👇";
-    const bulletPoints = [
-        "No coding skill required.",
-        "Start in under 2 minutes.",
-    ];
+    const bulletPoints = [{
+    point:"No coding skill required.",
+    icon:faCircleCheck
+    },{
+    point:"Start in under 2 minutes.",
+     icon:faCircleCheck
+    }]
+
     return (
         <div className="">
             <div className="layout">
@@ -65,17 +70,13 @@ const Testimonial = () => {
                 <SecondaryHeadline text={headline} />
                 <PrimaryDescription description={description} />
                 <div className="mx-auto flex gap-3 items-center justify-between lg:flex-row lg:max-w-xl">
-                    {bulletPoints.map((point, index) => {
+                    {bulletPoints.map(({icon,point}, index) => {
                         return (
                             <div
                                 key={index}
                                 className="flex gap-3 items-center justify-center lg:flex-row"
                             >
-                                <FontAwesomeIcon
-                                    icon={faCircleCheck}
-                                    style={{ color: "#00fa32" }}
-                                />
-                                <p className="text-sm text-gray-300">{point}</p>
+                                <TextWithIcon icon={icon} point={point} color="#00fa32" />
                             </div>
                         );
                     })}

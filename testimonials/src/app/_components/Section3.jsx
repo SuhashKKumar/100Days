@@ -16,7 +16,7 @@ const Section3 = () => {
                 {customersData.slice(0, -2).map(({ id, alternate, path }) => (
                     <div
                         key={id}
-                        className="bg-white w-[13rem] h-[3.5rem] flex items-center rounded-xl"
+                        className="bg-white w-[13rem] h-[3.5rem] md:w-[10rem] md:h-[3rem] p-2 flex items-center rounded-xl"
                     >
                         <Image className="mx-auto" src={path} alt={alternate} />
                     </div>
