@@ -1,5 +1,6 @@
 import StoreProvider from "@/StoreProvider";
 import "./globals.css";
+import Navbar from "@/components/Navbar";
 
 export const metadata = {
     title: "Canva",
@@ -14,7 +15,8 @@ export const metadata = {
 export default function RootLayout({ children }) {
     return (
         <html lang="en">
-            <body>
+            <body className='bg-blue-50 md:bg-red-100 lg:bg-red-200 xl:bg-red-400 2xl:bg-blue-200' >
+                <Navbar/>
                 <StoreProvider>{children}</StoreProvider>
             </body>
         </html>

@@ -2,5 +2,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@0,100..700;1,100..700&display=swap");
 
 @theme {
-    --font-serif:"Josefin Slab", serif;;
+    --font-serif:"Josefin Slab", serif;
+    --breakpoint-md: 900px;
+    --breakpoint-lg: 1170px;
+    --color-primary: '#1A202C';
+    --color-secondary: '#4A5568';
+    --color-tertiary: '#718096';
+    --color-inverted: '#FFFFFF';
+    --color-reddish: '#ff0000';
+}
+*{
+    outline: none;
 }

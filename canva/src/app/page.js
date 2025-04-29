@@ -1,6 +1,8 @@
 "use client";
+import Modal from "@/components/UI/Modal";
 import { useAppDispatch, useAppSelector } from "@/hooks/redux-hooks";
 import { increment } from "@/redux/slices/counter";
+import { useState } from "react";
 
 export default function Home() {
     const dispatch = useAppDispatch();
@@ -9,8 +11,13 @@ export default function Home() {
         dispatch(increment());
     };
     return (
-        <button onClick={counterHandler} className="bg-blue-500 font-serif">
-            Increment - {counter}
-        </button>
+        <div>
+            <button
+                onClick={counterHandler}
+                className="bg--color-reddish font-serif"
+                >
+                Increment - {counter}
+            </button>
+                </div>
     );
 }
