@@ -7,12 +7,12 @@ import {
     faChevronLeft,
     faQuestion,
 } from "@fortawesome/free-solid-svg-icons";
-import PrimaryBtn from "./UI/PrimaryBtn";
-import SecondaryBtn from "./UI/SecondaryBtn";
 import { useOutsideClick } from "@/hooks/useOutsideClick";
-import DesignSpotlightNav from "./DesignSpotlightNav";
+import DesktopNavbar from "./DesktopNavbar";
+import SignIn from "./UI/SignIn";
+import AuthButtonContainer from "./UI/AuthButtonContainer";
 
-export default function MobileNavbar() {
+export default function Navbar() {
     const navbarRef = useRef(null);
     const [currentNav, setCurrentNav] = useState("main");
     const [currentCategory, setCurrentCategory] = useState("");
@@ -32,7 +32,7 @@ export default function MobileNavbar() {
         <div>
             {/* Mobile Menu Button */}
             <div className="mr-2 p-4 flex justify-between items-center shadow-md">
-                <div className="flex items-center gap-2 lg:gap-4 lg:-w-[80%]">
+                <div className="flex items-center gap-2 lg:gap-4 ">
                     <button
                         onClick={() => setIsOpen(!isOpen)}
                         type="button"
@@ -45,10 +45,10 @@ export default function MobileNavbar() {
                             ></div>
                         ))}
                     </button>
-                    <h1 className="font-serif font-b text-3xl">Canva</h1>
-                    <DesignSpotlightNav />
+                    <h1 className=" tracking-tighter font-serif text-purple-600 text-3xl">Canva</h1>
+                    <DesktopNavbar />
                 </div>
-                <div className="flex items-center justify-end gap-3 lg:w-[20%]">
+                <div className="flex items-center justify-end gap-3 md:w-[28%] lg:w-[25%]">
                     <div className="relative group hidden md:block border-black rounded-full px-2 border-[1.5px]">
                         <FontAwesomeIcon
                             icon={faQuestion}
@@ -64,15 +64,10 @@ export default function MobileNavbar() {
                             Help Center
                         </div>
                     </div>
-                    <SecondaryBtn
-                        text="Log in"
-                        extraStyles="hidden md:inline-block"
-                    />
-                    <PrimaryBtn
-                        text="Sign Up"
-                        extraStyles="hidden md:inline-block"
-                    />
-                    <PrimaryBtn text="Log in" extraStyles="md:hidden" />
+                    <AuthButtonContainer extraStyles="hidden md:inline-block" />
+                    <div className="md:hidden" >
+                    <SignIn className='md:hidden' type="primary" />
+                    </div>
                 </div>
             </div>
             <nav
@@ -105,6 +100,7 @@ export default function MobileNavbar() {
                 )}
                 {/* Main navigation items */}
                 <div className="flex-grow">
+                    <h1 className="tracking-tighter font-serif my-3 ml-3 text-3xl text-purple-600">Canva</h1>
                     {(currentNav === "main"
                         ? navbarData.main
                         : navbarData[currentNav]
@@ -127,7 +123,8 @@ export default function MobileNavbar() {
                                     {item.navItems?.map(
                                         ({ id, label, link }) => {
                                             return (
-                                                <a href={link}
+                                                <a
+                                                    href={link}
                                                     key={id}
                                                     className="font-light text-sm px-2 py-1 hover:bg-gray-100 w-full cursor-pointer"
                                                 >
@@ -153,12 +150,8 @@ export default function MobileNavbar() {
                     ))}
                 </div>
                 {/* Bottom buttons */}
-                <div className="my-3 space-y-3">
-                    <PrimaryBtn text="Sign Up" extraStyles="w-full" />
-                    <SecondaryBtn text="Log in" extraStyles="w-full" />
-                </div>
+                <AuthButtonContainer extraStyles="my-3 space-y-3" />
             </nav>
-
         </div>
     );
 }
